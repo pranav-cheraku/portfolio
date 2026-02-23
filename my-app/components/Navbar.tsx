@@ -45,7 +45,7 @@ export default function Navbar() {
             textDecoration: "none",
           }}
         >
-          Pranav<span style={{ fontStyle: "italic", color: T.accent }}>C</span>
+          Pranav <span style={{ fontStyle: "italic", color: T.accent }}>C</span>
         </Link>
 
         {/* Nav links — looping over the LINKS array so no repeat */}
@@ -59,7 +59,7 @@ export default function Navbar() {
                 href={`/${link}`}
                 style={{
                   background: isActive ? `${T.accent}10` : "none",
-                  color: isActive ? T.accent : T.muted,
+                  color: isActive ? T.accent : T.body,
                   fontFamily: "var(--font-dm-sans), sans-serif",
                   fontSize: 13,
                   fontWeight: isActive ? 500 : 400,
