@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation"; // Hook that tells the page currently on
-import { T } from "@/lib/theme"; // Our color tokens
+import { T } from "@/lib/theme"; // Color tokens
 
 // The pages links in the navbar
 const LINKS = ["about", "experience", "projects", "contact"];
