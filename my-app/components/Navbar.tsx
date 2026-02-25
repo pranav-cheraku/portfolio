@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation"; // Hook that tells the page curre
 import { T } from "@/lib/theme"; // Color tokens
 
 // The pages links in the navbar
-const LINKS = ["about", "experience", "projects", "contact"];
+const LINKS = ["about", "education", "experience", "projects", "contact"];
 
 export default function Navbar() {
   // pathname is something like "/about" or "/projects"
