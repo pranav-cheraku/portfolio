@@ -1,10 +1,43 @@
 @import "tailwindcss";
 
+@keyframes nav-slide-down {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0);     }
+}
+
+@keyframes nav-slide-up {
+  from { opacity: 1; transform: translateY(0);     }
+  to   { opacity: 0; transform: translateY(-10px); }
+}
+
+.nav-mobile-menu {
+  animation: nav-slide-down 0.3s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.nav-mobile-menu-closing {
+  animation: nav-slide-up 0.25s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
 @media (max-width: 640px) {
   /* Reduce horizontal padding on small screens */
   main {
     padding-left: 20px !important;
     padding-right: 20px !important;
+  }
+
+  /* Navbar horizontal padding */
+  nav {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Hide desktop links, show mobile toggle */
+  .nav-links {
+    display: none !important;
+  }
+
+  .nav-mobile-btn {
+    display: flex !important;
   }
 
   /* Page heading scales down on mobile */
