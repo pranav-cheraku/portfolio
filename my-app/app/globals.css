@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+/* Education card responsive layout */
+@media (max-width: 640px) {
+  .edu-card {
+    flex-direction: column !important;
+    gap: 20px !important;
+  }
+
+  .edu-graduation {
+    width: 100%;
+  }
+}
