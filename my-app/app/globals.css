@@ -18,6 +18,21 @@
   animation: nav-slide-up 0.25s cubic-bezier(0.22, 1, 0.36, 1) forwards;
 }
 
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1);   }
+  50%       { opacity: 0.4; transform: scale(0.85); }
+}
+
+.status-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #7bc47a;
+  animation: pulse 2s ease-in-out infinite;
+  flex-shrink: 0;
+}
+
 @media (max-width: 640px) {
   /* Reduce horizontal padding on small screens */
   main {
@@ -83,5 +98,22 @@
 
   .leadership-card .detail-text {
     font-size: 12px !important;
+  }
+
+  /* Contact stats wrap into 2 columns */
+  .contact-stats {
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 24px !important;
+  }
+
+  /* Contact layout stacks vertically */
+  .contact-layout {
+    grid-template-columns: 1fr !important;
+    gap: 40px !important;
+  }
+
+  /* Contact form name + email stack vertically */
+  .contact-form-row {
+    grid-template-columns: 1fr !important;
   }
 }

@@ -1,7 +1,11 @@
 import FadeIn from "@/components/FadeIn";
 import Glow from "@/components/Glow";
 import ContactLinks from "./ContactLinks";
+import ContactForm from "./ContactForm";
+import ResumeDownload from "./ResumeDownload";
 import { T } from "@/lib/theme";
+
+const ROLES = ["Software Engineer", "AI/ML Engineer", "Data Scientist"];
 
 export const metadata = {
   title: "Pranav Cheraku - Contact",
@@ -46,10 +50,112 @@ export default function ContactPage() {
         </p>
       </FadeIn>
 
-      {/* Contact link rows */}
-      <FadeIn delay={120}>
-        <ContactLinks />
+      {/* Stats row — full width */}
+      <FadeIn delay={100}>
+        <div
+          className="contact-stats"
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(5, auto)",
+            justifyContent: "space-between",
+            gap: "0",
+            paddingBottom: 28,
+            borderBottom: `1px solid ${T.border}`,
+            marginBottom: 32,
+          }}
+        >
+          {[
+            { label: "Status", value: "Actively Seeking" },
+            { label: "Graduating", value: "June 2026" },
+            { label: "Availability", value: "Full-time" },
+            { label: "Location", value: "Open to relocation" },
+          ].map(({ label, value }) => (
+            <div key={label}>
+              <div
+                style={{
+                  fontFamily: "var(--font-dm-sans), sans-serif",
+                  fontSize: 13,
+                  color: T.muted,
+                  letterSpacing: 2,
+                  textTransform: "uppercase",
+                  marginBottom: 6,
+                }}
+              >
+                {label}
+              </div>
+              <div
+                style={{
+                  fontFamily: "var(--font-playfair), serif",
+                  fontSize: 20,
+                  color: T.heading,
+                }}
+              >
+                {value}
+              </div>
+            </div>
+          ))}
+
+          {/* Resume — fifth column */}
+          <ResumeDownload />
+
+        </div>
       </FadeIn>
+
+      {/* Two-column layout — seeking+links left, form right */}
+      <div className="contact-layout" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 64, alignItems: "start" }}>
+
+        {/* Left column: seeking roles + contact links */}
+        <FadeIn delay={160} direction="left">
+          <div>
+            {/* Seeking label */}
+            <div
+              style={{
+                fontFamily: "var(--font-dm-sans), sans-serif",
+                fontSize: 12,
+                color: T.muted,
+                letterSpacing: 2,
+                textTransform: "uppercase",
+                fontSize: 13,
+                marginBottom: 12,
+              }}
+            >
+              Target Roles
+            </div>
+
+            {/* Role types — all on one line */}
+            <div style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: 40 }}>
+              {ROLES.map((role, i) => (
+                <span key={role} style={{ display: "flex", alignItems: "center", gap: 14 }}>
+                  <span
+                    style={{
+                      fontFamily: "var(--font-playfair), serif",
+                      fontSize: 20,
+                      fontWeight: 400,
+                      fontStyle: "italic",
+                      color: T.accent,
+                      whiteSpace: "nowrap",
+                    }}
+                  >
+                    {role}
+                  </span>
+                  {i < ROLES.length - 1 && (
+                    <span style={{ color: T.border }}>—</span>
+                  )}
+                </span>
+              ))}
+            </div>
+
+            {/* Contact links */}
+            <ContactLinks />
+          </div>
+        </FadeIn>
+
+        {/* Right column: contact form */}
+        <FadeIn delay={200} direction="right">
+          <ContactForm />
+        </FadeIn>
+
+      </div>
     </div>
   );
 }
