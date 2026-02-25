@@ -33,6 +33,23 @@
   flex-shrink: 0;
 }
 
+/* Override browser autofill white background on contact form fields */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #181b20 inset !important;
+  box-shadow: 0 0 0px 1000px #181b20 inset !important;
+  -webkit-text-fill-color: #f2ece4 !important;
+  caret-color: #f2ece4;
+}
+
+input, textarea {
+  color-scheme: dark;
+}
+
 @media (max-width: 640px) {
   /* Reduce horizontal padding on small screens */
   main {
@@ -106,10 +123,49 @@
     gap: 24px !important;
   }
 
+  /* Resume resets negative margins on mobile */
+  .contact-resume {
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+  }
+
   /* Contact layout stacks vertically */
   .contact-layout {
     grid-template-columns: 1fr !important;
     gap: 40px !important;
+  }
+
+  /* Roles stack vertically on mobile */
+  .contact-roles {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 8px !important;
+  }
+
+  .contact-roles span {
+    white-space: normal !important;
+    font-size: 17px !important;
+  }
+
+  /* Hide the em-dash separators between roles on mobile */
+  .contact-role-sep {
+    display: none !important;
+  }
+
+  /* Contact rows stack label + handle vertically on mobile */
+  .contact-row {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 4px !important;
+  }
+
+  /* Handles always visible on mobile */
+  .contact-handle {
+    opacity: 1 !important;
+    transform: none !important;
+    white-space: normal !important;
+    font-size: 13px !important;
+    word-break: break-all !important;
   }
 
   /* Contact form name + email stack vertically */

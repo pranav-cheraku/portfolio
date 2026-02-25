@@ -36,12 +36,14 @@ function ContactRow({ label, handle, href, Icon }: (typeof LINKS)[number]) {
       rel="noopener noreferrer"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
+      className="contact-row"
       style={{
         display: "flex",
         alignItems: "center",
         justifyContent: "space-between",
-        padding: "22px 0",
+        padding: "22px 0 22px 16px",
         borderTop: `1px solid ${T.border}`,
+        borderLeft: `2px solid ${T.accent}`,
         textDecoration: "none",
         cursor: "pointer",
         transform: hovered ? "translateX(6px)" : "translateX(0)",
@@ -64,11 +66,12 @@ function ContactRow({ label, handle, href, Icon }: (typeof LINKS)[number]) {
         </span>
       </div>
 
-      {/* Right: handle slides in on hover */}
+      {/* Right: handle slides in on hover, always visible on mobile */}
       <span
+        className="contact-handle"
         style={{
           fontFamily: "var(--font-dm-sans), sans-serif",
-          fontSize: 13,
+          fontSize: 16,
           color: T.muted,
           opacity: hovered ? 1 : 0,
           transform: hovered ? "translateX(0)" : "translateX(14px)",

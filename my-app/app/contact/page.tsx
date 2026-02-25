@@ -46,7 +46,9 @@ export default function ContactPage() {
             marginTop: 0,
           }}
         >
-          I&apos;m actively seeking new tech opportunities — open to connecting, sharing ideas, and exploring possibilities.
+          I&apos;m actively seeking new tech opportunities
+          <span style={{ margin: "0 16px", color: T.border }}>|</span>
+          Open to connecting, sharing ideas, and exploring possibilities
         </p>
       </FadeIn>
 
@@ -111,19 +113,18 @@ export default function ContactPage() {
             <div
               style={{
                 fontFamily: "var(--font-dm-sans), sans-serif",
-                fontSize: 12,
+                fontSize: 13,
                 color: T.muted,
                 letterSpacing: 2,
                 textTransform: "uppercase",
-                fontSize: 13,
                 marginBottom: 12,
               }}
             >
               Target Roles
             </div>
 
-            {/* Role types — all on one line */}
-            <div style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: 40 }}>
+            {/* Role types — all on one line, wraps on mobile */}
+            <div className="contact-roles" style={{ display: "flex", alignItems: "center", gap: 14, marginBottom: 40 }}>
               {ROLES.map((role, i) => (
                 <span key={role} style={{ display: "flex", alignItems: "center", gap: 14 }}>
                   <span
@@ -133,13 +134,14 @@ export default function ContactPage() {
                       fontWeight: 400,
                       fontStyle: "italic",
                       color: T.accent,
+                      textShadow: `0 0 20px ${T.accent}60`,
                       whiteSpace: "nowrap",
                     }}
                   >
                     {role}
                   </span>
                   {i < ROLES.length - 1 && (
-                    <span style={{ color: T.border }}>—</span>
+                    <span className="contact-role-sep" style={{ color: T.border }}>—</span>
                   )}
                 </span>
               ))}

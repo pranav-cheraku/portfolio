@@ -8,7 +8,7 @@ export default function ResumeDownload() {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <div style={{ marginRight: 40 }}>
+    <div className="contact-resume" style={{ marginRight: 40 }}>
       {/* Label — matches STATUS, GRADUATING, etc. */}
       <div
         style={{
@@ -34,6 +34,7 @@ export default function ResumeDownload() {
           fontFamily: "var(--font-playfair), serif",
           fontSize: 20,
           color: T.accent,
+          textShadow: `0 0 20px ${T.accent}60`,
           textDecoration: "underline",
           textUnderlineOffset: 4,
           transform: hovered ? "translateY(-2px)" : "translateY(0)",
