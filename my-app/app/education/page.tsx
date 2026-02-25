@@ -28,7 +28,7 @@ const MATH_COURSES = [
 ];
 
 export const metadata = {
-  title: "Pranav Cheraku - Education",
+  title: "Education - Pranav Cheraku",
 };
 
 export default function EducationPage() {

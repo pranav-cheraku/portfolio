@@ -29,7 +29,7 @@ const lora = Lora({
 
 // Metadata shows up in browser tab titles and Google search results
 export const metadata: Metadata = {
-  title: "Pranav Cheraku — Portfolio",
+  title: "Portfolio - Pranav Cheraku",
   description: "Hello this is my personal website to showcase my work.",
 };
 

@@ -8,7 +8,7 @@ import { T } from "@/lib/theme";
 const ROLES = ["Software Engineer", "AI/ML Engineer", "Data Scientist"];
 
 export const metadata = {
-  title: "Pranav Cheraku - Contact",
+  title: "Contact - Pranav Cheraku",
 };
 
 // Contact page — links and form
