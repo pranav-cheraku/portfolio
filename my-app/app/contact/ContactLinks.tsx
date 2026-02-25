@@ -13,7 +13,7 @@ const LINKS = [
   },
   {
     label: "LinkedIn",
-    handle: "linkedin.com/in/pranavcheraku",
+    handle: "linkedin.com/in/pranav-cheraku",
     href: "https://linkedin.com/in/pranav-cheraku",
     Icon: Linkedin,
   },
