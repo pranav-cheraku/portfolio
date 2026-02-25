@@ -15,6 +15,7 @@ export default function LeadershipCard({ role, program, detail }: LeadershipCard
 
   return (
     <div
+      className="leadership-card"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
@@ -23,12 +24,15 @@ export default function LeadershipCard({ role, program, detail }: LeadershipCard
         border: `1px solid ${T.border}`,
         borderTop: `2px solid ${T.accent}`,
         borderRadius: 16,
+        height: "100%",
+        boxSizing: "border-box",
         transform: hovered ? "translateY(-3px)" : "translateY(0)",
         transition: "transform 0.25s ease",
       }}
     >
       {/* Role title */}
       <div
+        className="role-text"
         style={{
           fontFamily: "var(--font-playfair), serif",
           fontSize: 28,
@@ -44,6 +48,7 @@ export default function LeadershipCard({ role, program, detail }: LeadershipCard
 
       {/* Program name */}
       <div
+        className="program-text"
         style={{
           fontFamily: "var(--font-dm-sans), sans-serif",
           fontSize: 16,
@@ -57,6 +62,7 @@ export default function LeadershipCard({ role, program, detail }: LeadershipCard
 
       {/* One-liner detail */}
       <div
+        className="detail-text"
         style={{
           fontFamily: "var(--font-lora), serif",
           fontSize: 15,

@@ -1,7 +1,19 @@
 @import "tailwindcss";
 
-/* Education card responsive layout */
 @media (max-width: 640px) {
+  /* Reduce horizontal padding on small screens */
+  main {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+
+  /* Page heading scales down on mobile */
+  .page-heading {
+    font-size: 30px !important;
+    margin-bottom: 32px !important;
+  }
+
+  /* Education university card stacks vertically */
   .edu-card {
     flex-direction: column !important;
     gap: 20px !important;
@@ -9,5 +21,34 @@
 
   .edu-graduation {
     width: 100%;
+  }
+
+  /* Research grid goes single column */
+  .edu-grid {
+    grid-template-columns: 1fr !important;
+    gap: 28px !important;
+  }
+
+  /* Leadership grid stays 2 columns — grid equalizes card heights */
+  .leadership-grid {
+    gap: 12px !important;
+  }
+
+  /* Leadership cards scale down for narrow screens */
+  .leadership-card {
+    padding: 14px 12px !important;
+  }
+
+  .leadership-card .role-text {
+    font-size: 20px !important;
+    margin-bottom: 10px !important;
+  }
+
+  .leadership-card .program-text {
+    font-size: 13px !important;
+  }
+
+  .leadership-card .detail-text {
+    font-size: 12px !important;
   }
 }

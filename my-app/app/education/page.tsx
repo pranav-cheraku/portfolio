@@ -40,6 +40,7 @@ export default function EducationPage() {
       {/* Page heading */}
       <FadeIn>
         <h2
+          className="page-heading"
           style={{
             fontFamily: "var(--font-playfair), serif",
             fontSize: 42,
@@ -130,7 +131,7 @@ export default function EducationPage() {
             Research
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32 }}>
+          <div className="edu-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32 }}>
             <FadeIn delay={260} direction="left">
               <ResearchEntry
                 lab="Glomerulus Lab"
@@ -166,7 +167,7 @@ export default function EducationPage() {
             Leadership
           </div>
 
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
+          <div className="leadership-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
             <FadeIn delay={360} direction="left">
               <LeadershipCard
                 role="Tutor"

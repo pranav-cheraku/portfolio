@@ -62,7 +62,7 @@ export default function RootLayout({
             maxWidth: 1080,
             width: "100%",
             margin: "0 auto",
-            padding: "68px 48px 110px",
+            padding: "40px 48px 72px",
             boxSizing: "border-box",
           }}
         >
