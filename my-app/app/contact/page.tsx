@@ -46,7 +46,7 @@ export default function ContactPage() {
             marginTop: 0,
           }}
         >
-          I&apos;m always open to new opportunities and conversations.
+          I&apos;m actively seeking new tech opportunities — open to connecting, sharing ideas, and exploring possibilities.
         </p>
       </FadeIn>
 
@@ -65,7 +65,7 @@ export default function ContactPage() {
           }}
         >
           {[
-            { label: "Status", value: "Actively Seeking" },
+            { label: "Actively Seeking", value: "New Grad Roles" },
             { label: "Graduating", value: "June 2026" },
             { label: "Availability", value: "Full-time" },
             { label: "Location", value: "Open to relocation" },

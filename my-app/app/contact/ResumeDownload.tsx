@@ -1,16 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { Download } from "lucide-react";
 import { T } from "@/lib/theme";
 
-// Resume column — matches the stat label/value style in the stats grid
+// Resume stat column — same label/value style as the other stats
 export default function ResumeDownload() {
   const [hovered, setHovered] = useState(false);
 
   return (
     <div style={{ marginRight: 40 }}>
-      {/* Label — same style as STATUS, GRADUATING, etc. */}
+      {/* Label — matches STATUS, GRADUATING, etc. */}
       <div
         style={{
           fontFamily: "var(--font-dm-sans), sans-serif",
@@ -24,26 +23,26 @@ export default function ResumeDownload() {
         Resume
       </div>
 
-      {/* Download button — sits where the stat value would be */}
+      {/* Value — simple text link in accent color */}
       <a
-        href="/resume.pdf"
-        download
+        href="/PranavCheraku_Resume.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
         onMouseEnter={() => setHovered(true)}
         onMouseLeave={() => setHovered(false)}
         style={{
-          display: "inline-flex",
-          alignItems: "center",
-          gap: 8,
           fontFamily: "var(--font-playfair), serif",
           fontSize: 20,
-          color: hovered ? T.accent : T.heading,
-          textDecoration: "none",
+          color: T.accent,
+          textDecoration: "underline",
+          textUnderlineOffset: 4,
           transform: hovered ? "translateY(-2px)" : "translateY(0)",
-          transition: "color 0.25s ease, transform 0.25s ease",
+          transition: "all 0.25s ease",
+          display: "inline-block",
+          paddingBottom: 2,
         }}
       >
-        <Download size={16} color={hovered ? T.accent : T.body} style={{ transition: "color 0.25s ease" }} />
-        Download
+        View PDF
       </a>
     </div>
   );

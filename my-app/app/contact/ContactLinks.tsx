@@ -48,7 +48,7 @@ function ContactRow({ label, handle, href, Icon }: (typeof LINKS)[number]) {
         transition: "transform 0.25s ease",
       }}
     >
-      {/* Left: gold icon + platform name */}
+      {/* Left: teal icon + platform name */}
       <div style={{ display: "flex", alignItems: "center", gap: 14 }}>
         <Icon size={20} color={T.accent} style={{ flexShrink: 0 }} />
         <span
