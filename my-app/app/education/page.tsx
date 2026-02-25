@@ -3,6 +3,9 @@ import Glow from "@/components/Glow";
 import CourseChip from "@/components/CourseChip";
 import UniversityCard from "./UniversityCard";
 import { T } from "@/lib/theme";
+import ResearchEntry from "./ResearchEntry";
+import LeadershipCard from "./LeadershipCard";
+import ActivityChip from "./ActivityChip";
 
 const CS_COURSES = [
   "Data Structures & Algorithms",
@@ -60,7 +63,7 @@ export default function EducationPage() {
           <div
             style={{
               fontFamily: "var(--font-dm-sans), sans-serif",
-              fontSize: 13,
+              fontSize: 15,
               color: T.muted,
               letterSpacing: 2,
               textTransform: "uppercase",
@@ -75,7 +78,7 @@ export default function EducationPage() {
             <div
               style={{
                 fontFamily: "var(--font-lora), serif",
-                fontSize: 14,
+                fontSize: 16,
                 color: T.muted,
                 fontStyle: "italic",
                 marginBottom: 10,
@@ -95,7 +98,7 @@ export default function EducationPage() {
             <div
               style={{
                 fontFamily: "var(--font-lora), serif",
-                fontSize: 14,
+                fontSize: 16,
                 color: T.muted,
                 fontStyle: "italic",
                 marginBottom: 10,
@@ -109,6 +112,107 @@ export default function EducationPage() {
               ))}
             </div>
           </div>
+        </div>
+      </FadeIn>
+      {/* Research */}
+      <FadeIn delay={240}>
+        <div style={{ marginTop: 40, paddingTop: 28, borderTop: `1px solid ${T.border}` }}>
+          <div
+            style={{
+              fontFamily: "var(--font-dm-sans), sans-serif",
+              fontSize: 15,
+              color: T.muted,
+              letterSpacing: 2,
+              textTransform: "uppercase",
+              marginBottom: 20,
+            }}
+          >
+            Research
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32 }}>
+            <FadeIn delay={260} direction="left">
+              <ResearchEntry
+                lab="Glomerulus Lab"
+                field="Computational Neuroscience Research Group"
+                professor="Professor Kameron Harris"
+                href="https://glomerul.us/"
+              />
+            </FadeIn>
+            <FadeIn delay={360} direction="right">
+              <ResearchEntry
+                lab="MRRP Lab"
+                field="Minimalist Resilient Robotics for the Planet"
+                professor="Professor Alexandra Nilles"
+                href="https://mrrp.cs.wwu.edu/"
+              />
+            </FadeIn>
+          </div>
+        </div>
+      </FadeIn>
+      {/* ── Leadership ── */}
+      <FadeIn delay={320}>
+        <div style={{ marginTop: 40, paddingTop: 28, borderTop: `1px solid ${T.border}` }}>
+          <div
+            style={{
+              fontFamily: "var(--font-dm-sans), sans-serif",
+              fontSize: 15,
+              color: T.muted,
+              letterSpacing: 2,
+              textTransform: "uppercase",
+              marginBottom: 28,
+            }}
+          >
+            Leadership
+          </div>
+
+          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
+            <FadeIn delay={360} direction="left">
+              <LeadershipCard
+                role="Tutor"
+                program="Computer Science Tutoring Program"
+                detail="One-on-one teaching · WWU"
+              />
+            </FadeIn>
+            <FadeIn delay={460} direction="right">
+              <LeadershipCard
+                role="Mentor"
+                program="Computer Science Mentoring Program"
+                detail="Academic guidance · WWU"
+              />
+            </FadeIn>
+          </div>
+        </div>
+      </FadeIn>
+
+      {/* Activities & Societies */}
+      <FadeIn delay={400}>
+        <div style={{ marginTop: 40, paddingTop: 28, borderTop: `1px solid ${T.border}` }}>
+          <div
+            style={{
+              fontFamily: "var(--font-dm-sans), sans-serif",
+              fontSize: 15,
+              color: T.muted,
+              letterSpacing: 2,
+              textTransform: "uppercase",
+              marginBottom: 28,
+            }}
+          >
+            Activities &amp; Societies
+          </div>
+
+          <FadeIn delay={440}>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
+              {[
+                "South Asian Student Association",
+                "Competitive Programming Club",
+                "Tennis Club",
+                "Recreational Volleyball",
+              ].map((activity) => (
+                <ActivityChip key={activity} name={activity} />
+              ))}
+            </div>
+          </FadeIn>
         </div>
       </FadeIn>
     </div>
