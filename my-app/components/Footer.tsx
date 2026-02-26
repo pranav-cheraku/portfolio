@@ -5,7 +5,7 @@ export default function Footer() {
     // Thin top border to separate footer from page content
     <footer
       style={{
-        borderTop: "1px solid rgba(255,255,255,0.04)",
+        borderTop: `1px solid ${T.border}`,
         padding: "24px 48px",
       }}
     >

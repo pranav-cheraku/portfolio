@@ -3,6 +3,7 @@ import { Playfair_Display, DM_Sans, Lora } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { T } from "@/lib/theme";
 
 // Load Playfair Display
 const playfair = Playfair_Display({
@@ -39,13 +40,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <script dangerouslySetInnerHTML={{ __html: `try { document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'dark'); } catch(e) {}` }} />
+      </head>
       {/* Font variables and dark background applied globally */}
       <body
         className={`${playfair.variable} ${dmSans.variable} ${lora.variable}`}
         style={{
-          background: "#0e1117",
-          color: "#f2ece4",
+          background: T.bg,
+          color: T.heading,
           margin: 0,
           minHeight: "100vh",
           display: "flex",

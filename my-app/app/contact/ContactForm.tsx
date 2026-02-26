@@ -11,7 +11,7 @@ function inputStyle(focused: boolean): React.CSSProperties {
   return {
     width: "100%",
     boxSizing: "border-box",
-    background: "rgba(255,255,255,0.04)",
+    background: "var(--color-surface)",
     border: `1px solid ${focused ? T.accent : T.border}`,
     borderRadius: 12,
     padding: "14px 18px",
@@ -153,7 +153,7 @@ export default function ContactForm() {
           fontSize: 15,
           fontWeight: 500,
           color: "#1a1208",
-          background: `linear-gradient(135deg, ${T.accent}, #d4a0c0)`,
+          background: `linear-gradient(135deg, ${T.accent}, ${T.accentGradientEnd})`,
           border: "none",
           borderRadius: 50,
           padding: "14px 36px",

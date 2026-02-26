@@ -89,7 +89,7 @@ export default function EducationPage() {
             </div>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
               {CS_COURSES.map((course) => (
-                <CourseChip key={course} name={course} color={T.accent3} />
+                <CourseChip key={course} name={course} variant="accent3" />
               ))}
             </div>
           </div>
@@ -109,7 +109,7 @@ export default function EducationPage() {
             </div>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 8 }}>
               {MATH_COURSES.map((course) => (
-                <CourseChip key={course} name={course} color={T.accent2} />
+                <CourseChip key={course} name={course} variant="accent2" />
               ))}
             </div>
           </div>

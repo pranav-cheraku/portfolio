@@ -134,7 +134,7 @@ export default function ContactPage() {
                       fontWeight: 400,
                       fontStyle: "italic",
                       color: T.accent,
-                      textShadow: `0 0 20px ${T.accent}60`,
+                      textShadow: `0 0 20px ${T.accentGlow}`,
                       whiteSpace: "nowrap",
                     }}
                   >

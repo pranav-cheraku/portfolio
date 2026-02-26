@@ -1,5 +1,52 @@
 @import "tailwindcss";
 
+:root {
+  /* dark (default) */
+  --color-bg: #141920;
+  --color-surface: rgba(255,255,255,0.025);
+  --color-border: rgba(255,255,255,0.07);
+  --color-heading: #f2ece4;
+  --color-body: #9a9590;
+  --color-muted: #7a7570;
+  --color-accent: #e4b787;
+  --color-accent-glow: rgba(228,183,135,0.38);
+  --color-accent-subtle: rgba(228,183,135,0.063);
+  --color-accent-gradient-end: #d4a0c0;
+  --color-accent2: #b8a0d2;
+  --color-accent2-tint: rgba(184,160,210,0.031);
+  --color-accent2-tint-hover: rgba(184,160,210,0.094);
+  --color-accent3: #85cdca;
+  --color-accent3-tint: rgba(133,205,202,0.031);
+  --color-accent3-tint-hover: rgba(133,205,202,0.094);
+  --color-nav-bg: rgba(20,25,32,0.9);
+  --color-nav-bg-solid: rgba(20,25,32,0.97);
+  --color-nav-border: rgba(255,255,255,0.05);
+  --color-form-bg: #1c2028;
+}
+
+[data-theme="light"] {
+  --color-bg: #e8e2d7;
+  --color-surface: rgba(0,0,0,0.03);
+  --color-border: rgba(0,0,0,0.08);
+  --color-heading: #1c1814;
+  --color-body: #5c5852;
+  --color-muted: #8c8882;
+  --color-accent: #b8791e;
+  --color-accent-glow: rgba(184,121,30,0.35);
+  --color-accent-subtle: rgba(184,121,30,0.08);
+  --color-accent-gradient-end: #a87090;
+  --color-accent2: #7a5ab0;
+  --color-accent2-tint: rgba(122,90,176,0.05);
+  --color-accent2-tint-hover: rgba(122,90,176,0.12);
+  --color-accent3: #2a9e9b;
+  --color-accent3-tint: rgba(42,158,155,0.05);
+  --color-accent3-tint-hover: rgba(42,158,155,0.12);
+  --color-nav-bg: rgba(232,226,215,0.9);
+  --color-nav-bg-solid: rgba(232,226,215,0.97);
+  --color-nav-border: rgba(0,0,0,0.06);
+  --color-form-bg: #dad3c9;
+}
+
 @keyframes nav-slide-down {
   from { opacity: 0; transform: translateY(-10px); }
   to   { opacity: 1; transform: translateY(0);     }
@@ -40,10 +87,10 @@ input:-webkit-autofill:focus,
 textarea:-webkit-autofill,
 textarea:-webkit-autofill:hover,
 textarea:-webkit-autofill:focus {
-  -webkit-box-shadow: 0 0 0px 1000px #181b20 inset !important;
-  box-shadow: 0 0 0px 1000px #181b20 inset !important;
-  -webkit-text-fill-color: #f2ece4 !important;
-  caret-color: #f2ece4;
+  -webkit-box-shadow: 0 0 0px 1000px var(--color-form-bg) inset !important;
+  box-shadow: 0 0 0px 1000px var(--color-form-bg) inset !important;
+  -webkit-text-fill-color: var(--color-heading) !important;
+  caret-color: var(--color-heading);
 }
 
 input, textarea {

@@ -4,6 +4,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { T } from "@/lib/theme";
+import ThemeToggle from "./ThemeToggle";
 
 const LINKS = ["about", "education", "experience", "projects", "contact"];
 
@@ -27,9 +28,9 @@ export default function Navbar() {
           position: "sticky",
           top: 0,
           zIndex: 100,
-          background: "rgba(14,17,23,0.9)",
+          background: "var(--color-nav-bg)",
           backdropFilter: "blur(14px)",
-          borderBottom: "1px solid rgba(255,255,255,0.05)",
+          borderBottom: "1px solid var(--color-nav-border)",
           padding: "0 48px",
         }}
       >
@@ -66,7 +67,7 @@ export default function Navbar() {
                   key={link}
                   href={`/${link}`}
                   style={{
-                    background: isActive ? `${T.accent}10` : "none",
+                    background: isActive ? T.accentSubtle : "none",
                     color: isActive ? T.accent : T.body,
                     fontFamily: "var(--font-dm-sans), sans-serif",
                     fontSize: 13,
@@ -83,57 +84,62 @@ export default function Navbar() {
             })}
           </div>
 
-          {/* Mobile toggle button — three lines collapse to one */}
-          <button
-            className="nav-mobile-btn"
-            onClick={() => (menuOpen && !isClosing ? closeMenu() : setMenuOpen(true))}
-            aria-label="Toggle menu"
-            style={{
-              display: "none",
-              flexDirection: "column",
-              justifyContent: "center",
-              gap: 5,
-              background: "none",
-              border: "none",
-              cursor: "pointer",
-              padding: 4,
-            }}
-          >
-            <span
+          {/* Right-side controls: theme toggle + mobile hamburger */}
+          <div style={{ display: "flex", alignItems: "center", gap: 4 }}>
+            <ThemeToggle />
+
+            {/* Mobile toggle button — three lines collapse to one */}
+            <button
+              className="nav-mobile-btn"
+              onClick={() => (menuOpen && !isClosing ? closeMenu() : setMenuOpen(true))}
+              aria-label="Toggle menu"
               style={{
-                display: "block",
-                width: 22,
-                height: 2,
-                background: T.body,
-                borderRadius: 2,
-                opacity: menuOpen ? 0 : 1,
-                transform: menuOpen ? "translateY(7px)" : "none",
-                transition: "opacity 0.25s ease, transform 0.25s ease",
+                display: "none",
+                flexDirection: "column",
+                justifyContent: "center",
+                gap: 5,
+                background: "none",
+                border: "none",
+                cursor: "pointer",
+                padding: 4,
               }}
-            />
-            <span
-              style={{
-                display: "block",
-                width: 22,
-                height: 2,
-                background: T.body,
-                borderRadius: 2,
-                transition: "background 0.25s ease",
-              }}
-            />
-            <span
-              style={{
-                display: "block",
-                width: 22,
-                height: 2,
-                background: T.body,
-                borderRadius: 2,
-                opacity: menuOpen ? 0 : 1,
-                transform: menuOpen ? "translateY(-7px)" : "none",
-                transition: "opacity 0.25s ease, transform 0.25s ease",
-              }}
-            />
-          </button>
+            >
+              <span
+                style={{
+                  display: "block",
+                  width: 22,
+                  height: 2,
+                  background: T.body,
+                  borderRadius: 2,
+                  opacity: menuOpen ? 0 : 1,
+                  transform: menuOpen ? "translateY(7px)" : "none",
+                  transition: "opacity 0.25s ease, transform 0.25s ease",
+                }}
+              />
+              <span
+                style={{
+                  display: "block",
+                  width: 22,
+                  height: 2,
+                  background: T.body,
+                  borderRadius: 2,
+                  transition: "background 0.25s ease",
+                }}
+              />
+              <span
+                style={{
+                  display: "block",
+                  width: 22,
+                  height: 2,
+                  background: T.body,
+                  borderRadius: 2,
+                  opacity: menuOpen ? 0 : 1,
+                  transform: menuOpen ? "translateY(-7px)" : "none",
+                  transition: "opacity 0.25s ease, transform 0.25s ease",
+                }}
+              />
+            </button>
+          </div>
         </div>
       </nav>
 
@@ -155,9 +161,9 @@ export default function Navbar() {
               left: 0,
               right: 0,
               zIndex: 99,
-              background: "rgba(14,17,23,0.97)",
+              background: "var(--color-nav-bg-solid)",
               backdropFilter: "blur(14px)",
-              borderBottom: "1px solid rgba(255,255,255,0.05)",
+              borderBottom: "1px solid var(--color-nav-border)",
               padding: "8px 28px 20px",
               overflow: "hidden",
             }}
