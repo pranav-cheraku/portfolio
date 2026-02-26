@@ -41,10 +41,25 @@ export default function ContactForm() {
   const [focused, setFocused] = useState<FocusedField>(null);
   const [submitted, setSubmitted] = useState(false);
   const [btnHovered, setBtnHovered] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setSubmitted(true);
+    setLoading(true);
+    setError(null);
+    const formData = new FormData(e.currentTarget);
+    const res = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData,
+    });
+    const data = await res.json();
+    setLoading(false);
+    if (data.success) {
+      setSubmitted(true);
+    } else {
+      setError("Something went wrong — please try again.");
+    }
   };
 
   if (submitted) {
@@ -61,7 +76,7 @@ export default function ContactForm() {
             marginBottom: 10,
           }}
         >
-          Message sent.
+          Message Sent
         </div>
 
         {/* Success subtext */}
@@ -82,11 +97,15 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit}>
 
+      {/* Web3Forms access key — loaded from .env */}
+      <input type="hidden" name="access_key" value={process.env.NEXT_PUBLIC_WEB3FORMS_KEY} />
+
       {/* Name field */}
       <div style={{ marginBottom: 16 }}>
         <label style={labelStyle()}>Name</label>
         <input
           type="text"
+          name="name"
           placeholder="What should I call you?"
           required
           onFocus={() => setFocused("name")}
@@ -100,6 +119,7 @@ export default function ContactForm() {
         <label style={labelStyle()}>Email</label>
         <input
           type="email"
+          name="email"
           placeholder="Where can I reply?"
           required
           onFocus={() => setFocused("email")}
@@ -112,6 +132,7 @@ export default function ContactForm() {
       <div style={{ marginBottom: 24 }}>
         <label style={labelStyle()}>Message</label>
         <textarea
+          name="message"
           rows={6}
           placeholder="What's on your mind?"
           required
@@ -124,6 +145,7 @@ export default function ContactForm() {
       {/* Submit button — pill shape, warm gradient, left-aligned */}
       <button
         type="submit"
+        disabled={loading}
         onMouseEnter={() => setBtnHovered(true)}
         onMouseLeave={() => setBtnHovered(false)}
         style={{
@@ -135,14 +157,21 @@ export default function ContactForm() {
           border: "none",
           borderRadius: 50,
           padding: "14px 36px",
-          cursor: "pointer",
-          opacity: btnHovered ? 0.88 : 1,
-          transform: btnHovered ? "translateY(-2px)" : "translateY(0)",
+          cursor: loading ? "not-allowed" : "pointer",
+          opacity: loading ? 0.6 : btnHovered ? 0.88 : 1,
+          transform: btnHovered && !loading ? "translateY(-2px)" : "translateY(0)",
           transition: "opacity 0.25s ease, transform 0.25s ease",
         }}
       >
-        Send it
+        {loading ? "Sending…" : "Send Message"}
       </button>
+
+      {/* Inline error message */}
+      {error && (
+        <p style={{ marginTop: 12, fontSize: 13, color: "#e07070", fontFamily: "var(--font-dm-sans), sans-serif" }}>
+          {error}
+        </p>
+      )}
 
     </form>
   );
