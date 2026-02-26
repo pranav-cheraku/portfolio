@@ -35,10 +35,9 @@ export default function LeadershipCard({ role, program, detail }: LeadershipCard
         className="role-text"
         style={{
           fontFamily: "var(--font-playfair), serif",
-          fontSize: 28,
+          fontSize: 22,
           fontWeight: 400,
-          fontStyle: "italic",
-          color: T.accent,
+          color: T.heading,
           marginBottom: 16,
           lineHeight: 1,
         }}
@@ -53,7 +52,7 @@ export default function LeadershipCard({ role, program, detail }: LeadershipCard
           fontFamily: "var(--font-dm-sans), sans-serif",
           fontSize: 16,
           fontWeight: 500,
-          color: T.heading,
+          color: T.body,
           marginBottom: 8,
         }}
       >
