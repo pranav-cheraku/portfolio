@@ -47,6 +47,32 @@
   --color-form-bg: #dad3c9;
 }
 
+/* Theme toggle icon spin — shrinks at midpoint so icon can swap cleanly */
+@keyframes theme-icon-spin {
+  0%   { transform: rotate(0deg)   scale(1);   }
+  30%  { transform: rotate(130deg) scale(0.25); }
+  70%  { transform: rotate(230deg) scale(0.25); }
+  100% { transform: rotate(360deg) scale(1);   }
+}
+
+.theme-icon-spin {
+  animation: theme-icon-spin 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Smooth page-wide color transitions while theme switches */
+html.theme-transitioning *,
+html.theme-transitioning *::before,
+html.theme-transitioning *::after,
+html.theme-transitioning *::placeholder {
+  transition: background-color 0.4s ease, color 0.4s ease,
+              border-color 0.4s ease, box-shadow 0.4s ease !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: var(--color-muted);
+}
+
 @keyframes nav-slide-down {
   from { opacity: 0; transform: translateY(-10px); }
   to   { opacity: 1; transform: translateY(0);     }
