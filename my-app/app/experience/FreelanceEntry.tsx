@@ -6,18 +6,18 @@ import { ChevronDown, ChevronUp, Calendar, MapPin, Briefcase } from "lucide-reac
 import { T } from "@/lib/theme";
 
 const SUMMARY =
-  "Joined FAST Enterprises LLC's Pennsylvania Department of Revenue project as a Software Implementation Consultant (Intern), serving on the Compliance & Registration team. Worked hands-on with GenTax, FAST's enterprise tax administration platform, to develop and configure live software features serving state agency employees and millions of Pennsylvania taxpayers.";
+  "Developed and launched the official website for the Olympia Hindu Temple & Cultural Center (OHTCC), a nonprofit serving the local Hindu community in Olympia, Washington. Delivered a fully responsive, user-friendly platform to streamline event management, community engagement, and donation processing.";
 
 const BULLETS = [
-  "Implemented production changes to a wide range of reports, letters, and jobs in GenTax by using VB.NET and SQL, delivering accurate and reliable system functionality that directly serves millions of taxpayers across Pennsylvania.",
-  "Queried and analyzed over 110+ jobs, reviewing underlying code and SQL logic to assess functionality and relevance, ultimately retiring those that were no longer needed to improve long-term system performance and maintainability.",
-  "Consulted with Subject Matter Experts (SMEs) and project leads to validate requirements and ensure that configuration within GenTax accurately reflected the intended business rules and functionality.",
-  "Gained exposure to the full software development lifecycle, including requirements gathering, coding, testing, deployment, and documentation.",
+  "Built a responsive UI using HTML, JavaScript, and Tailwind CSS, ensuring cross-browser compatibility and mobile optimization.",
+  "Implemented dynamic content features including a daily Panchang and an interactive Events Calendar.",
+  "Integrated a chatbot assistant to handle visitor inquiries and improve user accessibility.",
+  "Deployed the site on Netlify and configured automated pipelines to ensure smooth, continuous updates.",
 ];
 
-const TECHS = ["SQL", "VB.NET", "Consulting"];
+const TECHS = ["HTML", "JavaScript", "Tailwind CSS", "Netlify"];
 
-export default function InternshipEntry() {
+export default function FreelanceEntry() {
   const [expanded, setExpanded] = useState(false);
   const [hovered, setHovered] = useState(false);
   const [labelVisible, setLabelVisible] = useState(true);
@@ -69,8 +69,8 @@ export default function InternshipEntry() {
             }}
           >
             <Image
-              src="/fast_enterprises_logo.jpeg"
-              alt="FAST Enterprises LLC"
+              src="/ohtcc_logo.png"
+              alt="Olympia Hindu Temple & Cultural Center"
               width={72}
               height={72}
               style={{ objectFit: "cover", width: "100%", height: "100%" }}
@@ -89,7 +89,7 @@ export default function InternshipEntry() {
                 marginBottom: 4,
               }}
             >
-              Software Implementation Consultant
+              Web Developer
             </div>
             <div
               style={{
@@ -100,7 +100,7 @@ export default function InternshipEntry() {
                 marginBottom: 8,
               }}
             >
-              FAST Enterprises LLC
+              Olympia Hindu Temple & Cultural Center
             </div>
             <div
               className="exp-meta-row"
@@ -116,15 +116,15 @@ export default function InternshipEntry() {
             >
               <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
                 <Briefcase size={15} />
-                Internship
+                Freelance
               </span>
               <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
                 <Calendar size={15} />
-                Jun 2025 – Sep 2025
+                May 2025 – Jun 2025
               </span>
               <span style={{ display: "flex", alignItems: "center", gap: 5 }}>
                 <MapPin size={15} />
-                Harrisburg, Pennsylvania
+                Olympia, Washington
               </span>
             </div>
           </div>
@@ -169,7 +169,7 @@ export default function InternshipEntry() {
           }
         </button>
 
-        {/* Expandable content — grid trick for smooth height animation */}
+        {/* Expandable content */}
         <div
           style={{
             display: "grid",
@@ -216,7 +216,7 @@ export default function InternshipEntry() {
                 ))}
               </div>
 
-              {/* Technologies Used */}
+              {/* Skills */}
               <div>
                 <div
                   style={{
