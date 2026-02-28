@@ -266,6 +266,27 @@ input, textarea {
     grid-template-columns: 1fr !important;
   }
 
+  /* Constrain memoji container so image stays inside circle */
+  .about-memoji-wrap {
+    max-width: 300px !important;
+    margin: 0 auto !important;
+  }
+
+  /* Space above bio section when stacked */
+  .about-bio {
+    padding-top: 40px !important;
+  }
+
+  /* Name scales down on mobile */
+  .about-name {
+    font-size: 30px !important;
+  }
+
+  /* Hello label scales down on mobile */
+  .about-hello {
+    font-size: 14px !important;
+  }
+
   /* Experience card header stacks on mobile */
   .exp-header {
     flex-direction: column !important;

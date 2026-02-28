@@ -34,6 +34,7 @@ export default function AboutPage() {
           gridTemplateColumns: "320px 1fr",
           columnGap: 48,
           alignItems: "stretch",
+          rowGap: 0,
         }}
       >
 
@@ -87,10 +88,11 @@ export default function AboutPage() {
 
         {/* ── Right column: name + full bio ── */}
         <FadeIn delay={120} direction="right">
-          <div>
+          <div className="about-bio">
 
             {/* Hello label */}
             <div
+              className="about-hello"
               style={{
                 fontFamily: "var(--font-dm-sans), sans-serif",
                 fontSize: 18,
@@ -105,6 +107,7 @@ export default function AboutPage() {
 
             {/* Name on one line */}
             <div
+              className="about-name"
               style={{
                 fontFamily: "var(--font-playfair), serif",
                 fontSize: 62,

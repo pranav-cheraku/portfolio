@@ -8,6 +8,7 @@ export default function MemojiDisplay() {
 
   return (
     <div
+      className="about-memoji-wrap"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
