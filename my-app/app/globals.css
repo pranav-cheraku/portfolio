@@ -123,6 +123,20 @@ input, textarea {
   color-scheme: dark;
 }
 
+@keyframes bulletFadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.tech-chip {
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.tech-chip:hover {
+  border-color: var(--color-accent) !important;
+  color: var(--color-heading) !important;
+}
+
 @media (max-width: 640px) {
   /* Reduce horizontal padding on small screens */
   main {
@@ -244,5 +258,16 @@ input, textarea {
   /* Contact form name + email stack vertically */
   .contact-form-row {
     grid-template-columns: 1fr !important;
+  }
+
+  /* Experience: hide timeline on mobile */
+  .exp-timeline {
+    display: none !important;
+  }
+
+  /* Experience card header stacks on mobile */
+  .exp-header {
+    flex-direction: column !important;
+    gap: 14px !important;
   }
 }
