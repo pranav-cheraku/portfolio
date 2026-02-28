@@ -112,6 +112,7 @@ export default function InternshipEntry() {
           {/* Meta */}
           <div>
             <div
+              className="exp-role"
               style={{
                 fontFamily: "var(--font-playfair), serif",
                 fontSize: 22,
@@ -134,6 +135,7 @@ export default function InternshipEntry() {
               FAST Enterprises LLC
             </div>
             <div
+              className="exp-meta-row"
               style={{
                 display: "flex",
                 alignItems: "center",

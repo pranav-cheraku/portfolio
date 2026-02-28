@@ -260,14 +260,26 @@ input, textarea {
     grid-template-columns: 1fr !important;
   }
 
-  /* Experience: hide timeline on mobile */
-  .exp-timeline {
-    display: none !important;
-  }
-
   /* Experience card header stacks on mobile */
   .exp-header {
     flex-direction: column !important;
+    align-items: flex-start !important;
     gap: 14px !important;
+  }
+
+  /* Experience card padding reduces on mobile */
+  .exp-card {
+    padding: 20px !important;
+  }
+
+  /* Role title scales down on mobile */
+  .exp-role {
+    font-size: 18px !important;
+  }
+
+  /* Meta row wraps tighter on mobile */
+  .exp-meta-row {
+    gap: 10px !important;
+    font-size: 13px !important;
   }
 }
