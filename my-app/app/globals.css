@@ -288,6 +288,11 @@ input, textarea {
     grid-template-columns: 1fr !important;
   }
 
+  /* About bento grid collapses to single column on mobile */
+  .bento-grid {
+    grid-template-columns: 1fr !important;
+  }
+
   /* Experience card header stacks on mobile */
   .exp-header {
     flex-direction: column !important;
