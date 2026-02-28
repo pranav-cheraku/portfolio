@@ -3,6 +3,8 @@ import Glow from "@/components/Glow";
 import { T } from "@/lib/theme";
 import InternshipEntry from "./InternshipEntry";
 import FreelanceEntry from "./FreelanceEntry";
+import RoboticsResearchEntry from "./RoboticsResearchEntry";
+import NeuroscienceResearchEntry from "./NeuroscienceResearchEntry";
 
 export const metadata = {
   title: "Experience - Pranav Cheraku",
@@ -73,7 +75,6 @@ export default function ExperiencePage() {
           {/* Freelance */}
           <FadeIn delay={160}>
             <div style={{ marginTop: 40, paddingTop: 40, borderTop: `1px solid ${T.border}`, position: "relative" }}>
-              {/* Horizontal connector — 40px paddingTop + 28px card padding + 36px half logo */}
               <div className="exp-timeline" style={{
                 position: "absolute",
                 left: -18,
@@ -83,6 +84,36 @@ export default function ExperiencePage() {
                 background: T.accent3,
               }} />
               <FreelanceEntry />
+            </div>
+          </FadeIn>
+
+          {/* Robotics Research */}
+          <FadeIn delay={240}>
+            <div style={{ marginTop: 40, paddingTop: 40, borderTop: `1px solid ${T.border}`, position: "relative" }}>
+              <div className="exp-timeline" style={{
+                position: "absolute",
+                left: -18,
+                top: 104,
+                width: 18,
+                height: 2,
+                background: T.accent3,
+              }} />
+              <RoboticsResearchEntry />
+            </div>
+          </FadeIn>
+
+          {/* Neuroscience Research */}
+          <FadeIn delay={320}>
+            <div style={{ marginTop: 40, paddingTop: 40, borderTop: `1px solid ${T.border}`, position: "relative" }}>
+              <div className="exp-timeline" style={{
+                position: "absolute",
+                left: -18,
+                top: 104,
+                width: 18,
+                height: 2,
+                background: T.accent3,
+              }} />
+              <NeuroscienceResearchEntry />
             </div>
           </FadeIn>
 
