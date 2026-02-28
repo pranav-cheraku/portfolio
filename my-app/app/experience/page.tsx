@@ -41,14 +41,16 @@ export default function ExperiencePage() {
           style={{ width: 36, flexShrink: 0, position: "relative", alignSelf: "stretch" }}
         >
           <div
+            className="timeline-bar"
             style={{
               position: "absolute",
               top: 0,
               bottom: 0,
               left: "50%",
               transform: "translateX(-50%)",
-              width: 2,
+              width: 3,
               background: `linear-gradient(to bottom, ${T.accent3}, ${T.accent2})`,
+              borderRadius: 999,
             }}
           />
         </div>
@@ -59,7 +61,16 @@ export default function ExperiencePage() {
           {/* Internship */}
           <FadeIn delay={80}>
             <div style={{ position: "relative" }}>
-              {/* Horizontal connector — aligns with logo center (28px card padding + 36px half logo) */}
+              <div className="timeline-dot exp-timeline" style={{
+                position: "absolute",
+                left: -23,
+                top: 60,
+                width: 10,
+                height: 10,
+                borderRadius: "50%",
+                background: T.accent3,
+                zIndex: 2,
+              }} />
               <div className="exp-timeline" style={{
                 position: "absolute",
                 left: -18,
@@ -67,6 +78,7 @@ export default function ExperiencePage() {
                 width: 18,
                 height: 2,
                 background: T.accent3,
+                boxShadow: `0 0 6px ${T.accent3}`,
               }} />
               <InternshipEntry />
             </div>
@@ -75,6 +87,16 @@ export default function ExperiencePage() {
           {/* Freelance */}
           <FadeIn delay={160}>
             <div style={{ marginTop: 40, paddingTop: 40, borderTop: `1px solid ${T.border}`, position: "relative" }}>
+              <div className="timeline-dot exp-timeline" style={{
+                position: "absolute",
+                left: -23,
+                top: 100,
+                width: 10,
+                height: 10,
+                borderRadius: "50%",
+                background: T.accent3,
+                zIndex: 2,
+              }} />
               <div className="exp-timeline" style={{
                 position: "absolute",
                 left: -18,
@@ -82,6 +104,7 @@ export default function ExperiencePage() {
                 width: 18,
                 height: 2,
                 background: T.accent3,
+                boxShadow: `0 0 6px ${T.accent3}`,
               }} />
               <FreelanceEntry />
             </div>
@@ -90,6 +113,16 @@ export default function ExperiencePage() {
           {/* Robotics Research */}
           <FadeIn delay={240}>
             <div style={{ marginTop: 40, paddingTop: 40, borderTop: `1px solid ${T.border}`, position: "relative" }}>
+              <div className="timeline-dot exp-timeline" style={{
+                position: "absolute",
+                left: -23,
+                top: 100,
+                width: 10,
+                height: 10,
+                borderRadius: "50%",
+                background: T.accent3,
+                zIndex: 2,
+              }} />
               <div className="exp-timeline" style={{
                 position: "absolute",
                 left: -18,
@@ -97,6 +130,7 @@ export default function ExperiencePage() {
                 width: 18,
                 height: 2,
                 background: T.accent3,
+                boxShadow: `0 0 6px ${T.accent3}`,
               }} />
               <RoboticsResearchEntry />
             </div>
@@ -105,6 +139,16 @@ export default function ExperiencePage() {
           {/* Neuroscience Research */}
           <FadeIn delay={320}>
             <div style={{ marginTop: 40, paddingTop: 40, borderTop: `1px solid ${T.border}`, position: "relative" }}>
+              <div className="timeline-dot exp-timeline" style={{
+                position: "absolute",
+                left: -23,
+                top: 100,
+                width: 10,
+                height: 10,
+                borderRadius: "50%",
+                background: T.accent3,
+                zIndex: 2,
+              }} />
               <div className="exp-timeline" style={{
                 position: "absolute",
                 left: -18,
@@ -112,6 +156,7 @@ export default function ExperiencePage() {
                 width: 18,
                 height: 2,
                 background: T.accent3,
+                boxShadow: `0 0 6px ${T.accent3}`,
               }} />
               <NeuroscienceResearchEntry />
             </div>
