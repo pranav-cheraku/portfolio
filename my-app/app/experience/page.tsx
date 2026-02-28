@@ -36,23 +36,25 @@ export default function ExperiencePage() {
       <div style={{ display: "flex", alignItems: "flex-start" }}>
 
         {/* Continuous timeline bar */}
-        <div
-          className="exp-timeline"
-          style={{ width: 36, flexShrink: 0, position: "relative", alignSelf: "stretch" }}
-        >
+        <FadeIn direction="none" style={{ alignSelf: "stretch", flexShrink: 0 }}>
           <div
-            style={{
-              position: "absolute",
-              top: 0,
-              bottom: 0,
-              left: "50%",
-              transform: "translateX(-50%)",
-              width: 3,
-              background: T.accent3,
-              borderRadius: 999,
-            }}
-          />
-        </div>
+            className="exp-timeline"
+            style={{ width: 36, position: "relative", height: "100%" }}
+          >
+            <div
+              style={{
+                position: "absolute",
+                top: 0,
+                bottom: 0,
+                left: "50%",
+                transform: "translateX(-50%)",
+                width: 3,
+                background: T.accent3,
+                borderRadius: 999,
+              }}
+            />
+          </div>
+        </FadeIn>
 
         {/* Entries */}
         <div style={{ flex: 1 }}>
