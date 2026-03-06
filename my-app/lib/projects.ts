@@ -69,7 +69,7 @@ export const PROJECTS: Project[] = [
     title: "Lattice-Based Speech Recognition System",
     subtitle: "Speech Recognition · Lattice Graph Decoding",
     oneliner:
-      "A speech recognition second-pass decoder that parses lattice graphs, applies DAG shortest path and topological sort algorithms to extract the most probable transcription, and evaluates accuracy using Word Error Rate.",
+      "A speech recognition second-pass decoder that parses lattice graphs, applies DAG shortest path and topological sort algorithms to extract the most probable transcription.",
     description:
       "A speech recognition second-pass decoder designed to process lattice graphs — directed acyclic graphs (DAGs) that compactly represent a massive space of possible spoken sentence transcriptions. The system parses custom lattice files, builds an in-memory graph using an adjacency matrix, and applies a suite of algorithms to evaluate acoustic and language model scores, ultimately extracting the most probable transcription hypothesis.",
     bullets: [
@@ -99,6 +99,40 @@ export const PROJECTS: Project[] = [
       {
         src: "/projects/Lattice-BasedSpeechRecognitionSystem/lattice-graph.png",
         caption: "Graphviz visualization of a 137-node speech recognition lattice. Each path from node 0 (left) to node 136 (right) represents a possible transcription hypothesis. The graph shows how the recognizer considers many competing words at each time step — for example, 'we', 'we_did', 'we_didn't', and 'he_didn't' all branch from similar starting points before converging through 'talk' toward the final silence nodes.",
+      },
+    ],
+  },
+  {
+    slug: "multithreaded-image-edge-detection",
+    number: "05",
+    title: "Multithreaded Image Edge Detection",
+    subtitle: "Systems Programming · Parallel Image Processing",
+    oneliner:
+      "A high-performance C program that applies a 3x3 Laplacian convolution filter to raw PPM images using a two-tier concurrency model.",
+    description:
+      "A high-performance, multithreaded image edge detector built in C. This program processes raw P6 PPM images by applying a 3x3 Laplacian convolution filter to identify and highlight areas of sharp intensity change. To maximize performance, it utilizes a two-tier concurrency model: it processes multiple image files simultaneously while further dividing the row-by-row image filtering across multiple threads.",
+    bullets: [
+      "Implemented a two-level parallelization strategy using POSIX Threads (pthreads) to handle multiple image files and segment row-by-row filtering simultaneously.",
+      "Manually parsed, processed, and wrote binary RGB pixel data to apply a 3x3 Laplacian convolution filter without relying on external image processing libraries.",
+      "Validated memory safety and eliminated threading errors using Valgrind and Helgrind, and automated batch processing workflows with a custom Bash script.",
+    ],
+    tags: ["C", "POSIX Threads", "GCC", "Valgrind", "Helgrind", "Multithreading", "Mutex Synchronization"],
+    accent: T.accent3,
+    github: null,
+    live: null,
+    screenshotGridCount: 2,
+    screenshots: [
+      {
+        src: "/projects/MultithreadedImageEdgeDetection/original_sage.png",
+        caption: "Original P6 PPM input image of a sage landscape, used as input to the edge detector.",
+      },
+      {
+        src: "/projects/MultithreadedImageEdgeDetection/edge_detected_sage.png",
+        caption: "Edge-detected output after applying the 3x3 Laplacian filter using multithreaded convolution. Edges appear as bright lines against a dark background, highlighting areas of sharp intensity change in the original image.",
+      },
+      {
+        src: "/projects/MultithreadedImageEdgeDetection/convolution_diagram.png",
+        caption: "Diagram illustrating the discrete convolution process used in the Laplacian filter. Each output pixel is computed by multiplying neighboring input pixel values with the corresponding filter weights and summing the results.",
       },
     ],
   },
