@@ -384,4 +384,16 @@ input, textarea {
     grid-template-columns: 1fr !important;
     gap: 40px !important;
   }
+
+  /* Project title scales down on mobile */
+  .project-title {
+    font-size: 30px !important;
+    line-height: 1.2 !important;
+  }
+
+  /* Remove sticky positioning from sidebar when stacked in single column */
+  .project-detail-sidebar {
+    position: static !important;
+    top: auto !important;
+  }
 }

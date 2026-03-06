@@ -1,10 +1,12 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
-import { ChevronLeft, Github, ExternalLink } from "lucide-react";
+import { Github, ExternalLink } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import Glow from "@/components/Glow";
 import { T } from "@/lib/theme";
 import { PROJECTS } from "@/lib/projects";
+import SkillTag from "./SkillTag";
+import BackLink from "./BackLink";
+import ScreenshotImage from "./ScreenshotImage";
 
 export function generateStaticParams() {
   return PROJECTS.map((p) => ({ slug: p.slug }));
@@ -53,32 +55,13 @@ export default async function ProjectDetailPage({
 
       {/* Back link */}
       <FadeIn>
-        <Link
-          href="/projects"
-          className="project-back-link"
-          style={{
-            display: "inline-flex",
-            alignItems: "center",
-            gap: 6,
-            fontFamily: "var(--font-dm-sans), sans-serif",
-            fontSize: 14,
-            fontWeight: 500,
-            color: accent,
-            textDecoration: "none",
-            marginBottom: 20,
-            border: `1px solid ${accent}`,
-            borderRadius: 999,
-            padding: "8px 16px",
-          }}
-        >
-          <ChevronLeft size={15} />
-          Projects
-        </Link>
+        <BackLink accent={accent} />
       </FadeIn>
 
-      {/* ── Header ── */}
+      {/* Header */}
       <FadeIn delay={60}>
         <h1
+          className="project-title"
           style={{
             fontFamily: "var(--font-playfair), serif",
             fontSize: 56,
@@ -162,25 +145,11 @@ export default async function ProjectDetailPage({
 
           {/* Skills + Links */}
           <FadeIn delay={200} direction="left">
-            <div style={{ position: "sticky", top: 96 }}>
+            <div className="project-detail-sidebar" style={{ position: "sticky", top: 96 }}>
               <SectionLabel>Skills</SectionLabel>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
                 {tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="skill-tag"
-                    style={{
-                      fontFamily: "var(--font-dm-sans), sans-serif",
-                      fontSize: 13,
-                      color: accent,
-                      background: accent.replace(")", "-tint)"),
-                      border: `1px solid ${accent.replace(")", "-tint-hover)")}`,
-                      borderRadius: 999,
-                      padding: "4px 12px",
-                    }}
-                  >
-                    {tag}
-                  </span>
+                  <SkillTag key={tag} tag={tag} accent={accent} />
                 ))}
               </div>
 
@@ -254,7 +223,7 @@ export default async function ProjectDetailPage({
         </div>
       )}
 
-      {/* ── Screenshots — full width ── */}
+      {/* Images */}
       {screenshots && screenshots.length > 0 && (
         <FadeIn delay={260}>
           <div style={{ paddingTop: 20, marginTop: 24, borderTop: `1px solid ${T.border}` }}>
@@ -268,38 +237,23 @@ export default async function ProjectDetailPage({
               <div style={{ display: "flex", flexDirection: "column", gap: 32 }}>
                 {[0, 1].map((idx) =>
                   screenshots[idx] ? (
-                    <div key={idx}>
-                      <a href={screenshots[idx].src} target="_blank" rel="noopener noreferrer" style={{ display: "block" }}>
-                        <img
-                          src={screenshots[idx].src}
-                          alt={screenshots[idx].caption}
-                          className="screenshot-img"
-                          style={{ width: "100%", height: "auto", display: "block", borderRadius: 10, border: `1px solid ${T.border}` }}
-                        />
-                      </a>
-                      <p style={{ fontFamily: "var(--font-lora), serif", fontSize: 14, color: T.muted, fontStyle: "italic", lineHeight: 1.7, marginTop: 10, marginBottom: 0 }}>
-                        {screenshots[idx].caption}
-                      </p>
-                    </div>
+                    <ScreenshotImage
+                      key={idx}
+                      src={screenshots[idx].src}
+                      alt={screenshots[idx].caption}
+                      caption={screenshots[idx].caption}
+                    />
                   ) : null
                 )}
               </div>
 
               {/* Right column */}
               {screenshots[2] && (
-                <div>
-                  <a href={screenshots[2].src} target="_blank" rel="noopener noreferrer" style={{ display: "block" }}>
-                    <img
-                      src={screenshots[2].src}
-                      alt={screenshots[2].caption}
-                      className="screenshot-img"
-                      style={{ width: "100%", height: "auto", display: "block", borderRadius: 10, border: `1px solid ${T.border}` }}
-                    />
-                  </a>
-                  <p style={{ fontFamily: "var(--font-lora), serif", fontSize: 14, color: T.muted, fontStyle: "italic", lineHeight: 1.7, marginTop: 10, marginBottom: 0 }}>
-                    {screenshots[2].caption}
-                  </p>
-                </div>
+                <ScreenshotImage
+                  src={screenshots[2].src}
+                  alt={screenshots[2].caption}
+                  caption={screenshots[2].caption}
+                />
               )}
             </div>
           </div>
