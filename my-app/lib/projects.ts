@@ -103,6 +103,44 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "mini-unix-shell",
+    number: "04",
+    title: "Mini Unix Shell",
+    subtitle: "Systems Programming · Unix Process Management",
+    oneliner:
+      "A custom Unix shell interpreter built in C that implements the fork-exec-wait pattern, and six built-in POSIX commands, all with zero memory leaks verified via Valgrind.",
+    description:
+      "A custom, simplified command-line interpreter that mimics the behavior of Unix shells like bash or zsh. Operating via a continuous read-eval-print loop, the program handles user input to either execute custom built-in commands directly within the shell process or fork child processes to run external Unix commands. It was designed to exercise core operating systems concepts, including process lifecycle management, dynamic memory allocation, and direct interaction with system calls.",
+    bullets: [
+      "Implemented the fork-exec-wait pattern to accurately manage child processes, and utilized raw POSIX system calls to build six native shell commands (like stat and tail).",
+      "Engineered a robust input parser to tokenize arguments and handle arbitrary whitespace entirely from scratch, bypassing standard library shortcuts like strtok.",
+      "Ensured a completely memory-safe architecture with zero leaks (verified via Valgrind) and applied comprehensive error handling across all system interactions.",
+    ],
+    tags: ["C", "POSIX API", "GCC", "GNU Make", "Valgrind", "GDB", "Linux"],
+    accent: T.accent2,
+    github: null,
+    live: null,
+    screenshotGridCount: 2,
+    screenshots: [
+      {
+        src: "/projects/MiniUnixShell/shell_launch_and_navigation.png",
+        caption: "Demonstrating the shell's built-in navigation commands: pwd displays the current working directory, cd .. moves to the parent directory, and cd with no arguments returns to the home directory.",
+      },
+      {
+        src: "/projects/MiniUnixShell/external_commands.png",
+        caption: "Executing external Unix commands through the fork-exec-wait pattern: ls -l lists directory contents, echo prints output, whoami returns the current user, and date displays the system time — all parsed and executed as child processes.",
+      },
+      {
+        src: "/projects/MiniUnixShell/touch_and_stat.png",
+        caption: "Using the built-in touch command to create a new file, then inspecting it with stat, which displays file metadata including size, permissions, inode number, device info, ownership, and access/modify/change timestamps.",
+      },
+      {
+        src: "/projects/MiniUnixShell/tail_single_and_multi.png",
+        caption: "The built-in tail command displaying the last 10 lines of a 15-line file. When given multiple files, it automatically prefixes each output section with a ==> filename <== header to distinguish between them.",
+      },
+    ],
+  },
+  {
     slug: "ngram-language-model",
     number: "01",
     title: "Probabilistic N-Gram Language Model",

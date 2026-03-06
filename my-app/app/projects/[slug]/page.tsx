@@ -53,13 +53,11 @@ export default async function ProjectDetailPage({
     <div style={{ position: "relative" }}>
       <Glow color={accent} size={300} top={-60} right={-80} opacity={0.04} />
 
-      {/* Back link */}
       <FadeIn>
+      {/* Back link */}
         <BackLink accent={accent} />
-      </FadeIn>
 
       {/* Header */}
-      <FadeIn delay={60}>
         <h1
           className="project-title"
           style={{
@@ -85,10 +83,8 @@ export default async function ProjectDetailPage({
           {subtitle}
         </div>
         <div style={{ borderTop: `1px solid ${T.border}` }} />
-      </FadeIn>
 
       {/* About */}
-      <FadeIn delay={120}>
         <div style={{ marginTop: 24, marginBottom: 24 }}>
           <SectionLabel>About</SectionLabel>
           <p
@@ -103,7 +99,6 @@ export default async function ProjectDetailPage({
             {description}
           </p>
         </div>
-      </FadeIn>
 
       {/* Key Highlights + Skills side by side */}
       {bullets && bullets.length > 0 && (
@@ -119,7 +114,6 @@ export default async function ProjectDetailPage({
           }}
         >
           {/* Key Highlights */}
-          <FadeIn delay={180}>
             <div>
               <SectionLabel>Key Highlights</SectionLabel>
               <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
@@ -141,10 +135,8 @@ export default async function ProjectDetailPage({
                 ))}
               </div>
             </div>
-          </FadeIn>
 
           {/* Skills + Links */}
-          <FadeIn delay={200} direction="left">
             <div className="project-detail-sidebar" style={{ position: "sticky", top: 96 }}>
               <SectionLabel>Skills</SectionLabel>
               <div style={{ display: "flex", flexWrap: "wrap", gap: 7 }}>
@@ -219,13 +211,11 @@ export default async function ProjectDetailPage({
                 </div>
               )}
             </div>
-          </FadeIn>
         </div>
       )}
 
       {/* Images */}
       {screenshots && screenshots.length > 0 && (
-        <FadeIn delay={260}>
           <div style={{ paddingTop: 20, marginTop: 24, borderTop: `1px solid ${T.border}` }}>
             <SectionLabel>Images</SectionLabel>
 
@@ -257,8 +247,8 @@ export default async function ProjectDetailPage({
               );
             })()}
           </div>
-        </FadeIn>
       )}
+      </FadeIn>
     </div>
   );
 }
