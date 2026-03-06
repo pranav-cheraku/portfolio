@@ -7,9 +7,10 @@ interface ScreenshotImageProps {
   src: string;
   alt: string;
   caption: string;
+  lightBg?: boolean;
 }
 
-export default function ScreenshotImage({ src, alt, caption }: ScreenshotImageProps) {
+export default function ScreenshotImage({ src, alt, caption, lightBg }: ScreenshotImageProps) {
   const [hovered, setHovered] = useState(false);
 
   return (
@@ -27,6 +28,9 @@ export default function ScreenshotImage({ src, alt, caption }: ScreenshotImagePr
             borderRadius: 10,
             border: `1px solid ${T.border}`,
             cursor: "pointer",
+            background: lightBg ? "#ffffff" : undefined,
+            padding: lightBg ? "16px" : undefined,
+            boxSizing: lightBg ? "border-box" : undefined,
             transform: hovered ? "scale(1.01) translateY(-1px)" : "scale(1) translateY(0)",
             boxShadow: hovered ? "0 6px 20px rgba(0,0,0,0.2)" : "none",
             transition: "transform 0.35s cubic-bezier(0.22,1,0.36,1), box-shadow 0.35s ease",

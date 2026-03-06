@@ -47,7 +47,7 @@ export default async function ProjectDetailPage({
   const project = PROJECTS.find((p) => p.slug === slug);
   if (!project) notFound();
 
-  const { title, subtitle, description, bullets, tags, accent, github, live, screenshots } = project;
+  const { title, subtitle, description, bullets, tags, accent, github, live, screenshots, screenshotGridCount } = project;
 
   return (
     <div style={{ position: "relative" }}>
@@ -229,33 +229,33 @@ export default async function ProjectDetailPage({
           <div style={{ paddingTop: 20, marginTop: 24, borderTop: `1px solid ${T.border}` }}>
             <SectionLabel>Images</SectionLabel>
 
-            <div
-              className="screenshot-grid"
-              style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16, alignItems: "start" }}
-            >
-              {/* Left column — two images stacked */}
-              <div style={{ display: "flex", flexDirection: "column", gap: 32 }}>
-                {[0, 1].map((idx) =>
-                  screenshots[idx] ? (
-                    <ScreenshotImage
-                      key={idx}
-                      src={screenshots[idx].src}
-                      alt={screenshots[idx].caption}
-                      caption={screenshots[idx].caption}
-                    />
-                  ) : null
-                )}
-              </div>
+            {/* Screenshot layout — screenshotGridCount controls how many go in the 2-col grid */}
+            {(() => {
+              const gridCount = screenshotGridCount ?? (screenshots.length % 2 !== 0 ? screenshots.length - 1 : screenshots.length);
+              const grid = screenshots.slice(0, gridCount);
+              const fullWidth = screenshots.slice(gridCount);
+              return (
+                <>
+                  {grid.length > 0 && (
+                    <div
+                      className="screenshot-grid"
+                      style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32, alignItems: "start" }}
+                    >
+                      {grid.map((s, i) => (
+                        <ScreenshotImage key={i} src={s.src} alt={s.caption} caption={s.caption} lightBg={s.src.endsWith(".svg")} />
+                      ))}
+                    </div>
+                  )}
 
-              {/* Right column */}
-              {screenshots[2] && (
-                <ScreenshotImage
-                  src={screenshots[2].src}
-                  alt={screenshots[2].caption}
-                  caption={screenshots[2].caption}
-                />
-              )}
-            </div>
+                  {/* Full-width screenshots */}
+                  {fullWidth.map((s, i) => (
+                    <div key={i} style={{ marginTop: 32 }}>
+                      <ScreenshotImage src={s.src} alt={s.caption} caption={s.caption} lightBg={s.src.endsWith(".svg")} />
+                    </div>
+                  ))}
+                </>
+              );
+            })()}
           </div>
         </FadeIn>
       )}

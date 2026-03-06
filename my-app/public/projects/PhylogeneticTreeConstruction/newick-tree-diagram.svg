@@ -1,0 +1,1354 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg width="1720" height="2520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g style="stroke:black;fill:lightgreen" transform="translate(30,30)">
+<line x1="104" y1="2469" x2="104" y2="2474" style="stroke:blue; stroke-width:1"/>
+<line x1="104" y1="2474" x2="148" y2="2474" style="stroke:blue; stroke-width:1"/>
+<line x1="104" y1="2469" x2="104" y2="2465" style="stroke:blue; stroke-width:1"/>
+<line x1="104" y1="2465" x2="148" y2="2465" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2442" x2="236" y2="2447" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2447" x2="280" y2="2447" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2442" x2="236" y2="2437" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2437" x2="280" y2="2437" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2449" x2="192" y2="2456" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2456" x2="236" y2="2456" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2415" x2="280" y2="2419" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2419" x2="324" y2="2419" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2415" x2="280" y2="2410" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2410" x2="324" y2="2410" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2396" x2="324" y2="2401" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2401" x2="368" y2="2401" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2396" x2="324" y2="2392" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2392" x2="368" y2="2392" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2378" x2="411" y2="2383" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2383" x2="455" y2="2383" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2378" x2="411" y2="2373" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2373" x2="455" y2="2373" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2342" x2="499" y2="2346" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2346" x2="543" y2="2346" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2342" x2="499" y2="2337" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2337" x2="543" y2="2337" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2348" x2="455" y2="2355" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2355" x2="499" y2="2355" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2356" x2="411" y2="2364" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2364" x2="455" y2="2364" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="2259" x2="675" y2="2264" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="2264" x2="719" y2="2264" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="2259" x2="675" y2="2255" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="2255" x2="719" y2="2255" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="2266" x2="631" y2="2273" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="2273" x2="675" y2="2273" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="2274" x2="587" y2="2282" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="2282" x2="631" y2="2282" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="2223" x2="719" y2="2227" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="2227" x2="763" y2="2227" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="2223" x2="719" y2="2218" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="2218" x2="763" y2="2218" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="2195" x2="807" y2="2200" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="2200" x2="851" y2="2200" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="2195" x2="807" y2="2191" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="2191" x2="851" y2="2191" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="2159" x2="895" y2="2163" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="2163" x2="939" y2="2163" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="2159" x2="895" y2="2154" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="2154" x2="939" y2="2154" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="2166" x2="851" y2="2172" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="2172" x2="895" y2="2172" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="2174" x2="807" y2="2182" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="2182" x2="851" y2="2182" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="2197" x2="719" y2="2209" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="2209" x2="763" y2="2209" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="2223" x2="631" y2="2236" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="2236" x2="675" y2="2236" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="2234" x2="587" y2="2246" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="2246" x2="631" y2="2246" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2273" x2="499" y2="2291" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2291" x2="543" y2="2291" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2287" x2="455" y2="2300" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2300" x2="499" y2="2300" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2314" x2="455" y2="2319" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2319" x2="499" y2="2319" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2314" x2="455" y2="2310" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2310" x2="499" y2="2310" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2314" x2="368" y2="2328" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2328" x2="411" y2="2328" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2410" x2="192" y2="2428" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2428" x2="236" y2="2428" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2140" x2="192" y2="2145" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2145" x2="236" y2="2145" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2140" x2="192" y2="2136" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2136" x2="236" y2="2136" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="2049" x2="543" y2="2054" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="2054" x2="587" y2="2054" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="2049" x2="543" y2="2045" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="2045" x2="587" y2="2045" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2056" x2="499" y2="2063" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2063" x2="543" y2="2063" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2064" x2="455" y2="2072" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2072" x2="499" y2="2072" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2073" x2="411" y2="2081" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2081" x2="455" y2="2081" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2081" x2="368" y2="2090" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2090" x2="411" y2="2090" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2104" x2="411" y2="2108" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2108" x2="455" y2="2108" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2104" x2="411" y2="2099" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2099" x2="455" y2="2099" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2111" x2="368" y2="2118" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2118" x2="411" y2="2118" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2022" x2="455" y2="2026" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2026" x2="499" y2="2026" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2022" x2="455" y2="2017" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2017" x2="499" y2="2017" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1985" x2="543" y2="1990" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1990" x2="587" y2="1990" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1985" x2="543" y2="1981" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1981" x2="587" y2="1981" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1992" x2="499" y2="1999" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1999" x2="543" y2="1999" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2000" x2="455" y2="2008" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2008" x2="499" y2="2008" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1939" x2="543" y2="1944" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1944" x2="587" y2="1944" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1939" x2="543" y2="1935" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1935" x2="587" y2="1935" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1946" x2="499" y2="1953" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1953" x2="543" y2="1953" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1954" x2="455" y2="1962" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1962" x2="499" y2="1962" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1963" x2="411" y2="1971" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1971" x2="455" y2="1971" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2011" x2="324" y2="2035" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2035" x2="368" y2="2035" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2090" x2="236" y2="2127" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2127" x2="280" y2="2127" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="1921" x2="280" y2="1926" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="1926" x2="324" y2="1926" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="1921" x2="280" y2="1917" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="1917" x2="324" y2="1917" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="1894" x2="368" y2="1898" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="1898" x2="411" y2="1898" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="1894" x2="368" y2="1889" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="1889" x2="411" y2="1889" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="1901" x2="324" y2="1907" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="1907" x2="368" y2="1907" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1839" x2="499" y2="1844" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1844" x2="543" y2="1844" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1839" x2="499" y2="1834" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1834" x2="543" y2="1834" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1846" x2="455" y2="1853" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1853" x2="499" y2="1853" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1866" x2="455" y2="1871" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1871" x2="499" y2="1871" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1866" x2="455" y2="1862" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1862" x2="499" y2="1862" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1702" x2="719" y2="1706" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1706" x2="763" y2="1706" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1702" x2="719" y2="1697" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1697" x2="763" y2="1697" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1709" x2="675" y2="1716" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1716" x2="719" y2="1716" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1674" x2="763" y2="1679" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1679" x2="807" y2="1679" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1674" x2="763" y2="1670" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1670" x2="807" y2="1670" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1638" x2="851" y2="1642" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1642" x2="895" y2="1642" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1638" x2="851" y2="1633" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1633" x2="895" y2="1633" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1645" x2="807" y2="1652" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1652" x2="851" y2="1652" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1653" x2="763" y2="1661" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1661" x2="807" y2="1661" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1676" x2="675" y2="1688" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1688" x2="719" y2="1688" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1601" x2="763" y2="1606" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1606" x2="807" y2="1606" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1601" x2="763" y2="1597" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1597" x2="807" y2="1597" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1556" x2="851" y2="1560" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1560" x2="895" y2="1560" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1556" x2="851" y2="1551" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1551" x2="895" y2="1551" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1563" x2="807" y2="1569" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1569" x2="851" y2="1569" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1583" x2="807" y2="1588" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1588" x2="851" y2="1588" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1583" x2="807" y2="1579" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1579" x2="851" y2="1579" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1601" x2="675" y2="1615" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1615" x2="719" y2="1615" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1613" x2="631" y2="1624" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1624" x2="675" y2="1624" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1775" x2="719" y2="1780" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1780" x2="763" y2="1780" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1775" x2="719" y2="1770" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1770" x2="763" y2="1770" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1782" x2="675" y2="1789" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1789" x2="719" y2="1789" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1790" x2="631" y2="1798" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1798" x2="675" y2="1798" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1729" x2="763" y2="1734" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1734" x2="807" y2="1734" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1729" x2="763" y2="1725" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1725" x2="807" y2="1725" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1736" x2="719" y2="1743" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1743" x2="763" y2="1743" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1744" x2="675" y2="1752" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1752" x2="719" y2="1752" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1753" x2="631" y2="1761" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1761" x2="675" y2="1761" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1812" x2="543" y2="1816" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1816" x2="587" y2="1816" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1812" x2="543" y2="1807" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1807" x2="587" y2="1807" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1528" x2="587" y2="1533" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1533" x2="631" y2="1533" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1528" x2="587" y2="1524" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1524" x2="631" y2="1524" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1535" x2="543" y2="1542" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1542" x2="587" y2="1542" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1346" x2="939" y2="1350" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1350" x2="983" y2="1350" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1346" x2="939" y2="1341" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1341" x2="983" y2="1341" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1352" x2="895" y2="1359" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1359" x2="939" y2="1359" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1360" x2="851" y2="1368" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1368" x2="895" y2="1368" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1327" x2="895" y2="1332" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1332" x2="939" y2="1332" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1327" x2="895" y2="1323" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1323" x2="939" y2="1323" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1300" x2="1027" y2="1304" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1304" x2="1071" y2="1304" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1300" x2="1027" y2="1295" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1295" x2="1071" y2="1295" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1282" x2="1027" y2="1286" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1286" x2="1071" y2="1286" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1282" x2="1027" y2="1277" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1277" x2="1071" y2="1277" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1302" x2="939" y2="1314" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1314" x2="983" y2="1314" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="1236" x2="1071" y2="1240" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="1240" x2="1115" y2="1240" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="1236" x2="1071" y2="1231" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="1231" x2="1115" y2="1231" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1243" x2="1027" y2="1250" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1250" x2="1071" y2="1250" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1251" x2="983" y2="1259" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1259" x2="1027" y2="1259" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1259" x2="939" y2="1268" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1268" x2="983" y2="1268" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1355" x2="763" y2="1377" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1377" x2="807" y2="1377" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1371" x2="719" y2="1387" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1387" x2="763" y2="1387" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1383" x2="675" y2="1396" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1396" x2="719" y2="1396" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1394" x2="631" y2="1405" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1405" x2="675" y2="1405" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1473" x2="807" y2="1478" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1478" x2="851" y2="1478" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1473" x2="807" y2="1469" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1469" x2="851" y2="1469" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1480" x2="763" y2="1487" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1487" x2="807" y2="1487" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1488" x2="719" y2="1496" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1496" x2="763" y2="1496" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1510" x2="719" y2="1515" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1515" x2="763" y2="1515" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1510" x2="719" y2="1505" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1505" x2="763" y2="1505" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1455" x2="719" y2="1460" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1460" x2="763" y2="1460" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1455" x2="719" y2="1451" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1451" x2="763" y2="1451" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1419" x2="807" y2="1423" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1423" x2="851" y2="1423" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1419" x2="807" y2="1414" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1414" x2="851" y2="1414" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1425" x2="763" y2="1432" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1432" x2="807" y2="1432" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1433" x2="719" y2="1441" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1441" x2="763" y2="1441" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1218" x2="631" y2="1222" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1222" x2="675" y2="1222" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1218" x2="631" y2="1213" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1213" x2="675" y2="1213" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1190" x2="719" y2="1195" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1195" x2="763" y2="1195" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1190" x2="719" y2="1186" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1186" x2="763" y2="1186" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1197" x2="675" y2="1204" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1204" x2="719" y2="1204" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1126" x2="983" y2="1131" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1131" x2="1027" y2="1131" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1126" x2="983" y2="1122" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1122" x2="1027" y2="1122" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1133" x2="939" y2="1140" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1140" x2="983" y2="1140" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1108" x2="1027" y2="1113" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1113" x2="1071" y2="1113" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1108" x2="1027" y2="1103" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1103" x2="1071" y2="1103" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="1071" x2="1159" y2="1076" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="1076" x2="1202" y2="1076" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="1071" x2="1159" y2="1067" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="1067" x2="1202" y2="1067" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="1053" x2="1159" y2="1058" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="1058" x2="1202" y2="1058" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="1053" x2="1159" y2="1049" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="1049" x2="1202" y2="1049" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="1074" x2="1071" y2="1085" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="1085" x2="1115" y2="1085" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1084" x2="1027" y2="1094" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1094" x2="1071" y2="1094" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1035" x2="1027" y2="1039" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1039" x2="1071" y2="1039" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1035" x2="1027" y2="1030" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1030" x2="1071" y2="1030" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="971" x2="1246" y2="975" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="975" x2="1290" y2="975" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="971" x2="1246" y2="966" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="966" x2="1290" y2="966" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="978" x2="1202" y2="985" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="985" x2="1246" y2="985" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="986" x2="1159" y2="994" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="994" x2="1202" y2="994" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="943" x2="1246" y2="948" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="948" x2="1290" y2="948" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="943" x2="1246" y2="939" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="939" x2="1290" y2="939" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="925" x2="1246" y2="930" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="930" x2="1290" y2="930" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="925" x2="1246" y2="921" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="921" x2="1290" y2="921" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="946" x2="1159" y2="957" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="957" x2="1202" y2="957" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="1007" x2="1115" y2="1012" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="1012" x2="1159" y2="1012" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="1007" x2="1115" y2="1003" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="1003" x2="1159" y2="1003" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1004" x2="1027" y2="1021" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1021" x2="1071" y2="1021" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1122" x2="851" y2="1149" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1149" x2="895" y2="1149" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1140" x2="807" y2="1158" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1158" x2="851" y2="1158" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1154" x2="763" y2="1167" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1167" x2="807" y2="1167" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="898" x2="895" y2="902" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="902" x2="939" y2="902" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="898" x2="895" y2="893" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="893" x2="939" y2="893" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="905" x2="851" y2="911" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="911" x2="895" y2="911" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="870" x2="895" y2="875" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="875" x2="939" y2="875" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="870" x2="895" y2="866" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="866" x2="939" y2="866" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="877" x2="851" y2="884" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="884" x2="895" y2="884" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="816" x2="983" y2="820" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="820" x2="1027" y2="820" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="816" x2="983" y2="811" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="811" x2="1027" y2="811" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="822" x2="939" y2="829" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="829" x2="983" y2="829" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="830" x2="895" y2="838" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="838" x2="939" y2="838" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="852" x2="895" y2="857" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="857" x2="939" y2="857" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="852" x2="895" y2="848" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="848" x2="939" y2="848" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="797" x2="895" y2="802" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="802" x2="939" y2="802" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="797" x2="895" y2="793" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="793" x2="939" y2="793" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="779" x2="1027" y2="784" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="784" x2="1071" y2="784" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="779" x2="1027" y2="774" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="774" x2="1071" y2="774" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="724" x2="1159" y2="729" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="729" x2="1202" y2="729" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="724" x2="1159" y2="720" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="720" x2="1202" y2="720" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="731" x2="1115" y2="738" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="738" x2="1159" y2="738" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="752" x2="1115" y2="756" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="756" x2="1159" y2="756" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="752" x2="1115" y2="747" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="747" x2="1159" y2="747" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="753" x2="1027" y2="765" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="765" x2="1071" y2="765" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="697" x2="1071" y2="701" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="701" x2="1115" y2="701" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="697" x2="1071" y2="692" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="692" x2="1115" y2="692" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="704" x2="1027" y2="710" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="710" x2="1071" y2="710" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="678" x2="1071" y2="683" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="683" x2="1115" y2="683" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="678" x2="1071" y2="674" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="674" x2="1115" y2="674" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="642" x2="1202" y2="646" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="646" x2="1246" y2="646" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="642" x2="1202" y2="637" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="637" x2="1246" y2="637" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="649" x2="1159" y2="656" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="656" x2="1202" y2="656" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="624" x2="1202" y2="628" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="628" x2="1246" y2="628" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="624" x2="1202" y2="619" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="619" x2="1246" y2="619" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="596" x2="1290" y2="601" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="601" x2="1334" y2="601" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="596" x2="1290" y2="592" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="592" x2="1334" y2="592" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="578" x2="1378" y2="583" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="583" x2="1422" y2="583" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="578" x2="1378" y2="573" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="573" x2="1422" y2="573" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="560" x2="1378" y2="564" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="564" x2="1422" y2="564" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="560" x2="1378" y2="555" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="555" x2="1422" y2="555" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="541" x2="1378" y2="546" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="546" x2="1422" y2="546" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="541" x2="1378" y2="537" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="537" x2="1422" y2="537" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="523" x2="1422" y2="528" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="528" x2="1466" y2="528" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="523" x2="1422" y2="519" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="519" x2="1466" y2="519" style="stroke:blue; stroke-width:1"/>
+<line x1="1510" y1="487" x2="1510" y2="491" style="stroke:blue; stroke-width:1"/>
+<line x1="1510" y1="491" x2="1554" y2="491" style="stroke:blue; stroke-width:1"/>
+<line x1="1510" y1="487" x2="1510" y2="482" style="stroke:blue; stroke-width:1"/>
+<line x1="1510" y1="482" x2="1554" y2="482" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="493" x2="1466" y2="500" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="500" x2="1510" y2="500" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="501" x2="1422" y2="509" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="509" x2="1466" y2="509" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="591" x2="1202" y2="610" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="610" x2="1246" y2="610" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="646" x2="1071" y2="665" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="665" x2="1115" y2="665" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="413" x2="1202" y2="418" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="418" x2="1246" y2="418" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="413" x2="1202" y2="409" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="409" x2="1246" y2="409" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="395" x2="1246" y2="400" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="400" x2="1290" y2="400" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="395" x2="1246" y2="391" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="391" x2="1290" y2="391" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="377" x2="1246" y2="382" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="382" x2="1290" y2="382" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="377" x2="1246" y2="372" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="372" x2="1290" y2="372" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="413" x2="1115" y2="427" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="427" x2="1159" y2="427" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="441" x2="1159" y2="445" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="445" x2="1202" y2="445" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="441" x2="1159" y2="436" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="436" x2="1202" y2="436" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="448" x2="1115" y2="455" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="455" x2="1159" y2="455" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="447" x2="1027" y2="464" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="464" x2="1071" y2="464" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="295" x2="1290" y2="299" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="299" x2="1334" y2="299" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="295" x2="1290" y2="290" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="290" x2="1334" y2="290" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="302" x2="1246" y2="308" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="308" x2="1290" y2="308" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="322" x2="1246" y2="327" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="327" x2="1290" y2="327" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="322" x2="1246" y2="318" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="318" x2="1290" y2="318" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="324" x2="1159" y2="336" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="336" x2="1202" y2="336" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="334" x2="1115" y2="345" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="345" x2="1159" y2="345" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="359" x2="1115" y2="363" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="363" x2="1159" y2="363" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="359" x2="1115" y2="354" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="354" x2="1159" y2="354" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="258" x2="1246" y2="263" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="263" x2="1290" y2="263" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="258" x2="1246" y2="254" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="254" x2="1290" y2="254" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="222" x2="1334" y2="226" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="226" x2="1378" y2="226" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="222" x2="1334" y2="217" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="217" x2="1378" y2="217" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="228" x2="1290" y2="235" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="235" x2="1334" y2="235" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="236" x2="1246" y2="244" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="244" x2="1290" y2="244" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="260" x2="1159" y2="272" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="272" x2="1202" y2="272" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="270" x2="1115" y2="281" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="281" x2="1159" y2="281" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="176" x2="1290" y2="180" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="180" x2="1334" y2="180" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="176" x2="1290" y2="171" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="171" x2="1334" y2="171" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="183" x2="1246" y2="190" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="190" x2="1290" y2="190" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="85" x2="1378" y2="89" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="89" x2="1422" y2="89" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="85" x2="1378" y2="80" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="80" x2="1422" y2="80" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="91" x2="1334" y2="98" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="98" x2="1378" y2="98" style="stroke:blue; stroke-width:1"/>
+<line x1="1510" y1="21" x2="1510" y2="25" style="stroke:blue; stroke-width:1"/>
+<line x1="1510" y1="25" x2="1554" y2="25" style="stroke:blue; stroke-width:1"/>
+<line x1="1510" y1="21" x2="1510" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="1510" y1="16" x2="1554" y2="16" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="27" x2="1466" y2="34" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="34" x2="1510" y2="34" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="35" x2="1422" y2="43" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="43" x2="1466" y2="43" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="44" x2="1378" y2="53" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="53" x2="1422" y2="53" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="66" x2="1378" y2="71" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="71" x2="1422" y2="71" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="66" x2="1378" y2="62" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="62" x2="1422" y2="62" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="112" x2="1466" y2="117" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="117" x2="1510" y2="117" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="112" x2="1466" y2="107" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="107" x2="1510" y2="107" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="119" x2="1422" y2="126" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="126" x2="1466" y2="126" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="127" x2="1378" y2="135" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="135" x2="1422" y2="135" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="135" x2="1334" y2="144" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="144" x2="1378" y2="144" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="158" x2="1334" y2="162" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="162" x2="1378" y2="162" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="158" x2="1334" y2="153" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="153" x2="1378" y2="153" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="173" x2="1159" y2="199" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="199" x2="1202" y2="199" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="190" x2="1115" y2="208" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="208" x2="1159" y2="208" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="420" x2="939" y2="473" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="473" x2="983" y2="473" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1083" x2="675" y2="1176" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1176" x2="719" y2="1176" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1708" x2="411" y2="1825" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1825" x2="455" y2="1825" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="1831" x2="324" y2="1880" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="1880" x2="368" y2="1880" style="stroke:blue; stroke-width:1"/>
+<line x1="60" y1="2359" x2="60" y2="2469" style="stroke:blue; stroke-width:1"/>
+<line x1="60" y1="2469" x2="104" y2="2469" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2449" x2="192" y2="2442" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2442" x2="236" y2="2442" style="stroke:blue; stroke-width:1"/>
+<line x1="148" y1="2429" x2="148" y2="2449" style="stroke:blue; stroke-width:1"/>
+<line x1="148" y1="2449" x2="192" y2="2449" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2392" x2="236" y2="2415" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2415" x2="280" y2="2415" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2368" x2="280" y2="2396" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2396" x2="324" y2="2396" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2367" x2="368" y2="2378" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2378" x2="411" y2="2378" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2348" x2="455" y2="2342" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2342" x2="499" y2="2342" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2356" x2="411" y2="2348" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2348" x2="455" y2="2348" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2367" x2="368" y2="2356" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2356" x2="411" y2="2356" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2341" x2="324" y2="2367" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2367" x2="368" y2="2367" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="2266" x2="631" y2="2259" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="2259" x2="675" y2="2259" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="2274" x2="587" y2="2266" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="2266" x2="631" y2="2266" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="2254" x2="543" y2="2274" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="2274" x2="587" y2="2274" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="2210" x2="675" y2="2223" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="2223" x2="719" y2="2223" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="2184" x2="763" y2="2195" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="2195" x2="807" y2="2195" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="2166" x2="851" y2="2159" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="2159" x2="895" y2="2159" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="2174" x2="807" y2="2166" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="2166" x2="851" y2="2166" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="2184" x2="763" y2="2174" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="2174" x2="807" y2="2174" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="2197" x2="719" y2="2184" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="2184" x2="763" y2="2184" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="2210" x2="675" y2="2197" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="2197" x2="719" y2="2197" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="2223" x2="631" y2="2210" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="2210" x2="675" y2="2210" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="2234" x2="587" y2="2223" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="2223" x2="631" y2="2223" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="2254" x2="543" y2="2234" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="2234" x2="587" y2="2234" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2273" x2="499" y2="2254" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2254" x2="543" y2="2254" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2287" x2="455" y2="2273" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2273" x2="499" y2="2273" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2300" x2="411" y2="2287" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2287" x2="455" y2="2287" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2300" x2="411" y2="2314" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2314" x2="455" y2="2314" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2314" x2="368" y2="2300" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2300" x2="411" y2="2300" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2341" x2="324" y2="2314" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2314" x2="368" y2="2314" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2368" x2="280" y2="2341" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2341" x2="324" y2="2341" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2392" x2="236" y2="2368" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2368" x2="280" y2="2368" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2410" x2="192" y2="2392" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2392" x2="236" y2="2392" style="stroke:blue; stroke-width:1"/>
+<line x1="148" y1="2429" x2="148" y2="2410" style="stroke:blue; stroke-width:1"/>
+<line x1="148" y1="2410" x2="192" y2="2410" style="stroke:blue; stroke-width:1"/>
+<line x1="104" y1="2248" x2="104" y2="2429" style="stroke:blue; stroke-width:1"/>
+<line x1="104" y1="2429" x2="148" y2="2429" style="stroke:blue; stroke-width:1"/>
+<line x1="148" y1="2066" x2="148" y2="2140" style="stroke:blue; stroke-width:1"/>
+<line x1="148" y1="2140" x2="192" y2="2140" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2056" x2="499" y2="2049" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="2049" x2="543" y2="2049" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2064" x2="455" y2="2056" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2056" x2="499" y2="2056" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2073" x2="411" y2="2064" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2064" x2="455" y2="2064" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2081" x2="368" y2="2073" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2073" x2="411" y2="2073" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2096" x2="324" y2="2081" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2081" x2="368" y2="2081" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2111" x2="368" y2="2104" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2104" x2="411" y2="2104" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2096" x2="324" y2="2111" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2111" x2="368" y2="2111" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2054" x2="280" y2="2096" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2096" x2="324" y2="2096" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2011" x2="411" y2="2022" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2022" x2="455" y2="2022" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1992" x2="499" y2="1985" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1985" x2="543" y2="1985" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="2000" x2="455" y2="1992" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1992" x2="499" y2="1992" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2011" x2="411" y2="2000" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="2000" x2="455" y2="2000" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="1987" x2="368" y2="2011" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="2011" x2="411" y2="2011" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1946" x2="499" y2="1939" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1939" x2="543" y2="1939" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1954" x2="455" y2="1946" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1946" x2="499" y2="1946" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1963" x2="411" y2="1954" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1954" x2="455" y2="1954" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="1987" x2="368" y2="1963" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="1963" x2="411" y2="1963" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="2011" x2="324" y2="1987" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="1987" x2="368" y2="1987" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2054" x2="280" y2="2011" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="2011" x2="324" y2="2011" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2090" x2="236" y2="2054" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="2054" x2="280" y2="2054" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="1992" x2="192" y2="2090" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="2090" x2="236" y2="2090" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="1894" x2="236" y2="1921" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="1921" x2="280" y2="1921" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="1901" x2="324" y2="1894" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="1894" x2="368" y2="1894" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="1866" x2="280" y2="1901" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="1901" x2="324" y2="1901" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1846" x2="455" y2="1839" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1839" x2="499" y2="1839" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1856" x2="411" y2="1846" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1846" x2="455" y2="1846" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1856" x2="411" y2="1866" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1866" x2="455" y2="1866" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="1782" x2="368" y2="1856" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="1856" x2="411" y2="1856" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1709" x2="675" y2="1702" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1702" x2="719" y2="1702" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1692" x2="631" y2="1709" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1709" x2="675" y2="1709" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1664" x2="719" y2="1674" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1674" x2="763" y2="1674" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1645" x2="807" y2="1638" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1638" x2="851" y2="1638" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1653" x2="763" y2="1645" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1645" x2="807" y2="1645" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1664" x2="719" y2="1653" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1653" x2="763" y2="1653" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1676" x2="675" y2="1664" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1664" x2="719" y2="1664" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1692" x2="631" y2="1676" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1676" x2="675" y2="1676" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1652" x2="587" y2="1692" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1692" x2="631" y2="1692" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1587" x2="719" y2="1601" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1601" x2="763" y2="1601" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1563" x2="807" y2="1556" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1556" x2="851" y2="1556" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1573" x2="763" y2="1563" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1563" x2="807" y2="1563" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1573" x2="763" y2="1583" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1583" x2="807" y2="1583" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1587" x2="719" y2="1573" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1573" x2="763" y2="1573" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1601" x2="675" y2="1587" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1587" x2="719" y2="1587" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1613" x2="631" y2="1601" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1601" x2="675" y2="1601" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1652" x2="587" y2="1613" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1613" x2="631" y2="1613" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1712" x2="543" y2="1652" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1652" x2="587" y2="1652" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1782" x2="675" y2="1775" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1775" x2="719" y2="1775" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1790" x2="631" y2="1782" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1782" x2="675" y2="1782" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1771" x2="587" y2="1790" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1790" x2="631" y2="1790" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1736" x2="719" y2="1729" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1729" x2="763" y2="1729" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1744" x2="675" y2="1736" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1736" x2="719" y2="1736" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1753" x2="631" y2="1744" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1744" x2="675" y2="1744" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1771" x2="587" y2="1753" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1753" x2="631" y2="1753" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1712" x2="543" y2="1771" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1771" x2="587" y2="1771" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1762" x2="499" y2="1712" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1712" x2="543" y2="1712" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1762" x2="499" y2="1812" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1812" x2="543" y2="1812" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1591" x2="455" y2="1762" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1762" x2="499" y2="1762" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1535" x2="543" y2="1528" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1528" x2="587" y2="1528" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1421" x2="499" y2="1535" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1535" x2="543" y2="1535" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1352" x2="895" y2="1346" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1346" x2="939" y2="1346" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1360" x2="851" y2="1352" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1352" x2="895" y2="1352" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1332" x2="807" y2="1360" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1360" x2="851" y2="1360" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1304" x2="851" y2="1327" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1327" x2="895" y2="1327" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1291" x2="983" y2="1300" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1300" x2="1027" y2="1300" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1291" x2="983" y2="1282" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1282" x2="1027" y2="1282" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1302" x2="939" y2="1291" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1291" x2="983" y2="1291" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1281" x2="895" y2="1302" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1302" x2="939" y2="1302" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1243" x2="1027" y2="1236" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1236" x2="1071" y2="1236" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1251" x2="983" y2="1243" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1243" x2="1027" y2="1243" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1259" x2="939" y2="1251" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1251" x2="983" y2="1251" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1281" x2="895" y2="1259" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1259" x2="939" y2="1259" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1304" x2="851" y2="1281" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1281" x2="895" y2="1281" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1332" x2="807" y2="1304" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1304" x2="851" y2="1304" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1355" x2="763" y2="1332" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1332" x2="807" y2="1332" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1371" x2="719" y2="1355" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1355" x2="763" y2="1355" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1383" x2="675" y2="1371" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1371" x2="719" y2="1371" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1394" x2="631" y2="1383" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1383" x2="675" y2="1383" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1433" x2="587" y2="1394" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1394" x2="631" y2="1394" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1480" x2="763" y2="1473" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1473" x2="807" y2="1473" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1488" x2="719" y2="1480" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1480" x2="763" y2="1480" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1499" x2="675" y2="1488" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1488" x2="719" y2="1488" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1499" x2="675" y2="1510" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1510" x2="719" y2="1510" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1472" x2="631" y2="1499" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1499" x2="675" y2="1499" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1444" x2="675" y2="1455" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1455" x2="719" y2="1455" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1425" x2="763" y2="1419" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1419" x2="807" y2="1419" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1433" x2="719" y2="1425" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1425" x2="763" y2="1425" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1444" x2="675" y2="1433" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1433" x2="719" y2="1433" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1472" x2="631" y2="1444" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1444" x2="675" y2="1444" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1433" x2="587" y2="1472" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1472" x2="631" y2="1472" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1306" x2="543" y2="1433" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1433" x2="587" y2="1433" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1179" x2="587" y2="1218" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1218" x2="631" y2="1218" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1197" x2="675" y2="1190" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1190" x2="719" y2="1190" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1140" x2="631" y2="1197" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1197" x2="675" y2="1197" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1133" x2="939" y2="1126" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1126" x2="983" y2="1126" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1095" x2="895" y2="1133" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1133" x2="939" y2="1133" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1096" x2="983" y2="1108" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1108" x2="1027" y2="1108" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="1062" x2="1115" y2="1071" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="1071" x2="1159" y2="1071" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="1062" x2="1115" y2="1053" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="1053" x2="1159" y2="1053" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="1074" x2="1071" y2="1062" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="1062" x2="1115" y2="1062" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1084" x2="1027" y2="1074" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1074" x2="1071" y2="1074" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1096" x2="983" y2="1084" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1084" x2="1027" y2="1084" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1058" x2="939" y2="1096" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1096" x2="983" y2="1096" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1019" x2="983" y2="1035" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1035" x2="1027" y2="1035" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="978" x2="1202" y2="971" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="971" x2="1246" y2="971" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="986" x2="1159" y2="978" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="978" x2="1202" y2="978" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="966" x2="1115" y2="986" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="986" x2="1159" y2="986" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="934" x2="1202" y2="943" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="943" x2="1246" y2="943" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="934" x2="1202" y2="925" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="925" x2="1246" y2="925" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="946" x2="1159" y2="934" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="934" x2="1202" y2="934" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="966" x2="1115" y2="946" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="946" x2="1159" y2="946" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="987" x2="1071" y2="966" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="966" x2="1115" y2="966" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="987" x2="1071" y2="1007" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="1007" x2="1115" y2="1007" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="1004" x2="1027" y2="987" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="987" x2="1071" y2="987" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1019" x2="983" y2="1004" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="1004" x2="1027" y2="1004" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1058" x2="939" y2="1019" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="1019" x2="983" y2="1019" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1095" x2="895" y2="1058" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="1058" x2="939" y2="1058" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1122" x2="851" y2="1095" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="1095" x2="895" y2="1095" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1140" x2="807" y2="1122" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="1122" x2="851" y2="1122" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1154" x2="763" y2="1140" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="1140" x2="807" y2="1140" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="990" x2="719" y2="1154" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="1154" x2="763" y2="1154" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="905" x2="851" y2="898" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="898" x2="895" y2="898" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="891" x2="807" y2="905" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="905" x2="851" y2="905" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="877" x2="851" y2="870" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="870" x2="895" y2="870" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="891" x2="807" y2="877" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="877" x2="851" y2="877" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="827" x2="763" y2="891" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="891" x2="807" y2="891" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="822" x2="939" y2="816" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="816" x2="983" y2="816" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="830" x2="895" y2="822" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="822" x2="939" y2="822" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="841" x2="851" y2="830" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="830" x2="895" y2="830" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="841" x2="851" y2="852" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="852" x2="895" y2="852" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="763" x2="807" y2="841" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="841" x2="851" y2="841" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="685" x2="851" y2="797" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="797" x2="895" y2="797" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="766" x2="983" y2="779" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="779" x2="1027" y2="779" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="731" x2="1115" y2="724" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="724" x2="1159" y2="724" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="741" x2="1071" y2="731" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="731" x2="1115" y2="731" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="741" x2="1071" y2="752" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="752" x2="1115" y2="752" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="753" x2="1027" y2="741" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="741" x2="1071" y2="741" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="766" x2="983" y2="753" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="753" x2="1027" y2="753" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="725" x2="939" y2="766" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="766" x2="983" y2="766" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="704" x2="1027" y2="697" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="697" x2="1071" y2="697" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="683" x2="983" y2="704" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="704" x2="1027" y2="704" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="662" x2="1027" y2="678" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="678" x2="1071" y2="678" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="649" x2="1159" y2="642" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="642" x2="1202" y2="642" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="628" x2="1115" y2="649" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="649" x2="1159" y2="649" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="607" x2="1159" y2="624" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="624" x2="1202" y2="624" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="572" x2="1246" y2="596" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="596" x2="1290" y2="596" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="569" x2="1334" y2="578" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="578" x2="1378" y2="578" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="569" x2="1334" y2="560" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="560" x2="1378" y2="560" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="548" x2="1290" y2="569" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="569" x2="1334" y2="569" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="527" x2="1334" y2="541" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="541" x2="1378" y2="541" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="512" x2="1378" y2="523" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="523" x2="1422" y2="523" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="493" x2="1466" y2="487" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="487" x2="1510" y2="487" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="501" x2="1422" y2="493" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="493" x2="1466" y2="493" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="512" x2="1378" y2="501" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="501" x2="1422" y2="501" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="527" x2="1334" y2="512" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="512" x2="1378" y2="512" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="548" x2="1290" y2="527" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="527" x2="1334" y2="527" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="572" x2="1246" y2="548" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="548" x2="1290" y2="548" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="591" x2="1202" y2="572" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="572" x2="1246" y2="572" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="607" x2="1159" y2="591" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="591" x2="1202" y2="591" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="628" x2="1115" y2="607" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="607" x2="1159" y2="607" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="646" x2="1071" y2="628" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="628" x2="1115" y2="628" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="662" x2="1027" y2="646" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="646" x2="1071" y2="646" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="683" x2="983" y2="662" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="662" x2="1027" y2="662" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="725" x2="939" y2="683" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="683" x2="983" y2="683" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="572" x2="895" y2="725" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="725" x2="939" y2="725" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="400" x2="1159" y2="413" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="413" x2="1202" y2="413" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="386" x2="1202" y2="395" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="395" x2="1246" y2="395" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="386" x2="1202" y2="377" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="377" x2="1246" y2="377" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="400" x2="1159" y2="386" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="386" x2="1202" y2="386" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="413" x2="1115" y2="400" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="400" x2="1159" y2="400" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="431" x2="1071" y2="413" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="413" x2="1115" y2="413" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="448" x2="1115" y2="441" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="441" x2="1159" y2="441" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="431" x2="1071" y2="448" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="448" x2="1115" y2="448" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="447" x2="1027" y2="431" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="431" x2="1071" y2="431" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="368" x2="983" y2="447" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="447" x2="1027" y2="447" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="302" x2="1246" y2="295" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="295" x2="1290" y2="295" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="312" x2="1202" y2="302" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="302" x2="1246" y2="302" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="312" x2="1202" y2="322" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="322" x2="1246" y2="322" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="324" x2="1159" y2="312" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="312" x2="1202" y2="312" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="334" x2="1115" y2="324" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="324" x2="1159" y2="324" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="347" x2="1071" y2="334" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="334" x2="1115" y2="334" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="347" x2="1071" y2="359" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="359" x2="1115" y2="359" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="288" x2="1027" y2="347" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="347" x2="1071" y2="347" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="247" x2="1202" y2="258" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="258" x2="1246" y2="258" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="228" x2="1290" y2="222" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="222" x2="1334" y2="222" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="236" x2="1246" y2="228" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="228" x2="1290" y2="228" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="247" x2="1202" y2="236" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="236" x2="1246" y2="236" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="260" x2="1159" y2="247" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="247" x2="1202" y2="247" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="270" x2="1115" y2="260" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="260" x2="1159" y2="260" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="230" x2="1071" y2="270" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="270" x2="1115" y2="270" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="183" x2="1246" y2="176" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="176" x2="1290" y2="176" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="146" x2="1202" y2="183" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="183" x2="1246" y2="183" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="91" x2="1334" y2="85" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="85" x2="1378" y2="85" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="73" x2="1290" y2="91" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="91" x2="1334" y2="91" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="27" x2="1466" y2="21" style="stroke:blue; stroke-width:1"/>
+<line x1="1466" y1="21" x2="1510" y2="21" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="35" x2="1422" y2="27" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="27" x2="1466" y2="27" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="44" x2="1378" y2="35" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="35" x2="1422" y2="35" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="55" x2="1334" y2="44" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="44" x2="1378" y2="44" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="55" x2="1334" y2="66" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="66" x2="1378" y2="66" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="73" x2="1290" y2="55" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="55" x2="1334" y2="55" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="110" x2="1246" y2="73" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="73" x2="1290" y2="73" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="119" x2="1422" y2="112" style="stroke:blue; stroke-width:1"/>
+<line x1="1422" y1="112" x2="1466" y2="112" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="127" x2="1378" y2="119" style="stroke:blue; stroke-width:1"/>
+<line x1="1378" y1="119" x2="1422" y2="119" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="135" x2="1334" y2="127" style="stroke:blue; stroke-width:1"/>
+<line x1="1334" y1="127" x2="1378" y2="127" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="146" x2="1290" y2="135" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="135" x2="1334" y2="135" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="146" x2="1290" y2="158" style="stroke:blue; stroke-width:1"/>
+<line x1="1290" y1="158" x2="1334" y2="158" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="110" x2="1246" y2="146" style="stroke:blue; stroke-width:1"/>
+<line x1="1246" y1="146" x2="1290" y2="146" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="146" x2="1202" y2="110" style="stroke:blue; stroke-width:1"/>
+<line x1="1202" y1="110" x2="1246" y2="110" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="173" x2="1159" y2="146" style="stroke:blue; stroke-width:1"/>
+<line x1="1159" y1="146" x2="1202" y2="146" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="190" x2="1115" y2="173" style="stroke:blue; stroke-width:1"/>
+<line x1="1115" y1="173" x2="1159" y2="173" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="230" x2="1071" y2="190" style="stroke:blue; stroke-width:1"/>
+<line x1="1071" y1="190" x2="1115" y2="190" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="288" x2="1027" y2="230" style="stroke:blue; stroke-width:1"/>
+<line x1="1027" y1="230" x2="1071" y2="230" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="368" x2="983" y2="288" style="stroke:blue; stroke-width:1"/>
+<line x1="983" y1="288" x2="1027" y2="288" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="420" x2="939" y2="368" style="stroke:blue; stroke-width:1"/>
+<line x1="939" y1="368" x2="983" y2="368" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="572" x2="895" y2="420" style="stroke:blue; stroke-width:1"/>
+<line x1="895" y1="420" x2="939" y2="420" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="685" x2="851" y2="572" style="stroke:blue; stroke-width:1"/>
+<line x1="851" y1="572" x2="895" y2="572" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="763" x2="807" y2="685" style="stroke:blue; stroke-width:1"/>
+<line x1="807" y1="685" x2="851" y2="685" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="827" x2="763" y2="763" style="stroke:blue; stroke-width:1"/>
+<line x1="763" y1="763" x2="807" y2="763" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="990" x2="719" y2="827" style="stroke:blue; stroke-width:1"/>
+<line x1="719" y1="827" x2="763" y2="827" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="1083" x2="675" y2="990" style="stroke:blue; stroke-width:1"/>
+<line x1="675" y1="990" x2="719" y2="990" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1140" x2="631" y2="1083" style="stroke:blue; stroke-width:1"/>
+<line x1="631" y1="1083" x2="675" y2="1083" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1179" x2="587" y2="1140" style="stroke:blue; stroke-width:1"/>
+<line x1="587" y1="1140" x2="631" y2="1140" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1306" x2="543" y2="1179" style="stroke:blue; stroke-width:1"/>
+<line x1="543" y1="1179" x2="587" y2="1179" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1421" x2="499" y2="1306" style="stroke:blue; stroke-width:1"/>
+<line x1="499" y1="1306" x2="543" y2="1306" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1591" x2="455" y2="1421" style="stroke:blue; stroke-width:1"/>
+<line x1="455" y1="1421" x2="499" y2="1421" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1708" x2="411" y2="1591" style="stroke:blue; stroke-width:1"/>
+<line x1="411" y1="1591" x2="455" y2="1591" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="1782" x2="368" y2="1708" style="stroke:blue; stroke-width:1"/>
+<line x1="368" y1="1708" x2="411" y2="1708" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="1831" x2="324" y2="1782" style="stroke:blue; stroke-width:1"/>
+<line x1="324" y1="1782" x2="368" y2="1782" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="1866" x2="280" y2="1831" style="stroke:blue; stroke-width:1"/>
+<line x1="280" y1="1831" x2="324" y2="1831" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="1894" x2="236" y2="1866" style="stroke:blue; stroke-width:1"/>
+<line x1="236" y1="1866" x2="280" y2="1866" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="1992" x2="192" y2="1894" style="stroke:blue; stroke-width:1"/>
+<line x1="192" y1="1894" x2="236" y2="1894" style="stroke:blue; stroke-width:1"/>
+<line x1="148" y1="2066" x2="148" y2="1992" style="stroke:blue; stroke-width:1"/>
+<line x1="148" y1="1992" x2="192" y2="1992" style="stroke:blue; stroke-width:1"/>
+<line x1="104" y1="2248" x2="104" y2="2066" style="stroke:blue; stroke-width:1"/>
+<line x1="104" y1="2066" x2="148" y2="2066" style="stroke:blue; stroke-width:1"/>
+<line x1="60" y1="2359" x2="60" y2="2248" style="stroke:blue; stroke-width:1"/>
+<line x1="60" y1="2248" x2="104" y2="2248" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="2359" x2="16" y2="2359" style="stroke:blue; stroke-width:1"/>
+<line x1="16" y1="2359" x2="60" y2="2359" style="stroke:blue; stroke-width:1"/>
+<text x="20" y="2350" font-weight = "10" font-family="verdana" fill="black" font-size="12">Root</text>
+<text x="152" y="2475" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_15064Erinaceus_europaeus</text>
+<text x="152" y="2466" font-weight = "10" font-family="verdana" fill="black" font-size="12">Hemiechinus_auritus</text>
+<text x="240" y="2457" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_15105Ornithorhynchus_anatinus</text>
+<text x="284" y="2448" font-weight = "10" font-family="verdana" fill="black" font-size="12">Zagossus_bruijni</text>
+<text x="284" y="2438" font-weight = "10" font-family="verdana" fill="black" font-size="12">Tachygossus_acueatus</text>
+<text x="240" y="2429" font-weight = "10" font-family="verdana" fill="black" font-size="12">Notoryctes_typhops</text>
+<text x="328" y="2420" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_10470Didephis_virginiana</text>
+<text x="328" y="2411" font-weight = "10" font-family="verdana" fill="black" font-size="12">Metachirus_nudicaudatus</text>
+<text x="372" y="2402" font-weight = "10" font-family="verdana" fill="black" font-size="12">Thyamys_eegans</text>
+<text x="372" y="2393" font-weight = "10" font-family="verdana" fill="black" font-size="12">Monodephis_domestica</text>
+<text x="459" y="2384" font-weight = "10" font-family="verdana" fill="black" font-size="12">Thyacinus_cynocephaus</text>
+<text x="459" y="2374" font-weight = "10" font-family="verdana" fill="black" font-size="12">Phascogae_tapoatafa</text>
+<text x="459" y="2365" font-weight = "10" font-family="verdana" fill="black" font-size="12">Myrmecobius_fasciatus</text>
+<text x="503" y="2356" font-weight = "10" font-family="verdana" fill="black" font-size="12">Dasyurus_haucatus</text>
+<text x="547" y="2347" font-weight = "10" font-family="verdana" fill="black" font-size="12">Sminthopsis_dougasi</text>
+<text x="547" y="2338" font-weight = "10" font-family="verdana" fill="black" font-size="12">Sminthopsis_crassicaudata</text>
+<text x="415" y="2329" font-weight = "10" font-family="verdana" fill="black" font-size="12">Phascoarctos_cinereus</text>
+<text x="503" y="2320" font-weight = "10" font-family="verdana" fill="black" font-size="12">Rhynchoestes_raphanurus</text>
+<text x="503" y="2311" font-weight = "10" font-family="verdana" fill="black" font-size="12">Caenoestes_fuiginosus</text>
+<text x="503" y="2301" font-weight = "10" font-family="verdana" fill="black" font-size="12">Tarsipes_rostratus</text>
+<text x="547" y="2292" font-weight = "10" font-family="verdana" fill="black" font-size="12">Petaurus_breviceps</text>
+<text x="635" y="2283" font-weight = "10" font-family="verdana" fill="black" font-size="12">Macrotis_agotis</text>
+<text x="679" y="2274" font-weight = "10" font-family="verdana" fill="black" font-size="12">Echymipera_rufescens_austrais</text>
+<text x="723" y="2265" font-weight = "10" font-family="verdana" fill="black" font-size="12">Peramees_gunnii</text>
+<text x="723" y="2256" font-weight = "10" font-family="verdana" fill="black" font-size="12">Isoodon_macrourus</text>
+<text x="635" y="2247" font-weight = "10" font-family="verdana" fill="black" font-size="12">Dromiciops_giroides</text>
+<text x="679" y="2237" font-weight = "10" font-family="verdana" fill="black" font-size="12">Distoechurus_pennatus</text>
+<text x="767" y="2228" font-weight = "10" font-family="verdana" fill="black" font-size="12">Trichosurus_vupecua</text>
+<text x="767" y="2219" font-weight = "10" font-family="verdana" fill="black" font-size="12">Phaanger_interpositus</text>
+<text x="767" y="2210" font-weight = "10" font-family="verdana" fill="black" font-size="12">Dactyopsia_trivirgata</text>
+<text x="855" y="2201" font-weight = "10" font-family="verdana" fill="black" font-size="12">Vombatus_ursinus</text>
+<text x="855" y="2192" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pseudocheirus_peregrinus</text>
+<text x="855" y="2183" font-weight = "10" font-family="verdana" fill="black" font-size="12">agostrophus_fasciatus</text>
+<text x="899" y="2173" font-weight = "10" font-family="verdana" fill="black" font-size="12">Potorous_tridactyus</text>
+<text x="943" y="2164" font-weight = "10" font-family="verdana" fill="black" font-size="12">agorchestes_hirsutus</text>
+<text x="943" y="2155" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_12156Macropus_robustus</text>
+<text x="240" y="2146" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_13504Gis_gis</text>
+<text x="240" y="2137" font-weight = "10" font-family="verdana" fill="black" font-size="12">Anomaurus_sp._GP-2005</text>
+<text x="284" y="2128" font-weight = "10" font-family="verdana" fill="black" font-size="12">Jacuus_jacuus</text>
+<text x="415" y="2119" font-weight = "10" font-family="verdana" fill="black" font-size="12">Cricetuus_griseus</text>
+<text x="459" y="2109" font-weight = "10" font-family="verdana" fill="black" font-size="12">Tscherskia_triton</text>
+<text x="459" y="2100" font-weight = "10" font-family="verdana" fill="black" font-size="12">Mesocricetus_auratus</text>
+<text x="415" y="2091" font-weight = "10" font-family="verdana" fill="black" font-size="12">Microtus_fortis_caamorum</text>
+<text x="459" y="2082" font-weight = "10" font-family="verdana" fill="black" font-size="12">Microtus_evis</text>
+<text x="503" y="2073" font-weight = "10" font-family="verdana" fill="black" font-size="12">Microtus_kikuchii</text>
+<text x="547" y="2064" font-weight = "10" font-family="verdana" fill="black" font-size="12">Proedromys_iangshanensis</text>
+<text x="591" y="2055" font-weight = "10" font-family="verdana" fill="black" font-size="12">Neodon_irene</text>
+<text x="591" y="2046" font-weight = "10" font-family="verdana" fill="black" font-size="12">Eothenomys_chinensis</text>
+<text x="372" y="2036" font-weight = "10" font-family="verdana" fill="black" font-size="12">Nannospaax_ehrenbergi</text>
+<text x="503" y="2027" font-weight = "10" font-family="verdana" fill="black" font-size="12">eggadina_akedownensis</text>
+<text x="503" y="2018" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pseudomys_chapmani</text>
+<text x="503" y="2009" font-weight = "10" font-family="verdana" fill="black" font-size="12">Rattus_praetor</text>
+<text x="547" y="2000" font-weight = "10" font-family="verdana" fill="black" font-size="12">Rattus_norvegicus</text>
+<text x="591" y="1991" font-weight = "10" font-family="verdana" fill="black" font-size="12">Rattus_exuans</text>
+<text x="591" y="1982" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_23367Rattus_tanezumi</text>
+<text x="459" y="1972" font-weight = "10" font-family="verdana" fill="black" font-size="12">Apodemus_peninsuae</text>
+<text x="503" y="1963" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pasmodium_chabaudi_chabaudi</text>
+<text x="547" y="1954" font-weight = "10" font-family="verdana" fill="black" font-size="12">Mus_terricoor</text>
+<text x="591" y="1945" font-weight = "10" font-family="verdana" fill="black" font-size="12">Mus_muscuus_domesticus</text>
+<text x="591" y="1936" font-weight = "10" font-family="verdana" fill="black" font-size="12">Mus_muscuus_castaneus</text>
+<text x="328" y="1927" font-weight = "10" font-family="verdana" fill="black" font-size="12">Hyomys_suius</text>
+<text x="328" y="1918" font-weight = "10" font-family="verdana" fill="black" font-size="12">Echinosorex_gymnura</text>
+<text x="372" y="1908" font-weight = "10" font-family="verdana" fill="black" font-size="12">Heterocephaus_gaber</text>
+<text x="415" y="1899" font-weight = "10" font-family="verdana" fill="black" font-size="12">Thryonomys_swinderianus</text>
+<text x="415" y="1890" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_15098Cavia_porceus</text>
+<text x="372" y="1881" font-weight = "10" font-family="verdana" fill="black" font-size="12">Macrosceides_proboscideus</text>
+<text x="503" y="1872" font-weight = "10" font-family="verdana" fill="black" font-size="12">Sciurus_vugaris</text>
+<text x="503" y="1863" font-weight = "10" font-family="verdana" fill="black" font-size="12">Castor_canadensis</text>
+<text x="503" y="1854" font-weight = "10" font-family="verdana" fill="black" font-size="12">Ochotona_curzoniae</text>
+<text x="547" y="1845" font-weight = "10" font-family="verdana" fill="black" font-size="12">Ochotona_princeps</text>
+<text x="547" y="1835" font-weight = "10" font-family="verdana" fill="black" font-size="12">Ochotona_coaris</text>
+<text x="459" y="1826" font-weight = "10" font-family="verdana" fill="black" font-size="12">Gaeopterus_variegatus</text>
+<text x="591" y="1817" font-weight = "10" font-family="verdana" fill="black" font-size="12">Saimiri_sciureus</text>
+<text x="591" y="1808" font-weight = "10" font-family="verdana" fill="black" font-size="12">Cebus_abifrons</text>
+<text x="679" y="1799" font-weight = "10" font-family="verdana" fill="black" font-size="12">Macaca_syvanus</text>
+<text x="723" y="1790" font-weight = "10" font-family="verdana" fill="black" font-size="12">Macaca_thibetana</text>
+<text x="767" y="1781" font-weight = "10" font-family="verdana" fill="black" font-size="12">Macaca_muatta</text>
+<text x="767" y="1771" font-weight = "10" font-family="verdana" fill="black" font-size="12">Macaca_fascicuaris</text>
+<text x="679" y="1762" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_14104Papio_hamadryas</text>
+<text x="723" y="1753" font-weight = "10" font-family="verdana" fill="black" font-size="12">Chorocebus_sabaeus</text>
+<text x="767" y="1744" font-weight = "10" font-family="verdana" fill="black" font-size="12">Chorocebus_pygerythrus</text>
+<text x="811" y="1735" font-weight = "10" font-family="verdana" fill="black" font-size="12">Chorocebus_tantaus</text>
+<text x="811" y="1726" font-weight = "10" font-family="verdana" fill="black" font-size="12">Chorocebus_aethiops</text>
+<text x="723" y="1717" font-weight = "10" font-family="verdana" fill="black" font-size="12">Hyobates_pieatus</text>
+<text x="767" y="1707" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_15066Hyobates_ar</text>
+<text x="767" y="1698" font-weight = "10" font-family="verdana" fill="black" font-size="12">Hyobates_agiis</text>
+<text x="723" y="1689" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_10553Pongo_pygmaeus</text>
+<text x="811" y="1680" font-weight = "10" font-family="verdana" fill="black" font-size="12">Homo_sapiens_neanderthaensis</text>
+<text x="811" y="1671" font-weight = "10" font-family="verdana" fill="black" font-size="12">Homo_sapiens</text>
+<text x="811" y="1662" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_10551Pan_paniscus</text>
+<text x="855" y="1653" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_10552Goria_goria</text>
+<text x="899" y="1643" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_10550Pan_trogodytes</text>
+<text x="899" y="1634" font-weight = "10" font-family="verdana" fill="black" font-size="12">Goria_goria_goria</text>
+<text x="679" y="1625" font-weight = "10" font-family="verdana" fill="black" font-size="12">Coobus_guereza</text>
+<text x="723" y="1616" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pygathrix_nemaeus</text>
+<text x="811" y="1607" font-weight = "10" font-family="verdana" fill="black" font-size="12">Trachypithecus_obscurus</text>
+<text x="811" y="1598" font-weight = "10" font-family="verdana" fill="black" font-size="12">Semnopithecus_enteus</text>
+<text x="855" y="1589" font-weight = "10" font-family="verdana" fill="black" font-size="12">Presbytis_meaophos</text>
+<text x="855" y="1580" font-weight = "10" font-family="verdana" fill="black" font-size="12">Nasais_arvatus</text>
+<text x="855" y="1570" font-weight = "10" font-family="verdana" fill="black" font-size="12">Piiocoobus_badius</text>
+<text x="899" y="1561" font-weight = "10" font-family="verdana" fill="black" font-size="12">Rhinopithecus_roxeana</text>
+<text x="899" y="1552" font-weight = "10" font-family="verdana" fill="black" font-size="12">Rhinopithecus_bieti</text>
+<text x="591" y="1543" font-weight = "10" font-family="verdana" fill="black" font-size="12">Bradypus_tridactyus</text>
+<text x="635" y="1534" font-weight = "10" font-family="verdana" fill="black" font-size="12">Tamandua_tetradactya</text>
+<text x="635" y="1525" font-weight = "10" font-family="verdana" fill="black" font-size="12">Chooepus_didactyus</text>
+<text x="767" y="1516" font-weight = "10" font-family="verdana" fill="black" font-size="12">Trichechus_manatus</text>
+<text x="767" y="1506" font-weight = "10" font-family="verdana" fill="black" font-size="12">Dugong_dugon</text>
+<text x="767" y="1497" font-weight = "10" font-family="verdana" fill="black" font-size="12">Mammut_americanum</text>
+<text x="811" y="1488" font-weight = "10" font-family="verdana" fill="black" font-size="12">Eephas_maximus</text>
+<text x="855" y="1479" font-weight = "10" font-family="verdana" fill="black" font-size="12">oxodonta_africana</text>
+<text x="855" y="1470" font-weight = "10" font-family="verdana" fill="black" font-size="12">Mammuthus_primigenius</text>
+<text x="767" y="1461" font-weight = "10" font-family="verdana" fill="black" font-size="12">Procavia_capensis</text>
+<text x="767" y="1452" font-weight = "10" font-family="verdana" fill="black" font-size="12">Dendrohyrax_dorsais</text>
+<text x="767" y="1442" font-weight = "10" font-family="verdana" fill="black" font-size="12">Eephantuus_sp._VB001</text>
+<text x="811" y="1433" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_15563Echinops_tefairi</text>
+<text x="855" y="1424" font-weight = "10" font-family="verdana" fill="black" font-size="12">Eremitapa_granti</text>
+<text x="855" y="1415" font-weight = "10" font-family="verdana" fill="black" font-size="12">Chrysochoris_asiatica</text>
+<text x="679" y="1406" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_12264Dasypus_novemcinctus</text>
+<text x="723" y="1397" font-weight = "10" font-family="verdana" fill="black" font-size="12">Tupaia_beangeri</text>
+<text x="767" y="1388" font-weight = "10" font-family="verdana" fill="black" font-size="12">Daubentonia_madagascariensis</text>
+<text x="811" y="1378" font-weight = "10" font-family="verdana" fill="black" font-size="12">epiemur_hubbardorum</text>
+<text x="899" y="1369" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_15061Orycteropus_afer</text>
+<text x="943" y="1360" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_13726Oryctoagus_cunicuus</text>
+<text x="987" y="1351" font-weight = "10" font-family="verdana" fill="black" font-size="12">epus_europaeus</text>
+<text x="987" y="1342" font-weight = "10" font-family="verdana" fill="black" font-size="12">epus_capensis</text>
+<text x="943" y="1333" font-weight = "10" font-family="verdana" fill="black" font-size="12">Tarsius_syrichta</text>
+<text x="943" y="1324" font-weight = "10" font-family="verdana" fill="black" font-size="12">Tarsius_bancanus</text>
+<text x="987" y="1315" font-weight = "10" font-family="verdana" fill="black" font-size="12">Perodicticus_potto</text>
+<text x="1075" y="1305" font-weight = "10" font-family="verdana" fill="black" font-size="12">oris_tardigradus</text>
+<text x="1075" y="1296" font-weight = "10" font-family="verdana" fill="black" font-size="12">Nycticebus_coucang</text>
+<text x="1075" y="1287" font-weight = "10" font-family="verdana" fill="black" font-size="12">Otoemur_crassicaudatus</text>
+<text x="1075" y="1278" font-weight = "10" font-family="verdana" fill="black" font-size="12">Gaago_senegaensis</text>
+<text x="987" y="1269" font-weight = "10" font-family="verdana" fill="black" font-size="12">Propithecus_coquerei</text>
+<text x="1031" y="1260" font-weight = "10" font-family="verdana" fill="black" font-size="12">Varecia_variegata_variegata</text>
+<text x="1075" y="1251" font-weight = "10" font-family="verdana" fill="black" font-size="12">emur_catta</text>
+<text x="1119" y="1241" font-weight = "10" font-family="verdana" fill="black" font-size="12">Euemur_macaco_macaco</text>
+<text x="1119" y="1232" font-weight = "10" font-family="verdana" fill="black" font-size="12">Euemur_fuvus_mayottensis</text>
+<text x="679" y="1223" font-weight = "10" font-family="verdana" fill="black" font-size="12">Rhinoophus_monoceros</text>
+<text x="679" y="1214" font-weight = "10" font-family="verdana" fill="black" font-size="12">Rhinoophus_formosae</text>
+<text x="723" y="1205" font-weight = "10" font-family="verdana" fill="black" font-size="12">Chainoobus_tubercuatus</text>
+<text x="767" y="1196" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pipistreus_abramus</text>
+<text x="767" y="1187" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pecotus_auritus</text>
+<text x="723" y="1177" font-weight = "10" font-family="verdana" fill="black" font-size="12">Crocidura_russua</text>
+<text x="811" y="1168" font-weight = "10" font-family="verdana" fill="black" font-size="12">Kogia_breviceps</text>
+<text x="855" y="1159" font-weight = "10" font-family="verdana" fill="black" font-size="12">Patanista_minor</text>
+<text x="899" y="1150" font-weight = "10" font-family="verdana" fill="black" font-size="12">Physeter_catodon</text>
+<text x="987" y="1141" font-weight = "10" font-family="verdana" fill="black" font-size="12">Inia_geoffrensis</text>
+<text x="1031" y="1132" font-weight = "10" font-family="verdana" fill="black" font-size="12">ipotes_vexiifer</text>
+<text x="1031" y="1123" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pontoporia_bainviei</text>
+<text x="1075" y="1114" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_17487Phocoena_phocoena</text>
+<text x="1075" y="1104" font-weight = "10" font-family="verdana" fill="black" font-size="12">Monodon_monoceros</text>
+<text x="1075" y="1095" font-weight = "10" font-family="verdana" fill="black" font-size="12">Orcinus_orca</text>
+<text x="1119" y="1086" font-weight = "10" font-family="verdana" fill="black" font-size="12">agenorhynchus_abirostris</text>
+<text x="1206" y="1077" font-weight = "10" font-family="verdana" fill="black" font-size="12">Tursiops_truncatus</text>
+<text x="1206" y="1068" font-weight = "10" font-family="verdana" fill="black" font-size="12">Stenea_attenuata</text>
+<text x="1206" y="1059" font-weight = "10" font-family="verdana" fill="black" font-size="12">Stenea_coerueoaba</text>
+<text x="1206" y="1050" font-weight = "10" font-family="verdana" fill="black" font-size="12">Grampus_griseus</text>
+<text x="1075" y="1040" font-weight = "10" font-family="verdana" fill="black" font-size="12">Hyperoodon_ampuatus</text>
+<text x="1075" y="1031" font-weight = "10" font-family="verdana" fill="black" font-size="12">Berardius_bairdii</text>
+<text x="1075" y="1022" font-weight = "10" font-family="verdana" fill="black" font-size="12">Caperea_marginata</text>
+<text x="1163" y="1013" font-weight = "10" font-family="verdana" fill="black" font-size="12">Eubaaena_japonica</text>
+<text x="1163" y="1004" font-weight = "10" font-family="verdana" fill="black" font-size="12">Baaena_mysticetus</text>
+<text x="1206" y="995" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_10457Baaenoptera_muscuus</text>
+<text x="1250" y="986" font-weight = "10" font-family="verdana" fill="black" font-size="12">Baaenoptera_omurai</text>
+<text x="1294" y="976" font-weight = "10" font-family="verdana" fill="black" font-size="12">Baaenoptera_edeni</text>
+<text x="1294" y="967" font-weight = "10" font-family="verdana" fill="black" font-size="12">Baaenoptera_boreais</text>
+<text x="1206" y="958" font-weight = "10" font-family="verdana" fill="black" font-size="12">Baaenoptera_acutorostrata</text>
+<text x="1294" y="949" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_10014Baaenoptera_physaus</text>
+<text x="1294" y="940" font-weight = "10" font-family="verdana" fill="black" font-size="12">Eschrichtius_robustus</text>
+<text x="1294" y="931" font-weight = "10" font-family="verdana" fill="black" font-size="12">Megaptera_novaeangiae</text>
+<text x="1294" y="922" font-weight = "10" font-family="verdana" fill="black" font-size="12">Baaenoptera_bonaerensis</text>
+<text x="899" y="912" font-weight = "10" font-family="verdana" fill="black" font-size="12">Rousettus_aegyptiacus</text>
+<text x="943" y="903" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pteropus_scapuatus</text>
+<text x="943" y="894" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pteropus_dasymaus</text>
+<text x="899" y="885" font-weight = "10" font-family="verdana" fill="black" font-size="12">Myotis_formosus</text>
+<text x="943" y="876" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_15043Artibeus_jamaicensis</text>
+<text x="943" y="867" font-weight = "10" font-family="verdana" fill="black" font-size="12">Mystacina_tubercuata</text>
+<text x="943" y="858" font-weight = "10" font-family="verdana" fill="black" font-size="12">Sorex_unguicuatus</text>
+<text x="943" y="849" font-weight = "10" font-family="verdana" fill="black" font-size="12">Episoricuus_fumidus</text>
+<text x="943" y="839" font-weight = "10" font-family="verdana" fill="black" font-size="12">Gaemys_pyrenaicus</text>
+<text x="987" y="830" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_15261Tapa_europaea</text>
+<text x="1031" y="821" font-weight = "10" font-family="verdana" fill="black" font-size="12">Urotrichus_tapoides</text>
+<text x="1031" y="812" font-weight = "10" font-family="verdana" fill="black" font-size="12">Mogera_wogura</text>
+<text x="943" y="803" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_16493Manis_tetradactya</text>
+<text x="943" y="794" font-weight = "10" font-family="verdana" fill="black" font-size="12">Manis_pentadactya</text>
+<text x="1075" y="785" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_12144Equus_asinus</text>
+<text x="1075" y="775" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_10543Equus_cabaus</text>
+<text x="1075" y="766" font-weight = "10" font-family="verdana" fill="black" font-size="12">Diceros_bicornis</text>
+<text x="1163" y="757" font-weight = "10" font-family="verdana" fill="black" font-size="12">Dicerorhinus_sumatrensis</text>
+<text x="1163" y="748" font-weight = "10" font-family="verdana" fill="black" font-size="12">Coeodonta_antiquitatis</text>
+<text x="1163" y="739" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_12189Ceratotherium_simum</text>
+<text x="1206" y="730" font-weight = "10" font-family="verdana" fill="black" font-size="12">Rhinoceros_sondaicus</text>
+<text x="1206" y="721" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_11653Rhinoceros_unicornis</text>
+<text x="1075" y="711" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pecari_tajacu</text>
+<text x="1119" y="702" font-weight = "10" font-family="verdana" fill="black" font-size="12">Phacochoerus_africanus</text>
+<text x="1119" y="693" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_15069Sus_scrofa</text>
+<text x="1119" y="684" font-weight = "10" font-family="verdana" fill="black" font-size="12">ama_gama</text>
+<text x="1119" y="675" font-weight = "10" font-family="verdana" fill="black" font-size="12">Cameus_dromedarius</text>
+<text x="1119" y="666" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_15103Hippopotamus_amphibius</text>
+<text x="1206" y="657" font-weight = "10" font-family="verdana" fill="black" font-size="12">Cervus_nippon_yakushimae</text>
+<text x="1250" y="647" font-weight = "10" font-family="verdana" fill="black" font-size="12">Cervus_nippon_yesoensis</text>
+<text x="1250" y="638" font-weight = "10" font-family="verdana" fill="black" font-size="12">Cervus_nippon_taiouanus</text>
+<text x="1250" y="629" font-weight = "10" font-family="verdana" fill="black" font-size="12">Bubaus_bubais</text>
+<text x="1250" y="620" font-weight = "10" font-family="verdana" fill="black" font-size="12">Bison_bison</text>
+<text x="1250" y="611" font-weight = "10" font-family="verdana" fill="black" font-size="12">Giraffa_cameopardais_angoensis</text>
+<text x="1338" y="602" font-weight = "10" font-family="verdana" fill="black" font-size="12">Naemorhedus_caudatus</text>
+<text x="1338" y="593" font-weight = "10" font-family="verdana" fill="black" font-size="12">Capricornis_crispus</text>
+<text x="1426" y="584" font-weight = "10" font-family="verdana" fill="black" font-size="12">Rangifer_tarandus</text>
+<text x="1426" y="574" font-weight = "10" font-family="verdana" fill="black" font-size="12">Muntiacus_crinifrons</text>
+<text x="1426" y="565" font-weight = "10" font-family="verdana" fill="black" font-size="12">Hydropotes_inermis</text>
+<text x="1426" y="556" font-weight = "10" font-family="verdana" fill="black" font-size="12">Eaphodus_cephaophus</text>
+<text x="1426" y="547" font-weight = "10" font-family="verdana" fill="black" font-size="12">Moschus_moschiferus</text>
+<text x="1426" y="538" font-weight = "10" font-family="verdana" fill="black" font-size="12">Moschus_berezovskii</text>
+<text x="1470" y="529" font-weight = "10" font-family="verdana" fill="black" font-size="12">Procapra_przewaskii</text>
+<text x="1470" y="520" font-weight = "10" font-family="verdana" fill="black" font-size="12">Antiope_cervicapra</text>
+<text x="1470" y="510" font-weight = "10" font-family="verdana" fill="black" font-size="12">Budorcas_taxicoor</text>
+<text x="1514" y="501" font-weight = "10" font-family="verdana" fill="black" font-size="12">Panthoops_hodgsonii</text>
+<text x="1558" y="492" font-weight = "10" font-family="verdana" fill="black" font-size="12">Capra_hircus</text>
+<text x="1558" y="483" font-weight = "10" font-family="verdana" fill="black" font-size="12">Ammotragus_ervia</text>
+<text x="987" y="474" font-weight = "10" font-family="verdana" fill="black" font-size="12">Herpestes_javanicus</text>
+<text x="1075" y="465" font-weight = "10" font-family="verdana" fill="black" font-size="12">Procyon_otor</text>
+<text x="1163" y="456" font-weight = "10" font-family="verdana" fill="black" font-size="12">Nyctereutes_procyonoides</text>
+<text x="1206" y="446" font-weight = "10" font-family="verdana" fill="black" font-size="12">Vupes_vupes</text>
+<text x="1206" y="437" font-weight = "10" font-family="verdana" fill="black" font-size="12">Canis_upus</text>
+<text x="1163" y="428" font-weight = "10" font-family="verdana" fill="black" font-size="12">utra_utra</text>
+<text x="1250" y="419" font-weight = "10" font-family="verdana" fill="black" font-size="12">Mees_mees</text>
+<text x="1250" y="410" font-weight = "10" font-family="verdana" fill="black" font-size="12">Mees_anakuma</text>
+<text x="1294" y="401" font-weight = "10" font-family="verdana" fill="black" font-size="12">Martes_zibeina</text>
+<text x="1294" y="392" font-weight = "10" font-family="verdana" fill="black" font-size="12">Martes_meampus</text>
+<text x="1294" y="383" font-weight = "10" font-family="verdana" fill="black" font-size="12">Martes_favigua</text>
+<text x="1294" y="373" font-weight = "10" font-family="verdana" fill="black" font-size="12">Guo_guo</text>
+<text x="1163" y="364" font-weight = "10" font-family="verdana" fill="black" font-size="12">Tremarctos_ornatus</text>
+<text x="1163" y="355" font-weight = "10" font-family="verdana" fill="black" font-size="12">Arctodus_simus</text>
+<text x="1163" y="346" font-weight = "10" font-family="verdana" fill="black" font-size="12">Meursus_ursinus</text>
+<text x="1206" y="337" font-weight = "10" font-family="verdana" fill="black" font-size="12">Ursus_speaeus</text>
+<text x="1294" y="328" font-weight = "10" font-family="verdana" fill="black" font-size="12">Ursus_maritimus</text>
+<text x="1294" y="319" font-weight = "10" font-family="verdana" fill="black" font-size="12">Hearctos_maayanus</text>
+<text x="1294" y="309" font-weight = "10" font-family="verdana" fill="black" font-size="12">Ursus_arctos</text>
+<text x="1338" y="300" font-weight = "10" font-family="verdana" fill="black" font-size="12">Ursus_thibetanus_thibetanus</text>
+<text x="1338" y="291" font-weight = "10" font-family="verdana" fill="black" font-size="12">Ursus_thibetanus</text>
+<text x="1163" y="282" font-weight = "10" font-family="verdana" fill="black" font-size="12">Odobenus_rosmarus_rosmarus</text>
+<text x="1206" y="273" font-weight = "10" font-family="verdana" fill="black" font-size="12">Neophoca_cinerea</text>
+<text x="1294" y="264" font-weight = "10" font-family="verdana" fill="black" font-size="12">Zaophus_caifornianus</text>
+<text x="1294" y="255" font-weight = "10" font-family="verdana" fill="black" font-size="12">Caorhinus_ursinus</text>
+<text x="1294" y="245" font-weight = "10" font-family="verdana" fill="black" font-size="12">Arctocephaus_pusius</text>
+<text x="1338" y="236" font-weight = "10" font-family="verdana" fill="black" font-size="12">Eumetopias_jubatus</text>
+<text x="1382" y="227" font-weight = "10" font-family="verdana" fill="black" font-size="12">Phocarctos_hookeri</text>
+<text x="1382" y="218" font-weight = "10" font-family="verdana" fill="black" font-size="12">Arctocephaus_townsendi</text>
+<text x="1163" y="209" font-weight = "10" font-family="verdana" fill="black" font-size="12">Aiuropoda_meanoeuca</text>
+<text x="1206" y="200" font-weight = "10" font-family="verdana" fill="black" font-size="12">Spiogae_putorius</text>
+<text x="1294" y="191" font-weight = "10" font-family="verdana" fill="black" font-size="12">Enhydra_utris</text>
+<text x="1338" y="181" font-weight = "10" font-family="verdana" fill="black" font-size="12">Aiurus_fugens_styani</text>
+<text x="1338" y="172" font-weight = "10" font-family="verdana" fill="black" font-size="12">Aiurus_fugens</text>
+<text x="1382" y="163" font-weight = "10" font-family="verdana" fill="black" font-size="12">Panthera_tigris</text>
+<text x="1382" y="154" font-weight = "10" font-family="verdana" fill="black" font-size="12">Acinonyx_jubatus</text>
+<text x="1382" y="145" font-weight = "10" font-family="verdana" fill="black" font-size="12">Panthera_pardus</text>
+<text x="1426" y="136" font-weight = "10" font-family="verdana" fill="black" font-size="12">ynx_rufus</text>
+<text x="1470" y="127" font-weight = "10" font-family="verdana" fill="black" font-size="12">Neofeis_nebuosa</text>
+<text x="1514" y="118" font-weight = "10" font-family="verdana" fill="black" font-size="12">Uncia_uncia</text>
+<text x="1514" y="108" font-weight = "10" font-family="verdana" fill="black" font-size="12">ND4_10685Feis_catus</text>
+<text x="1382" y="99" font-weight = "10" font-family="verdana" fill="black" font-size="12">Monachus_schauinsandi</text>
+<text x="1426" y="90" font-weight = "10" font-family="verdana" fill="black" font-size="12">eptonychotes_weddeii</text>
+<text x="1426" y="81" font-weight = "10" font-family="verdana" fill="black" font-size="12">Mirounga_eonina</text>
+<text x="1426" y="72" font-weight = "10" font-family="verdana" fill="black" font-size="12">Phoca_groenandica</text>
+<text x="1426" y="63" font-weight = "10" font-family="verdana" fill="black" font-size="12">Cystophora_cristata</text>
+<text x="1426" y="54" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pusa_caspica</text>
+<text x="1470" y="44" font-weight = "10" font-family="verdana" fill="black" font-size="12">Erignathus_barbatus</text>
+<text x="1514" y="35" font-weight = "10" font-family="verdana" fill="black" font-size="12">Pusa_hispida</text>
+<text x="1558" y="26" font-weight = "10" font-family="verdana" fill="black" font-size="12">Phoca_fasciata</text>
+<text x="1558" y="17" font-weight = "10" font-family="verdana" fill="black" font-size="12">Phoca_argha</text>
+</g></svg>
