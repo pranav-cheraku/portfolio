@@ -131,6 +131,45 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "single-user-relational-database",
+    number: "16",
+    title: "Single User Relational Database",
+    subtitle: "Database Systems · In-Memory RDBMS from Scratch",
+    oneliner:
+      "SURLY is a fully functional RDBMS built from scratch in Java, featuring a custom query language, a lexical analyzer, and support for full DDL/DML operations.",
+    description:
+      "SURLY is a fully functional, single-user relational database management system built entirely from scratch. Designed as a lightweight, in-memory database, it features its own custom query language capable of parsing and executing both Data Definition Language (DDL) and Data Manipulation Language (DML) commands. The system reads plain-text command files through a custom-built lexical analyzer, interprets the statements, and executes complex database operations without relying on any external libraries, frameworks, or persistent disk storage.",
+    bullets: [
+      "Built a lexical analyzer from scratch to parse a custom SQL-like query language, routing commands through dedicated parser classes to execute in-memory operations.",
+      "Developed robust logic for creating, destroying, inserting, and deleting relations with strict schema validation, type checking, and length constraints.",
+      "Implemented complex relational algebra transformations (SELECT, PROJECT, JOIN) alongside a condition evaluation engine that handles AND/OR logic precedence and six relational operators.",
+      "Architected the entire database system including data storage, a metadata registry (CATALOG), and a dynamically formatted tabular print system using exclusively the Java Standard Library with zero external dependencies.",
+    ],
+    tags: ["Java", "Relational Algebra", "Lexical Analysis", "LinkedList", "HashSet"],
+    accent: T.accent2,
+    github: null,
+    live: null,
+    screenshotGridCount: 4,
+    screenshots: [
+      {
+        src: "/projects/SingleUserRelationalDatabase/surly-schema-creation.png",
+        caption: "Executing the SURLY interpreter from the command line. The system reads a plain-text command file, creates relation schemas (STUDENT, COURSE, ENROLLMENT), loads tuples via INSERT commands, and displays the STUDENT relation in a dynamically formatted table.",
+      },
+      {
+        src: "/projects/SingleUserRelationalDatabase/surly-select-queries.png",
+        caption: "Demonstrating the SELECT relational algebra operation with WHERE clause filtering. CS_STUDENTS filters by major, GOOD_STUDENTS uses a numeric comparison (GPA > 3.5), and SOPHOMORE_CS combines two conditions with AND logic — all producing temporary relations.",
+      },
+      {
+        src: "/projects/SingleUserRelationalDatabase/surly-join-results.png",
+        caption: "The JOIN operation in action. STUDENT_COURSES pairs each student with their enrollments using a nested-loop theta join on matching IDs. FULL_ENROLLMENT chains a second join to bring in course titles and credits, demonstrating multi-table query composition.",
+      },
+      {
+        src: "/projects/SingleUserRelationalDatabase/surly-delete.png",
+        caption: "Conditional tuple deletion using DELETE WHERE with compound conditions. The first command removes all enrollments with a grade of C, and the second targets a specific student-course pair using AND. Each operation reports the number of tuples removed and prints the updated relation.",
+      },
+    ],
+  },
+  {
     slug: "jdbc-course-registration",
     number: "15",
     title: "JDBC-Based Course Registration System",
