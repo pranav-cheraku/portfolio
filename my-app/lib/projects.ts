@@ -131,6 +131,44 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "world-clock-app",
+    number: "14",
+    title: "World Clock App",
+    subtitle: "Mobile Development · Dynamic Time & Location Dashboard",
+    oneliner:
+      "A dynamic mobile clock app that delivers real-time, IP-based location data, automatic day/night theming, expandable temporal details, and refreshable programming quotes.",
+    description:
+      "A dynamic mobile clock application that provides users with real-time, location-aware data based on their IP address. The app features a highly responsive, time-sensitive interface that automatically transitions between day and night themes, complete with personalized greetings, custom SVG icons, and shifting backgrounds. Beyond standard timekeeping, the app serves as a useful dashboard by offering an expandable panel with in-depth temporal details like timezones and week numbers, and displaying refreshable programming quotes.",
+    bullets: [
+      "Engineered a visually reactive interface that conditionally renders themes, custom inline SVGs, and dynamic greetings based on a 12-hour day/night cycle, leveraging React Hooks for smooth UI transitions.",
+      "Orchestrated asynchronous data fetching from three distinct external APIs to synchronize location, exact time, and programming quotes, while managing platform-specific Expo configurations for both iOS and Android.",
+      "Designed a comprehensive unit testing architecture using Jest and React Testing Library to ensure full coverage across all components and custom hooks.",
+    ],
+    tags: ["JavaScript", "React Native", "Expo", "Axios", "Jest", "React Testing Library"],
+    accent: T.accent2,
+    github: null,
+    live: null,
+    screenshotGridCount: 4,
+    screenshots: [
+      {
+        src: "/projects/worldClockApp/captured-1.png",
+        caption: "Day theme — collapsed view showing the afternoon greeting, current time, location in Bellingham WA, and a refreshable programming quote at the top.",
+      },
+      {
+        src: "/projects/worldClockApp/captured-2.png",
+        caption: "Day theme — expanded panel revealing in-depth temporal details including the current timezone, day of the year, day of the week, and week number.",
+      },
+      {
+        src: "/projects/worldClockApp/captured-3.png",
+        caption: "Night theme — collapsed view showing the evening greeting with a starry sky background, automatically applied based on the 12-hour day/night cycle.",
+      },
+      {
+        src: "/projects/worldClockApp/captured-4.png",
+        caption: "Night theme — expanded panel showing the same temporal details against the night background, demonstrating the theme transition across the full interface.",
+      },
+    ],
+  },
+  {
     slug: "interactive-comments-app",
     number: "13",
     title: "Interactive Comments App",
