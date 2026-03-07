@@ -240,7 +240,7 @@ export default async function ProjectDetailPage({
                   {/* Full-width screenshots */}
                   {fullWidth.map((s, i) => (
                     <div key={i} style={{ marginTop: 32 }}>
-                      <ScreenshotImage src={s.src} alt={s.caption} caption={s.caption} lightBg={s.src.endsWith(".svg")} />
+                      <ScreenshotImage src={s.src} alt={s.caption} caption={s.caption} lightBg={s.src.endsWith(".svg")} maxWidth={s.maxWidth} />
                     </div>
                   ))}
                 </>

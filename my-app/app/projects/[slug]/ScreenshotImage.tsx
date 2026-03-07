@@ -8,13 +8,14 @@ interface ScreenshotImageProps {
   alt: string;
   caption: string;
   lightBg?: boolean;
+  maxWidth?: number | string;
 }
 
-export default function ScreenshotImage({ src, alt, caption, lightBg }: ScreenshotImageProps) {
+export default function ScreenshotImage({ src, alt, caption, lightBg, maxWidth }: ScreenshotImageProps) {
   const [hovered, setHovered] = useState(false);
 
   return (
-    <div>
+    <div style={{ maxWidth, margin: maxWidth ? "0 auto" : undefined }}>
       <a href={src} target="_blank" rel="noopener noreferrer" style={{ display: "block" }}>
         <img
           src={src}

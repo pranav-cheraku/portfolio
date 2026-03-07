@@ -3,6 +3,7 @@ import { T } from "@/lib/theme";
 export interface Screenshot {
   src: string;
   caption: string;
+  maxWidth?: number | string;
 }
 
 export interface Project {
@@ -99,6 +100,63 @@ export const PROJECTS: Project[] = [
       {
         src: "/projects/Lattice-BasedSpeechRecognitionSystem/lattice-graph.png",
         caption: "Graphviz visualization of a 137-node speech recognition lattice. Each path from node 0 (left) to node 136 (right) represents a possible transcription hypothesis. The graph shows how the recognizer considers many competing words at each time step — for example, 'we', 'we_did', 'we_didn't', and 'he_didn't' all branch from similar starting points before converging through 'talk' toward the final silence nodes.",
+      },
+    ],
+  },
+  {
+    slug: "calculator-app",
+    number: "12",
+    title: "Calculator App",
+    subtitle: "Mobile Development · iOS-Style React Native Calculator",
+    oneliner:
+      "A fully functional iOS-style calculator built in React Native, featuring a pixel-accurate dark theme, robust edge case handling, and cross-platform support verified by 27 unit tests.",
+    description:
+      "This mobile application is a fully functional calculator that replicates the classic iOS calculator interface. Developed for a Mobile Application Development course, the app handles standard arithmetic, decimals, percentages, and positive/negative toggling. It features a dark-themed, highly accurate visual design and robust error handling to manage edge cases like division by zero and consecutive operator inputs.",
+    bullets: [
+      "Implemented a reliable calculation engine with robust safeguards against edge cases like division by zero, leading zeros, and redundant operator inputs.",
+      "Matched a strict visual design specification to recreate the familiar dark theme, circular buttons, and color scheme of a classic smartphone calculator.",
+      "Leveraged a single React Native codebase to efficiently target both iOS and Android platforms, ensuring accuracy by successfully passing 27 rigorous unit tests.",
+    ],
+    tags: ["JavaScript", "React Native", "Expo", "Jest", "React Native Testing Library"],
+    accent: T.accent2,
+    github: null,
+    live: null,
+    screenshotGridCount: 0,
+    screenshots: [
+      {
+        src: "/projects/CalculatorApp/captured-image.png",
+        caption: "The calculator UI running on iOS — demonstrating the dark theme, circular button layout, and color-coded operator keys that closely replicate the native iOS calculator experience.",
+        maxWidth: 360,
+      },
+    ],
+  },
+  {
+    slug: "interactive-comments-app",
+    number: "13",
+    title: "Interactive Comments App",
+    subtitle: "Mobile Development · Threaded Social Comments",
+    oneliner:
+      "A cross-platform React Native app featuring a fully interactive threaded comments section with nested replies, upvoting, and CRUD operations.",
+    description:
+      "A cross-platform mobile application featuring an interactive, threaded comments section. Built to mimic a standard social discussion interface, the app allows users to view nested comment threads, compose new replies, cast upvotes or downvotes, and manage their own posts. It handles data dynamically through a mock REST API, simulating real-world backend interactions.",
+    bullets: [
+      "Developed a fully functional comment system featuring visually indented nested replies, custom SVG icons, and responsive layouts optimized for modern mobile screens.",
+      "Implemented comprehensive CRUD functionality with identity verification, utilizing Axios and JSON Server to securely manage user posts and simulate real-world backend interactions.",
+      "Ensured high code quality by engineering a comprehensive automated testing suite with Jest and React Native Testing Library to verify core user interactions and API mocking.",
+    ],
+    tags: ["JavaScript", "React Native", "Expo", "Axios", "JSON Server", "Jest", "React Native Testing Library"],
+    accent: T.accent3,
+    github: null,
+    live: null,
+    screenshotGridCount: 2,
+    screenshots: [
+      {
+        src: "/projects/InteractiveCommentsApp/design.png",
+        caption: "The main comments feed showing nested reply threads, upvote/downvote controls, timestamps, and the compose bar — with the current user's post marked and editable.",
+      },
+      {
+        src: "/projects/InteractiveCommentsApp/modal.png",
+        caption: "The delete confirmation modal triggered when a user attempts to remove their own comment, with cancel and confirm actions overlaid on the dimmed thread.",
       },
     ],
   },
