@@ -103,6 +103,26 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "toyos",
+    number: "09",
+    title: "ToyOS",
+    subtitle: "Operating Systems · RISC-V Kernel Engineering",
+    oneliner:
+      "A teaching OS for the 64-bit RISC-V architecture where I built the core kernel internals like process lifecycle management, virtual memory, system calls, and synchronization primitives.",
+    description:
+      "ToyOS is a teaching operating system for the 64-bit RISC-V architecture, developed as part of an Operating Systems course. While the user-level programs, library code, and hardware abstraction layers were provided as a foundation, my work focused exclusively on engineering the core kernel internals from scratch. Over the quarter, I implemented the foundational subsystems, including strict resource management, virtual memory validation, and full process lifecycles, necessary to bring the OS from a kernel-only state to safely executing user-level shell programs and games.",
+    bullets: [
+      "Implemented complete process lifecycle management, handling process creation (Clone), termination (Exit), and parent-child synchronization (Wait/Join), which included deep-copying three-level page tables and user CPU states.",
+      "Built secure user-to-kernel mode switching, hardware trap handling for dynamic stack growth via page faults, and system call execution to safely load and run ELF binaries.",
+      "Engineered robust synchronization primitives, creating custom Mutex and Condition variables with fair FIFO waiting queues and direct ownership transfer to safely manage concurrency.",
+      "Managed all kernel objects using strictly statically allocated arrays, bitmaps, and custom linked lists to completely eliminate dynamic memory allocation within the kernel.",
+    ],
+    tags: ["C++", "RISC-V Assembly", "C", "QEMU", "GDB", "Sv39 Virtual Memory", "RISC-V (RV64)"],
+    accent: T.accent3,
+    github: null,
+    live: null,
+  },
+  {
     slug: "fake-image-detection",
     number: "08",
     title: "Fake Image Detection",
