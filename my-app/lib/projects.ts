@@ -103,6 +103,41 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "network-chat-application",
+    number: "11",
+    title: "Network Chat Application",
+    subtitle: "Systems Programming · TCP Client-Server Messaging",
+    oneliner:
+      "A TCP-based client-server chat application in C, built with a custom binary protocol and I/O multiplexing via select() to handle concurrent users without threads or forking.",
+    description:
+      "A TCP-based client-server chat application that enables real-time public and private messaging. Built entirely in C, the system relies on a custom binary protocol and utilizes I/O multiplexing to efficiently handle concurrent users and network communication without the overhead of multithreading or forking.",
+    bullets: [
+      "Designed and implemented a lightweight custom binary protocol using 16-bit headers for control messages and 32-bit headers for chat messages.",
+      "Leveraged the select() system call for robust I/O multiplexing on both the client and server sides to monitor multiple sockets and standard input simultaneously.",
+      "Implemented advanced data handling features, including message chunking for payloads over 2000 bytes, partial message buffering, and graceful disconnect management.",
+      "Built a configurable GNU Make build system and utilized unit testing, GDB, and Valgrind to ensure memory safety and accurate header parsing.",
+    ],
+    tags: ["C", "POSIX Sockets", "TCP", "I/O Multiplexing", "GNU Make", "GCC", "GDB", "Valgrind"],
+    accent: T.accent3,
+    github: null,
+    live: null,
+    screenshotGridCount: 2,
+    screenshots: [
+      {
+        src: "/projects/NetworkChatApplication/chat-full-session.png",
+        caption: "Full chat session from Alice's perspective — showing username negotiation, public messaging, private messages with Bob, and user join/leave notifications as Charlie and Bob disconnect.",
+      },
+      {
+        src: "/projects/NetworkChatApplication/chat-private-messaging.png",
+        caption: "Bob's view of the chat session — receiving public messages from all users, exchanging private messages with Alice, and handling an error when attempting to message a nonexistent user.",
+      },
+      {
+        src: "/projects/NetworkChatApplication/chat-public-and-private.png",
+        caption: "Charlie's view demonstrating message visibility — public messages from all users are visible, while private messages between Alice and Bob are correctly excluded from Charlie's terminal.",
+      },
+    ],
+  },
+  {
     slug: "tcp-word-game",
     number: "10",
     title: "TCP-Based Two Player Word Game",
