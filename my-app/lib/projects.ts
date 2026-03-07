@@ -131,6 +131,45 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "jdbc-course-registration",
+    number: "15",
+    title: "JDBC-Based Course Registration System",
+    subtitle: "Database Systems · Java Student Registration CLI",
+    oneliner:
+      "A Java application that connects to a MySQL database via JDBC, enabling students to authenticate, view transcripts, audit degree requirements, and enroll or drop courses.",
+    description:
+      "This application connects to a MySQL database via JDBC and allows students to log in with their student ID, view their academic transcript, check remaining degree requirements, enroll in course sections with prerequisite validation, and drop courses. The system enforces data integrity by verifying student identity, checking for duplicate enrollments, and validating prerequisites before allowing registration. Database credentials are passed as command-line arguments for portability, and all user-facing queries use prepared statements to prevent SQL injection.",
+    bullets: [
+      "Implemented a full registration workflow handling authentication, enrollment, transcript retrieval, and degree auditing against a relational database with multiple joined tables.",
+      "Built prerequisite validation logic that queries the prereq table and cross-references the student's completed coursework, supporting courses with multiple prerequisites.",
+      "Used prepared statements exclusively for all user-input queries, preventing SQL injection vulnerabilities.",
+      "Implemented comprehensive error handling so the program gracefully recovers from invalid input, missing records, and database errors without crashing.",
+    ],
+    tags: ["Java", "MySQL", "JDBC", "MySQL Connector/J", "SQL"],
+    accent: T.accent3,
+    github: null,
+    live: null,
+    screenshotGridCount: 4,
+    screenshots: [
+      {
+        src: "/projects/JDBC-BasedCourseRegistrationSystem/1-login-and-transcript.png",
+        caption: "Student authentication with ID validation, followed by a chronologically sorted academic transcript displaying course details, grades, and credits retrieved via a single JDBC prepared statement query.",
+      },
+      {
+        src: "/projects/JDBC-BasedCourseRegistrationSystem/2-degree-requirements.png",
+        caption: "Degree requirements check that compares completed coursework against all courses in the student's department, identifying CS-319 Image Processing as the only remaining requirement.",
+      },
+      {
+        src: "/projects/JDBC-BasedCourseRegistrationSystem/3-add-course-prereq-check.png",
+        caption: "Course enrollment flow demonstrating prerequisite validation — the system queries the prereq table and blocks enrollment in BIO-301 because the student hasn't completed the required prerequisite courses.",
+      },
+      {
+        src: "/projects/JDBC-BasedCourseRegistrationSystem/4-add-remove-and-exit.png",
+        caption: "Successful course enrollment into CS-101 Fall 2009, followed by the remove course feature displaying all enrolled sections and allowing the student to drop a selected course via a DELETE prepared statement.",
+      },
+    ],
+  },
+  {
     slug: "world-clock-app",
     number: "14",
     title: "World Clock App",
