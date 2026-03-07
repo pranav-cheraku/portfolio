@@ -103,6 +103,37 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "tcp-word-game",
+    number: "10",
+    title: "TCP-Based Two Player Word Game",
+    subtitle: "Systems Programming · Networked Client-Server Architecture",
+    oneliner:
+      "A concurrent, turn-based two-player word guessing game in C using a TCP client-server architecture, a custom binary protocol, and a Trie for real-time Scrabble dictionary validation.",
+    description:
+      "A highly concurrent, turn-based, two-player word guessing game built entirely in C. Utilizing a robust client-server architecture over TCP, the system pairs players into real-time, best-of-five matches where they compete to form valid Scrabble words from a randomized letter board. The project features strict server-side validation, time-limit enforcement, and communicates via a highly specified, custom binary protocol to ensure cross-compatibility between any compliant client and server.",
+    bullets: [
+      "Designed a robust TCP server that leverages POSIX process forking (fork()) to manage and host multiple independent matches simultaneously without blocking.",
+      "Implemented a highly efficient Trie data structure from scratch to provide lightning-fast word validation against the massive TWL06 competitive Scrabble dictionary.",
+      "Exchanged raw data using uint8_t values and character arrays over TCP streams, ensuring strict adherence to a custom protocol specification for flawless client-server interoperability.",
+      "Managed game state and enforced strict player turn time limits server-side using socket-level timeout configurations.",
+    ],
+    tags: ["C", "POSIX Sockets", "TCP", "GNU Make", "GCC", "GDB", "Trie"],
+    accent: T.accent2,
+    github: null,
+    live: null,
+    screenshotGridCount: 2,
+    screenshots: [
+      {
+        src: "/projects/TCP-BasedTwoPlayerWordGame/player1-client-output.png",
+        caption: "Player 1's client view — shows connection setup, board generation, word validation, turn-based gameplay across multiple rounds, and score tracking between players.",
+      },
+      {
+        src: "/projects/TCP-BasedTwoPlayerWordGame/player2-client-output.png",
+        caption: "Player 2's client view — demonstrates synchronized game state, opponent word display, and round progression as both players communicate through the server over TCP.",
+      },
+    ],
+  },
+  {
     slug: "toyos",
     number: "09",
     title: "ToyOS",
@@ -117,7 +148,7 @@ export const PROJECTS: Project[] = [
       "Engineered robust synchronization primitives, creating custom Mutex and Condition variables with fair FIFO waiting queues and direct ownership transfer to safely manage concurrency.",
       "Managed all kernel objects using strictly statically allocated arrays, bitmaps, and custom linked lists to completely eliminate dynamic memory allocation within the kernel.",
     ],
-    tags: ["C++", "RISC-V Assembly", "C", "QEMU", "GDB", "Sv39 Virtual Memory", "RISC-V (RV64)"],
+    tags: ["C++", "RISC-V Assembly", "C", "QEMU", "GDB", "Sv39 Virtual Memory"],
     accent: T.accent3,
     github: null,
     live: null,
