@@ -103,6 +103,26 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "fake-image-detection",
+    number: "08",
+    title: "Fake Image Detection",
+    subtitle: "Deep Learning · GAN Face Classification",
+    oneliner:
+      "A deep learning binary classifier that distinguishes genuine human faces from AI-generated GAN fakes, trained and evaluated across many architectures.",
+    description:
+      "This project focused on developing a deep learning binary classifier to distinguish between genuine human faces and AI-generated (GAN) fakes, addressing the real-world challenge of synthetic media and disinformation on social platforms. I engineered a progressive series of neural network architectures, starting from a simple baseline and exploring various advanced model designs. By systematically increasing model complexity and implementing modern deep learning techniques, I rigorously evaluated performance across multiple iterations to identify the optimal approach for predictive classification.",
+    bullets: [
+      "Designed and trained several distinct models of increasing complexity, implementing a variety of modern deep learning structural techniques to systematically evaluate and improve classification performance.",
+      "Built robust training loops utilizing dynamic learning rate scheduling (ReduceLROnPlateau), custom early stopping, gradient clipping, and tailored optimizer parameters.",
+      "Developed an end-to-end data pipeline to load, preprocess, and apply data augmentations to 256×256 image datasets.",
+      "Evaluated model efficacy across standard classification metrics including precision, recall, F1-score, and ROC-AUC.",
+    ],
+    tags: ["Python", "PyTorch", "Torchvision", "NumPy", "scikit-learn", "Pillow"],
+    accent: T.accent2,
+    github: null,
+    live: null,
+  },
+  {
     slug: "beer-style-prediction",
     number: "07",
     title: "Beer Style Prediction",
