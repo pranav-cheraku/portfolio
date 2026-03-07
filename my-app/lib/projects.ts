@@ -103,6 +103,24 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "numpy-deep-neural-network",
+    number: "06",
+    title: "NumPy Deep Neural Network",
+    subtitle: "Machine Learning · Neural Network from Scratch",
+    oneliner:
+      "A fully custom deep neural network built from scratch in Python using only NumPy. It supports arbitrary depth, configurable activations, and both classification and regression tasks.",
+    description:
+      "A custom-built deep neural network implemented entirely from scratch in Python, without relying on standard machine learning frameworks like PyTorch or TensorFlow. This project demonstrates a fundamental understanding of neural network mechanics by manually implementing forward and backward propagation, weight initialization, and gradient descent. The resulting program is a highly configurable, foundational model capable of executing both classification and regression tasks.",
+    bullets: [
+      "Engineered the entire neural network architecture from scratch, including forward and backward propagation and parameter updates, supporting arbitrary network depths and configurable hidden unit activations (ReLU, sigmoid, tanh).",
+      "Executed both classification and regression tasks using minibatch gradient descent, successfully building out the math and matrix operations manually.",
+    ],
+    tags: ["Python 3", "MATLAB/Octave", "NumPy"],
+    accent: T.accent2,
+    github: null,
+    live: null,
+  },
+  {
     slug: "multithreaded-image-edge-detection",
     number: "05",
     title: "Multithreaded Image Edge Detection",
