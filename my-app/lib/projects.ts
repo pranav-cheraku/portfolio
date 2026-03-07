@@ -103,6 +103,25 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "beer-style-prediction",
+    number: "07",
+    title: "Beer Style Prediction",
+    subtitle: "Machine Learning · Multiclass Classification",
+    oneliner:
+      "A multiclass classification system that predicts beer styles from brewing ingredients, trained on over 200,000 recipes and 10,355 unique features across 80 distinct style categories.",
+    description:
+      "For my Machine Learning final project, I developed a multiclass classification system to predict beer styles based strictly on their brewing ingredients. Working with a massive, high-dimensional dataset of over 200,000 recipes and 10,355 unique ingredient features, the goal was to accurately categorize each recipe into one of 80 distinct beer styles. I systematically progressed from simple baseline models to exploring more complex architectures, navigating the unique challenges of highly sparse data to build a robust predictive classification system.",
+    bullets: [
+      "Engineered a final prediction model that successfully captured complex ingredient relationships, significantly outperforming the initial baseline benchmarks.",
+      "Successfully managed and processed massive, highly sparse feature matrices (over 10,000 dimensions) using scipy.sparse to efficiently feed data into both scikit-learn and TensorFlow models.",
+      "Systematically built, tuned, and evaluated a wide range of algorithms to find the optimal approach, exploring models such as Logistic Regression, KNN, Random Forest, XGBoost, and Deep Neural Networks.",
+    ],
+    tags: ["Python", "TensorFlow / Keras", "scikit-learn", "XGBoost", "NumPy", "SciPy", "Matplotlib", "Seaborn"],
+    accent: T.accent3,
+    github: null,
+    live: null,
+  },
+  {
     slug: "numpy-deep-neural-network",
     number: "06",
     title: "NumPy Deep Neural Network",
