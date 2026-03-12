@@ -47,7 +47,7 @@ export default async function ProjectDetailPage({
   const project = PROJECTS.find((p) => p.slug === slug);
   if (!project) notFound();
 
-  const { title, subtitle, description, bullets, tags, accent, github, live, screenshots, screenshotGridCount } = project;
+  const { title, subtitle, description, bullets, tags, accent, github, live, screenshots, screenshotGridCount, screenshotColumns } = project;
 
   return (
     <div style={{ position: "relative" }}>
@@ -229,7 +229,7 @@ export default async function ProjectDetailPage({
                   {grid.length > 0 && (
                     <div
                       className="screenshot-grid"
-                      style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32, alignItems: "start" }}
+                      style={{ display: "grid", gridTemplateColumns: `repeat(${screenshotColumns ?? 2}, 1fr)`, gap: 32, alignItems: "start" }}
                     >
                       {grid.map((s, i) => (
                         <ScreenshotImage key={i} src={s.src} alt={s.caption} caption={s.caption} lightBg={s.src.endsWith(".svg")} />

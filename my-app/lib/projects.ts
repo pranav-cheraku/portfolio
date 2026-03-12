@@ -19,7 +19,8 @@ export interface Project {
   github: string | null;
   live: string | null;
   screenshots?: Screenshot[];
-  screenshotGridCount?: number; // how many screenshots go in the 2-col grid (rest render full-width below)
+  screenshotGridCount?: number; // how many screenshots go in the grid (rest render full-width below)
+  screenshotColumns?: number;  // number of columns in the screenshot grid (default: 2)
 }
 
 export const PROJECTS: Project[] = [
@@ -127,6 +128,41 @@ export const PROJECTS: Project[] = [
         src: "/projects/CalculatorApp/calculator-image.png",
         caption: "The calculator UI running on iOS — demonstrating the dark theme, circular button layout, and color-coded operator keys that closely replicate the native iOS calculator experience.",
         maxWidth: 360,
+      },
+    ],
+  },
+  {
+    slug: "dictionary-app",
+    number: "17",
+    title: "Dictionary App",
+    subtitle: "Mobile Development · Customizable Word Search Experience",
+    oneliner:
+      "A React Native dictionary app with real-time definitions, phonetic audio playback, interactive synonyms, and persistent light/dark mode and font preferences via React Context.",
+    description:
+      "A mobile dictionary application built to provide a seamless and highly customizable word-search experience. Users can look up English words to view comprehensive definitions, parts of speech, and example usage, as well as listen to phonetic pronunciations. The app goes beyond basic search by featuring interactive synonyms and letting users fully personalize their experience with dynamic light/dark mode toggling and multiple font selections that persist across the entire application.",
+    bullets: [
+      "Successfully integrated The Free Dictionary API using Axios to fetch real-time word data, and utilized expo-audio to handle streaming playback for phonetic pronunciations.",
+      "Engineered a lightweight, robust global state system using the React Context API and custom hooks (useTheme, useFont), allowing user preferences for typography and color themes to instantly propagate across all screens.",
+      "Built a multi-screen stack navigation flow using React Navigation, complete with a floating action button for settings access, custom SVG iconography, and responsive safe-area handling.",
+    ],
+    tags: ["JavaScript", "React Native", "Expo", "Axios", "Jest", "React Native Testing Library"],
+    accent: T.accent3,
+    github: null,
+    live: null,
+    screenshotGridCount: 3,
+    screenshotColumns: 3,
+    screenshots: [
+      {
+        src: "/projects/DictionaryApp/homescreen.png",
+        caption: "The main search screen showing a full dictionary entry for 'keyboard' — including phonetic pronunciation with an audio play button, noun and verb definitions, and a tappable synonym.",
+      },
+      {
+        src: "/projects/DictionaryApp/fontscreen.png",
+        caption: "The font selection screen with Sans Serif, Serif, and Monospace options. The live preview panel updates instantly to reflect the chosen typeface across the entire app.",
+      },
+      {
+        src: "/projects/DictionaryApp/themescreen.png",
+        caption: "The theme selection screen offering Light and Dark color schemes, managed globally via the React Context API so the preference persists across all screens.",
       },
     ],
   },
