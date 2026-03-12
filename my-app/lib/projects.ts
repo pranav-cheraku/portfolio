@@ -124,7 +124,7 @@ export const PROJECTS: Project[] = [
     screenshotGridCount: 0,
     screenshots: [
       {
-        src: "/projects/CalculatorApp/captured-image.png",
+        src: "/projects/CalculatorApp/calculator-image.png",
         caption: "The calculator UI running on iOS — demonstrating the dark theme, circular button layout, and color-coded operator keys that closely replicate the native iOS calculator experience.",
         maxWidth: 360,
       },
@@ -229,19 +229,19 @@ export const PROJECTS: Project[] = [
     screenshotGridCount: 4,
     screenshots: [
       {
-        src: "/projects/worldClockApp/captured-1.png",
+        src: "/projects/worldClockApp/day-home.png",
         caption: "Day theme — collapsed view showing the afternoon greeting, current time, location in Bellingham WA, and a refreshable programming quote at the top.",
       },
       {
-        src: "/projects/worldClockApp/captured-2.png",
+        src: "/projects/worldClockApp/day-menu.png",
         caption: "Day theme — expanded panel revealing in-depth temporal details including the current timezone, day of the year, day of the week, and week number.",
       },
       {
-        src: "/projects/worldClockApp/captured-3.png",
+        src: "/projects/worldClockApp/night-home.png",
         caption: "Night theme — collapsed view showing the evening greeting with a starry sky background, automatically applied based on the 12-hour day/night cycle.",
       },
       {
-        src: "/projects/worldClockApp/captured-4.png",
+        src: "/projects/worldClockApp/night-menu.png",
         caption: "Night theme — expanded panel showing the same temporal details against the night background, demonstrating the theme transition across the full interface.",
       },
     ],
