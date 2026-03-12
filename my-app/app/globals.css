@@ -13,6 +13,8 @@ html {
   --color-body: #9a9590;
   --color-muted: #7a7570;
   --color-accent: #e4b787;
+  --color-accent-tint: rgba(228,183,135,0.031);
+  --color-accent-tint-hover: rgba(228,183,135,0.094);
   --color-accent-glow: rgba(228,183,135,0.38);
   --color-accent-subtle: rgba(228,183,135,0.063);
   --color-accent-gradient-end: #d4a0c0;
@@ -36,6 +38,8 @@ html {
   --color-body: #5c5852;
   --color-muted: #8c8882;
   --color-accent: #b8791e;
+  --color-accent-tint: rgba(184,121,30,0.05);
+  --color-accent-tint-hover: rgba(184,121,30,0.12);
   --color-accent-glow: rgba(184,121,30,0.35);
   --color-accent-subtle: rgba(184,121,30,0.08);
   --color-accent-gradient-end: #a87090;
@@ -373,6 +377,16 @@ input, textarea {
   .projects-grid {
     grid-template-columns: 1fr !important;
   }
+
+  /* Filter bar scrolls horizontally on mobile */
+  .projects-filter-bar {
+    overflow-x: auto !important;
+  }
+
+  .projects-filter-bar button {
+    padding: 14px 18px !important;
+  }
+
 
   /* Screenshot grid stacks on mobile */
   .screenshot-grid {

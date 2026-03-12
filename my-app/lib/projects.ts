@@ -6,6 +6,13 @@ export interface Screenshot {
   maxWidth?: number | string;
 }
 
+export type ProjectCategory =
+  | "Systems Programming"
+  | "Machine Learning"
+  | "Mobile"
+  | "Algorithms"
+  | "Databases";
+
 export interface Project {
   slug: string;
   number: string;
@@ -16,6 +23,9 @@ export interface Project {
   bullets?: string[];   // key highlights on detail page
   tags: string[];
   accent: string;       // T.accent | T.accent2 | T.accent3
+  category: ProjectCategory;
+  featured?: boolean;
+  featuredOrder?: number;
   github: string | null;
   live: string | null;
   screenshots?: Screenshot[];
@@ -40,6 +50,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["Java", "Agglomerative Clustering", "Binary Trees", "HashMap / HashSet", "FASTA / Newick"],
     accent: T.accent2,
+    category: "Algorithms",
     github: null,
     live: null,
     screenshots: [
@@ -81,7 +92,10 @@ export const PROJECTS: Project[] = [
       "Developed custom export functionality to map lattice graphs into the Graphviz DOT format, facilitating the generation of detailed PDF and SVG visual representations.",
     ],
     tags: ["Java", "DAG Shortest Path", "Kahn's Topological Sort", "Minimum Edit Distance", "Adjacency Matrix", "Graphviz"],
-    accent: T.accent3,
+    accent: T.accent,
+    category: "Algorithms",
+    featured: true,
+    featuredOrder: 3,
     github: null,
     live: null,
     screenshotGridCount: 2,
@@ -120,6 +134,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["JavaScript", "React Native", "Expo", "Jest", "React Native Testing Library"],
     accent: T.accent2,
+    category: "Mobile",
     github: null,
     live: null,
     screenshotGridCount: 0,
@@ -146,7 +161,10 @@ export const PROJECTS: Project[] = [
       "Bridged high-level computer vision logic with physical hardware execution, translating bounding-box coordinates into actionable ROS 2 commands via the iRobot Education SDK.",
     ],
     tags: ["Python", "YOLOv8", "OpenCV", "Roboflow", "iRobot SDK", "asyncio", "Bluetooth BLE"],
-    accent: T.accent2,
+    accent: T.accent,
+    category: "Machine Learning",
+    featured: true,
+    featuredOrder: 1,
     github: "https://github.com/pranav-cheraku/robotic-goalie",
     live: null,
   },
@@ -166,6 +184,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["JavaScript", "React Native", "Expo", "Axios", "Jest", "React Native Testing Library"],
     accent: T.accent3,
+    category: "Mobile",
     github: null,
     live: null,
     screenshotGridCount: 3,
@@ -201,7 +220,10 @@ export const PROJECTS: Project[] = [
       "Architected the entire database system including data storage, a metadata registry (CATALOG), and a dynamically formatted tabular print system using exclusively the Java Standard Library with zero external dependencies.",
     ],
     tags: ["Java", "Relational Algebra", "Lexical Analysis", "LinkedList", "HashSet"],
-    accent: T.accent2,
+    accent: T.accent,
+    category: "Databases",
+    featured: true,
+    featuredOrder: 5,
     github: null,
     live: null,
     screenshotGridCount: 4,
@@ -241,6 +263,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["Java", "MySQL", "JDBC", "MySQL Connector/J", "SQL"],
     accent: T.accent3,
+    category: "Databases",
     github: null,
     live: null,
     screenshotGridCount: 4,
@@ -279,6 +302,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["JavaScript", "React Native", "Expo", "Axios", "Jest", "React Testing Library"],
     accent: T.accent2,
+    category: "Mobile",
     github: null,
     live: null,
     screenshotGridCount: 4,
@@ -317,6 +341,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["JavaScript", "React Native", "Expo", "Axios", "JSON Server", "Jest", "React Native Testing Library"],
     accent: T.accent3,
+    category: "Mobile",
     github: null,
     live: null,
     screenshotGridCount: 2,
@@ -347,7 +372,10 @@ export const PROJECTS: Project[] = [
       "Built a configurable GNU Make build system and utilized unit testing, GDB, and Valgrind to ensure memory safety and accurate header parsing.",
     ],
     tags: ["C", "POSIX Sockets", "TCP", "I/O Multiplexing", "GNU Make", "GCC", "GDB", "Valgrind"],
-    accent: T.accent3,
+    accent: T.accent,
+    category: "Systems Programming",
+    featured: true,
+    featuredOrder: 4,
     github: null,
     live: null,
     screenshotGridCount: 2,
@@ -383,6 +411,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["C", "POSIX Sockets", "TCP", "GNU Make", "GCC", "GDB", "Trie"],
     accent: T.accent2,
+    category: "Systems Programming",
     github: null,
     live: null,
     screenshotGridCount: 2,
@@ -414,6 +443,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["C++", "RISC-V Assembly", "C", "QEMU", "GDB", "Sv39 Virtual Memory"],
     accent: T.accent3,
+    category: "Systems Programming",
     github: null,
     live: null,
   },
@@ -433,7 +463,10 @@ export const PROJECTS: Project[] = [
       "Evaluated model efficacy across standard classification metrics including precision, recall, F1-score, and ROC-AUC.",
     ],
     tags: ["Python", "PyTorch", "Torchvision", "NumPy", "scikit-learn", "Pillow"],
-    accent: T.accent2,
+    accent: T.accent,
+    category: "Machine Learning",
+    featured: true,
+    featuredOrder: 2,
     github: null,
     live: null,
   },
@@ -453,6 +486,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["Python", "TensorFlow / Keras", "scikit-learn", "XGBoost", "NumPy", "SciPy", "Matplotlib", "Seaborn"],
     accent: T.accent3,
+    category: "Machine Learning",
     github: null,
     live: null,
   },
@@ -471,6 +505,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["Python 3", "MATLAB/Octave", "NumPy"],
     accent: T.accent2,
+    category: "Machine Learning",
     github: null,
     live: null,
   },
@@ -490,6 +525,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["C", "POSIX Threads", "GCC", "Valgrind", "Helgrind", "Multithreading", "Mutex Synchronization"],
     accent: T.accent3,
+    category: "Systems Programming",
     github: null,
     live: null,
     screenshotGridCount: 2,
@@ -524,6 +560,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["C", "POSIX API", "GCC", "GNU Make", "Valgrind", "GDB", "Linux"],
     accent: T.accent2,
+    category: "Systems Programming",
     github: null,
     live: null,
     screenshotGridCount: 2,
@@ -562,6 +599,7 @@ export const PROJECTS: Project[] = [
     ],
     tags: ["Java", "NLP", "N-gram Modeling", "HashMap / HashSet", "Maximum Likelihood Estimation"],
     accent: T.accent3,
+    category: "Algorithms",
     github: null,
     live: null,
     screenshots: [

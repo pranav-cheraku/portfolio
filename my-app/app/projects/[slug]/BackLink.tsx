@@ -3,14 +3,29 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ChevronLeft } from "lucide-react";
+import { useSearchParams } from "next/navigation";
 import { T } from "@/lib/theme";
+
+const LABEL_MAP: Record<string, string> = {
+  Featured: "Featured Projects",
+  All: "All Projects",
+  "Systems Programming": "Systems Programming",
+  "Machine Learning": "Machine Learning",
+  Mobile: "Mobile",
+  Algorithms: "Algorithms",
+  Databases: "Databases",
+};
 
 export default function BackLink({ accent }: { accent: string }) {
   const [hovered, setHovered] = useState(false);
+  const searchParams = useSearchParams();
+  const from = searchParams.get("from") ?? "Featured";
+  const label = LABEL_MAP[from] ?? "Projects";
+  const href = `/projects?filter=${encodeURIComponent(from)}`;
 
   return (
     <Link
-      href="/projects"
+      href={href}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
@@ -32,7 +47,7 @@ export default function BackLink({ accent }: { accent: string }) {
       }}
     >
       <ChevronLeft size={15} />
-      Projects
+      {label}
     </Link>
   );
 }

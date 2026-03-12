@@ -6,12 +6,12 @@ import { ArrowUpRight } from "lucide-react";
 import { T } from "@/lib/theme";
 import type { Project } from "@/lib/projects";
 
-export default function ProjectCard({ slug, title, oneliner, tags, accent }: Project) {
+export default function ProjectCard({ slug, title, oneliner, tags, accent, fromFilter }: Project & { fromFilter?: string }) {
   const [hovered, setHovered] = useState(false);
 
   return (
     <Link
-      href={`/projects/${slug}`}
+      href={`/projects/${slug}${fromFilter ? `?from=${encodeURIComponent(fromFilter)}` : ""}`}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{

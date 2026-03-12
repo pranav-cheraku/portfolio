@@ -1,8 +1,8 @@
+import { Suspense } from "react";
 import FadeIn from "@/components/FadeIn";
 import Glow from "@/components/Glow";
 import { T } from "@/lib/theme";
-import { PROJECTS } from "@/lib/projects";
-import ProjectCard from "./ProjectCard";
+import ProjectsFilter from "./ProjectsFilter";
 
 export const metadata = {
   title: "Projects - Pranav Cheraku",
@@ -29,18 +29,9 @@ export default function ProjectsPage() {
       </FadeIn>
 
       <FadeIn delay={60}>
-        <div
-          className="projects-grid"
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(2, 1fr)",
-            gap: 16,
-          }}
-        >
-          {PROJECTS.map((project) => (
-            <ProjectCard key={project.slug} {...project} />
-          ))}
-        </div>
+        <Suspense fallback={<div />}>
+          <ProjectsFilter />
+        </Suspense>
       </FadeIn>
     </div>
   );

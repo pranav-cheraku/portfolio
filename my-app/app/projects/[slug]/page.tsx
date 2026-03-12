@@ -1,5 +1,5 @@
+import { Suspense } from "react";
 import { notFound } from "next/navigation";
-import { Github, ExternalLink } from "lucide-react";
 import FadeIn from "@/components/FadeIn";
 import Glow from "@/components/Glow";
 import { T } from "@/lib/theme";
@@ -7,6 +7,7 @@ import { PROJECTS } from "@/lib/projects";
 import SkillTag from "./SkillTag";
 import BackLink from "./BackLink";
 import ScreenshotImage from "./ScreenshotImage";
+import ProjectLinks from "./ProjectLink";
 
 export function generateStaticParams() {
   return PROJECTS.map((p) => ({ slug: p.slug }));
@@ -55,7 +56,9 @@ export default async function ProjectDetailPage({
 
       <FadeIn>
       {/* Back link */}
-        <BackLink accent={accent} />
+        <Suspense fallback={<div style={{ height: 40 }} />}>
+          <BackLink accent={accent} />
+        </Suspense>
 
       {/* Header */}
         <h1
@@ -148,66 +151,7 @@ export default async function ProjectDetailPage({
               {(github || live) && (
                 <div style={{ paddingTop: 24, marginTop: 24, borderTop: `1px solid ${T.border}` }}>
                   <SectionLabel>Links</SectionLabel>
-                  <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
-                    {github && (
-                      <a
-                        href={github}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="project-detail-link"
-                        style={
-                          {
-                            display: "inline-flex",
-                            alignItems: "center",
-                            gap: 8,
-                            fontFamily: "var(--font-dm-sans), sans-serif",
-                            fontSize: 13,
-                            fontWeight: 500,
-                            color: accent,
-                            textDecoration: "none",
-                            border: `1px solid ${accent}`,
-                            borderRadius: 999,
-                            padding: "8px 18px",
-                            width: "fit-content",
-                            transition: "background 0.2s ease",
-                            "--detail-accent-subtle": `${accent}18`,
-                          } as React.CSSProperties
-                        }
-                      >
-                        <Github size={14} />
-                        GitHub
-                      </a>
-                    )}
-                    {live && (
-                      <a
-                        href={live}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="project-detail-link"
-                        style={
-                          {
-                            display: "inline-flex",
-                            alignItems: "center",
-                            gap: 8,
-                            fontFamily: "var(--font-dm-sans), sans-serif",
-                            fontSize: 13,
-                            fontWeight: 500,
-                            color: accent,
-                            textDecoration: "none",
-                            border: `1px solid ${accent}`,
-                            borderRadius: 999,
-                            padding: "8px 18px",
-                            width: "fit-content",
-                            transition: "background 0.2s ease",
-                            "--detail-accent-subtle": `${accent}18`,
-                          } as React.CSSProperties
-                        }
-                      >
-                        <ExternalLink size={14} />
-                        Live Demo
-                      </a>
-                    )}
-                  </div>
+                  <ProjectLinks github={github} live={live} accent={accent} />
                 </div>
               )}
             </div>
