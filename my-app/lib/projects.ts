@@ -132,6 +132,25 @@ export const PROJECTS: Project[] = [
     ],
   },
   {
+    slug: "robotic-goalie",
+    number: "18",
+    title: "Robotic Goalie",
+    subtitle: "Robotics & Computer Vision · Autonomous Goal Defense",
+    oneliner:
+      "A real-time robotic goalie system that streams live video from a smartphone, detects incoming balls with a fine-tuned YOLOv8 model, and issues movement commands to an iRobot Create 3.",
+    description:
+      "A real-time robotic goalie system that utilizes an iRobot Create 3 to autonomously defend a goal against incoming shots. Built on a Sense → Think → Act pipeline, the system streams live video from a robot-mounted smartphone to a laptop. The software processes the video feed to detect the incoming ball, uses a greedy centering algorithm to determine the necessary trajectory, and instantly issues precise movement commands to the robot via Bluetooth to block the shot.",
+    bullets: [
+      "Engineered a non-blocking software architecture using Python's asyncio and threading, ensuring the OpenCV video capture loop and the robot's Bluetooth event loop operated simultaneously without lagging.",
+      "Built a robust data pipeline to merge, re-index, and manage custom datasets sourced from Roboflow, then trained and fine-tuned a YOLOv8 object detection model to reliably track high-speed targets.",
+      "Bridged high-level computer vision logic with physical hardware execution, translating bounding-box coordinates into actionable ROS 2 commands via the iRobot Education SDK.",
+    ],
+    tags: ["Python", "YOLOv8", "OpenCV", "Roboflow", "iRobot SDK", "asyncio", "Bluetooth BLE"],
+    accent: T.accent2,
+    github: "https://github.com/pranav-cheraku/robotic-goalie",
+    live: null,
+  },
+  {
     slug: "dictionary-app",
     number: "17",
     title: "Dictionary App",
