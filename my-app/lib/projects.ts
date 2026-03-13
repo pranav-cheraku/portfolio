@@ -28,6 +28,7 @@ export interface Project {
   featuredOrder?: number;
   github: string | null;
   live: string | null;
+  youtube?: string | null;
   screenshots?: Screenshot[];
   screenshotGridCount?: number; // how many screenshots go in the grid (rest render full-width below)
   screenshotColumns?: number;  // number of columns in the screenshot grid (default: 2)
@@ -167,6 +168,17 @@ export const PROJECTS: Project[] = [
     featuredOrder: 1,
     github: "https://github.com/pranav-cheraku/robotic-goalie",
     live: null,
+    youtube: "https://www.youtube.com/watch?v=PWPLYewlvNQ&list=PLh_sUoeDic-5OeXEoRDKr0vb_MT-3Mynr",
+    screenshots: [
+      {
+        src: "/projects/RoboticGoalie/ObjectDeteciton.png",
+        caption: "YOLOv8 object detection in action — the model identifies and tracks the incoming ball in real time, drawing a bounding box around the target.",
+      },
+      {
+        src: "/projects/RoboticGoalie/OverheadView.png",
+        caption: "Overhead view of the robotic goalie setup — the iRobot Create 3 positioned in front of the goal, with the smartphone camera mounted to stream live video to the detection pipeline.",
+      },
+    ],
   },
   {
     slug: "dictionary-app",

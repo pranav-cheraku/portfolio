@@ -48,7 +48,7 @@ export default async function ProjectDetailPage({
   const project = PROJECTS.find((p) => p.slug === slug);
   if (!project) notFound();
 
-  const { title, subtitle, description, bullets, tags, accent, github, live, screenshots, screenshotGridCount, screenshotColumns } = project;
+  const { title, subtitle, description, bullets, tags, accent, github, live, youtube, screenshots, screenshotGridCount, screenshotColumns } = project;
 
   return (
     <div style={{ position: "relative" }}>
@@ -148,10 +148,10 @@ export default async function ProjectDetailPage({
                 ))}
               </div>
 
-              {(github || live) && (
+              {(github || live || youtube) && (
                 <div style={{ paddingTop: 24, marginTop: 24, borderTop: `1px solid ${T.border}` }}>
                   <SectionLabel>Links</SectionLabel>
-                  <ProjectLinks github={github} live={live} accent={accent} />
+                  <ProjectLinks github={github} live={live} youtube={youtube} accent={accent} />
                 </div>
               )}
             </div>
