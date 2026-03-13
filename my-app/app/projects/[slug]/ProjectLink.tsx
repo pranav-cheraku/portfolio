@@ -58,17 +58,22 @@ export default function ProjectLinks({
   github,
   live,
   youtube,
+  devpost,
   accent,
 }: {
   github: string | null;
   live: string | null;
   youtube?: string | null;
+  devpost?: string | null;
   accent: string;
 }) {
   return (
     <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: 10, width: "100%" }}>
       {github && (
         <LinkButton href={github} accent={accent} icon="github" label="GitHub" />
+      )}
+      {devpost && (
+        <LinkButton href={devpost} accent={accent} icon="external" label="Devpost" />
       )}
       {youtube && (
         <LinkButton href={youtube} accent={accent} icon="youtube" label="Demo" />

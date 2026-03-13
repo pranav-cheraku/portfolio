@@ -30,6 +30,7 @@ export interface Project {
   github: string | null;
   live: string | null;
   youtube?: string | null;
+  devpost?: string | null;
   screenshots?: Screenshot[];
   screenshotGridCount?: number; // how many screenshots go in the grid (rest render full-width below)
   screenshotColumns?: number;  // number of columns in the screenshot grid (default: 2)
@@ -593,6 +594,35 @@ export const PROJECTS: Project[] = [
       {
         src: "/projects/MiniUnixShell/tail_single_and_multi.png",
         caption: "The built-in tail command displaying the last 10 lines of a 15-line file. When given multiple files, it automatically prefixes each output section with a ==> filename <== header to distinguish between them.",
+      },
+    ],
+  },
+  {
+    slug: "kelp",
+    number: "21",
+    title: "KELP",
+    subtitle: "Hackathon · AI Environmental Risk Visualization",
+    oneliner:
+      "An AI-driven 3D geospatial platform built at DubHacks 2025 that transforms natural language scenarios into interactive environmental risk maps across all 39 Washington State counties.",
+    description:
+      "Developed at DubHacks 2025, KELP is an AI-driven environmental risk visualization platform that transforms natural language scenarios into interactive 3D geospatial data. Users can input hypothetical prompts such as 'What if all cars in Seattle were electric?' to see predicted impacts on pollution and emissions across all 39 Washington State counties. The platform bridges the gap between complex climate modeling and intuitive data storytelling by rendering predictions as a dynamic 3D terrain map.",
+    bullets: [
+      "Engineered a two-stage AI pipeline using Gemini 2.5 where a Director agent parses natural language into technical specs and an Engineer agent predicts environmental shifts grounded in real-world baseline data.",
+      "Implemented Deck.gl and Mapbox GL to render extruded 3D county polygons, creating a risk topography where vertical height and color gradients represent environmental severity.",
+      "Orchestrated real-time data fetching from the Washington DNR GIS server to map AI-generated predictions onto official state boundary geometries.",
+      "Developed an automated reporting engine that provides users with interactive risk gauges and technical explanations for county-level data fluctuations.",
+    ],
+    tags: ["TypeScript", "Python", "React", "FastAPI", "Deck.gl", "Mapbox GL", "Gemini 2.5", "Pandas", "Framer Motion", "Recharts"],
+    accent: T.accent3,
+    category: "Hackathon",
+    github: "https://github.com/israelavendanojr/dubhacks-2025",
+    live: null,
+    devpost: "https://devpost.com/software/kelp",
+    youtube: "https://www.youtube.com/watch?v=O5l-Clx8iIc",
+    screenshots: [
+      {
+        src: "/projects/KELP/Image.png",
+        caption: "KELP's interactive 3D terrain map — extruded county polygons across Washington State visualize AI-predicted environmental risk, with height and color gradients representing pollution severity.",
       },
     ],
   },
