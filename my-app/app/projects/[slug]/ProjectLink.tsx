@@ -40,6 +40,7 @@ function LinkButton({
         borderRadius: 999,
         padding: "6px 14px",
         width: "fit-content",
+        whiteSpace: "nowrap",
         background: hovered ? accent : "transparent",
         transform: hovered ? "translateY(-4px) scale(1.04)" : "translateY(0) scale(1)",
         boxShadow: hovered ? `0 8px 24px ${accent}40` : "none",
@@ -65,7 +66,7 @@ export default function ProjectLinks({
   accent: string;
 }) {
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+    <div style={{ display: "flex", flexDirection: "row", flexWrap: "wrap", gap: 10, width: "100%" }}>
       {github && (
         <LinkButton href={github} accent={accent} icon="github" label="GitHub" />
       )}

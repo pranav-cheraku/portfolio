@@ -168,7 +168,7 @@ export const PROJECTS: Project[] = [
     featuredOrder: 1,
     github: "https://github.com/pranav-cheraku/robotic-goalie",
     live: null,
-    youtube: "https://www.youtube.com/watch?v=PWPLYewlvNQ&list=PLh_sUoeDic-5OeXEoRDKr0vb_MT-3Mynr",
+    youtube: "https://www.youtube.com/watch?v=eCNDledIDFw&list=PLh_sUoeDic-4XiX038rOFWnLxm4t1trq6&index=2",
     screenshots: [
       {
         src: "/projects/RoboticGoalie/ObjectDeteciton.png",
