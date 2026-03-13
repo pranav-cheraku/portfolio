@@ -9,9 +9,11 @@ import ProjectCard from "./ProjectCard";
 
 type FilterOption = "Featured" | "All" | ProjectCategory;
 
+
 const FILTERS: FilterOption[] = [
   "Featured",
   "All",
+  "Hackathon",
   "Machine Learning",
   "Algorithms",
   "Systems Programming",

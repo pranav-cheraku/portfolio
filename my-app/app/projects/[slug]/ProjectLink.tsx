@@ -71,7 +71,7 @@ export default function ProjectLinks({
         <LinkButton href={github} accent={accent} icon="github" label="GitHub" />
       )}
       {youtube && (
-        <LinkButton href={youtube} accent={accent} icon="youtube" label="Demo Videos" />
+        <LinkButton href={youtube} accent={accent} icon="youtube" label="Demo" />
       )}
       {live && (
         <LinkButton href={live} accent={accent} icon="external" label="Live Demo" />

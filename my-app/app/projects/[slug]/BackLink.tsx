@@ -14,6 +14,7 @@ const LABEL_MAP: Record<string, string> = {
   Mobile: "Mobile",
   Algorithms: "Algorithms",
   Databases: "Databases",
+  Hackathon: "Hackathon",
 };
 
 export default function BackLink({ accent }: { accent: string }) {

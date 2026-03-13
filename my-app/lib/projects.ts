@@ -11,7 +11,8 @@ export type ProjectCategory =
   | "Machine Learning"
   | "Mobile"
   | "Algorithms"
-  | "Databases";
+  | "Databases"
+  | "Hackathon";
 
 export interface Project {
   slug: string;
@@ -592,6 +593,65 @@ export const PROJECTS: Project[] = [
       {
         src: "/projects/MiniUnixShell/tail_single_and_multi.png",
         caption: "The built-in tail command displaying the last 10 lines of a 15-line file. When given multiple files, it automatically prefixes each output section with a ==> filename <== header to distinguish between them.",
+      },
+    ],
+  },
+  {
+    slug: "pathora",
+    number: "20",
+    title: "Pathora",
+    subtitle: "Hackathon · AI-Powered Learning Path Generator",
+    oneliner:
+      "A full-stack app built in 6 hours that turns learning goals into personalized, resource-rich study plans visualized as an interactive mountain trail, powered by a LlamaIndex ReAct agent.",
+    description:
+      "Pathora is a full-stack application designed to turn daunting learning goals into manageable climbs. Built in just 6 hours for the GenAiHacks Hackathon, the app solves the where do I start problem for self-learners. Users input a goal, their current skill level, and time availability. The backend orchestrates a ReAct AI agent to research the topic in real-time across Wikipedia, Google, and YouTube. The result is a structured, step-by-step path where progress is tracked by moving a climber character along a Bézier curve, marking milestones as the user masters each stage.",
+    bullets: [
+      "Developed a ReAct-based agent using LlamaIndex and Gemini 1.5 Pro that autonomously browses the web to curate high-quality tutorials and documentation.",
+      "Engineered a custom interactive UI where learning steps are mapped onto a hand-drawn SVG mountain path using Framer Motion for fluid character animations.",
+      "Integrated three separate APIs (SerpAPI, YouTube, and Wikipedia) to provide a holistic curriculum for any given topic.",
+      "Scaled from concept to a functional React and Flask MVP in a high-pressure, 6-hour hackathon environment.",
+    ],
+    tags: ["Python", "TypeScript", "React", "Flask", "LlamaIndex", "AI Agent", "Gemini 1.5 Pro", "Framer Motion", "SerpAPI", "YouTube API", "Wikipedia API"],
+    accent: T.accent2,
+    category: "Hackathon",
+    github: "https://github.com/israelavendanojr/pathora",
+    live: null,
+    screenshots: [
+      {
+        src: "/projects/Pathora/HomePage.png",
+        caption: "The interactive mountain trail view — each milestone is mapped along a Bézier curve path with a climber character that advances as the user completes each stage.",
+      },
+      {
+        src: "/projects/Pathora/ExplorePage.png",
+        caption: "Pathora home page — users enter their learning goal, current skill level, and time availability to kick off the AI agent.",
+      },
+    ],
+  },
+  {
+    slug: "venture-map",
+    number: "19",
+    title: "VentureMap",
+    subtitle: "Hackathon · AI-Driven Travel Discovery",
+    oneliner:
+      "A full-stack AI travel discovery tool built in 6 hours, using a LlamaIndex ReAct agent and the Google Places API to deliver four curated, recommendations from natural language input.",
+    description:
+      "VentureMap is a full-stack AI-driven travel discovery tool designed to eliminate decision fatigue. Built in just six hours during a hackathon, the application allows users to input specific preferences such as location and activity type to receive four highly curated recommendations. The system leverages a ReAct (Reasoning and Acting) agent to bridge the gap between natural language user intent and structured data from the Google Places API, providing a seamless connection between AI logic and real-world geographical data.",
+    bullets: [
+      "Implemented a reasoning-and-acting framework using LlamaIndex, allowing the AI to autonomously determine when and how to query external APIs based on user constraints.",
+      "Integrated the Google Places API to provide live results including addresses, ratings, and business types.",
+      "Developed a responsive React frontend and a Flask REST API within a strict 6-hour window, utilizing Vite and SWC for an optimized, high-speed development workflow.",
+      "Engineered custom parsing logic using Regex and JSON schemas to extract clean, structured data from Gemini 1.5 Pro, ensuring consistent UI rendering of AI-generated content.",
+    ],
+    tags: ["Python 3", "TypeScript", "React", "Flask", "LlamaIndex", "AI Agent", "Gemini 1.5 Pro", "Google Places API", "Vite"],
+    accent: T.accent3,
+    category: "Hackathon",
+    github: "https://github.com/Jeffrey-F-Guo/VentureMap",
+    live: null,
+    youtube: "https://www.youtube.com/watch?v=ww4J3DjF8Eo",
+    screenshots: [
+      {
+        src: "/projects/VentureMap/HomePage.png",
+        caption: "VentureMap home page — users enter their preferences to receive four AI-curated travel recommendations powered by a LlamaIndex ReAct agent and the Google Places API.",
       },
     ],
   },
