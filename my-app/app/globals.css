@@ -137,57 +137,6 @@ input, textarea {
   to   { opacity: 1; transform: translateY(0); }
 }
 
-.tech-chip {
-  transition: border-color 0.2s ease, color 0.2s ease;
-}
-
-.tech-chip:hover {
-  border-color: var(--color-accent) !important;
-  color: var(--color-heading) !important;
-}
-
-.project-link {
-  transition: color 0.2s ease;
-}
-
-.project-link:hover {
-  color: var(--color-heading) !important;
-}
-
-.project-back-link {
-  transition: color 0.2s ease, transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), filter 0.25s ease;
-}
-
-.project-back-link:hover {
-  color: var(--color-heading) !important;
-  transform: translateY(-2px);
-  filter: brightness(1.25);
-}
-
-.project-detail-link:hover {
-  background: var(--detail-accent-subtle) !important;
-}
-
-.screenshot-img {
-  transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.35s ease;
-  cursor: pointer;
-}
-
-.screenshot-img:hover {
-  transform: scale(1.01) translateY(-1px);
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
-}
-
-.skill-tag {
-  transition: transform 0.25s cubic-bezier(0.22, 1, 0.36, 1), filter 0.25s ease, box-shadow 0.25s ease;
-}
-
-.skill-tag:hover {
-  transform: translateY(-1px) scale(1.015);
-  filter: brightness(1.08);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
-}
-
 .project-card-desc {
   display: -webkit-box;
   -webkit-line-clamp: 3;

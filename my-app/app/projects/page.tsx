@@ -21,7 +21,7 @@ export default function ProjectsPage() {
             fontSize: 42,
             fontWeight: 400,
             color: T.heading,
-            marginBottom: 40,
+            marginBottom: 12,
           }}
         >
           Projects

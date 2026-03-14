@@ -73,7 +73,7 @@ export default function ProjectsFilter() {
   return (
     <div>
       {/* All projects link */}
-      <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 8 }}>
+      <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 6 }}>
         <button
           onClick={() => handleSetActive("All")}
           style={{
@@ -111,11 +111,12 @@ export default function ProjectsFilter() {
         <div
           style={{
             position: "absolute",
-            top: 4,
-            bottom: 4,
+            top: 0,
+            bottom: 0,
             left: frame.left,
             width: frame.width,
-            border: `1px solid ${T.accent}`,
+            background: T.accentSubtle,
+            borderTop: `2px solid ${T.accent}`,
             opacity: active === "All" ? 0 : frame.opacity,
             transition:
               "left 0.35s cubic-bezier(0.22,1,0.36,1), width 0.35s cubic-bezier(0.22,1,0.36,1), opacity 0.2s ease",
@@ -127,8 +128,6 @@ export default function ProjectsFilter() {
           const count =
             filter === "Featured"
               ? PROJECTS.filter((p) => p.featured).length
-              : filter === "All"
-              ? PROJECTS.length
               : PROJECTS.filter((p) => p.category === filter).length;
           const isActive = active === filter;
 
