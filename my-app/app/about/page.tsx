@@ -11,7 +11,7 @@ export default function AboutPage() {
     <div style={{ position: "relative" }}>
 
       {/* Page heading */}
-      <FadeIn>
+      <FadeIn immediate>
         <h2
           className="page-heading"
           style={{
@@ -41,11 +41,11 @@ export default function AboutPage() {
         {/* ── Left column: memoji top, stats bottom ── */}
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
 
-          <FadeIn delay={80} direction="left">
+          <FadeIn immediate delay={80} direction="left">
             <MemojiDisplay />
           </FadeIn>
 
-          <FadeIn delay={160} direction="left">
+          <FadeIn immediate delay={160} direction="left">
             <div style={{ display: "flex", flexDirection: "column", gap: 0 }}>
               {[
                 { label: "Graduating", value: "June 2026" },
@@ -87,7 +87,7 @@ export default function AboutPage() {
         </div>
 
         {/* ── Right column: name + full bio ── */}
-        <FadeIn delay={120} direction="right">
+        <FadeIn immediate delay={120} direction="right">
           <div className="about-bio">
 
             {/* Hello label */}

@@ -13,7 +13,7 @@ export default function ProjectsPage() {
     <div style={{ position: "relative" }}>
       <Glow color={T.accent3} size={280} top={-30} right={-60} opacity={0.03} />
 
-      <FadeIn>
+      <FadeIn immediate>
         <h2
           className="page-heading"
           style={{
@@ -28,7 +28,7 @@ export default function ProjectsPage() {
         </h2>
       </FadeIn>
 
-      <FadeIn delay={60}>
+      <FadeIn immediate delay={60}>
         <Suspense fallback={<div />}>
           <ProjectsFilter />
         </Suspense>

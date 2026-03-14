@@ -54,7 +54,7 @@ export default async function ProjectDetailPage({
     <div style={{ position: "relative" }}>
       <Glow color={accent} size={300} top={-60} right={-80} opacity={0.04} />
 
-      <FadeIn>
+      <FadeIn immediate>
       {/* Back link */}
         <Suspense fallback={<div style={{ height: 40 }} />}>
           <BackLink accent={accent} />

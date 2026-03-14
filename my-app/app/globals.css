@@ -277,11 +277,6 @@ input, textarea {
     word-break: break-all !important;
   }
 
-  /* Contact form name + email stack vertically */
-  .contact-form-row {
-    grid-template-columns: 1fr !important;
-  }
-
   /* About bento grid collapses to single column on mobile */
   .bento-grid {
     grid-template-columns: 1fr !important;

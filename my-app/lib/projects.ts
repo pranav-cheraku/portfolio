@@ -642,7 +642,7 @@ export const PROJECTS: Project[] = [
     title: "VentureMap",
     subtitle: "Hackathon · AI-Driven Travel Discovery",
     oneliner:
-      "A full-stack AI travel discovery tool built in 6 hours, using a LlamaIndex ReAct agent and the Google Places API to deliver four curated, recommendations from natural language input.",
+      "A full-stack AI travel discovery tool built in 6 hours, using a LlamaIndex ReAct agent and the Google Places API to deliver four curated recommendations from natural language input.",
     description:
       "VentureMap is a full-stack AI-driven travel discovery tool designed to eliminate decision fatigue. Built in just six hours during a hackathon, the application allows users to input specific preferences such as location and activity type to receive four highly curated recommendations. The system leverages a ReAct (Reasoning and Acting) agent to bridge the gap between natural language user intent and structured data from the Google Places API, providing a seamless connection between AI logic and real-world geographical data.",
     bullets: [

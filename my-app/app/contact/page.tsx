@@ -19,7 +19,7 @@ export default function ContactPage() {
       <Glow color={T.accent} size={280} top={-30} right={-60} opacity={0.03} />
 
       {/* Page heading */}
-      <FadeIn>
+      <FadeIn immediate>
         <h2
           className="page-heading"
           style={{
@@ -35,8 +35,8 @@ export default function ContactPage() {
       </FadeIn>
 
       {/* Italic intro line */}
-      <FadeIn delay={60}>
-        <p
+      <FadeIn immediate delay={60}>
+        <div
           style={{
             fontFamily: "var(--font-lora), serif",
             fontSize: 16,
@@ -44,16 +44,18 @@ export default function ContactPage() {
             fontStyle: "italic",
             marginBottom: 36,
             marginTop: 0,
+            display: "flex",
+            flexDirection: "column",
+            gap: 4,
           }}
         >
-          I&apos;m actively seeking new tech opportunities
-          <span style={{ margin: "0 16px", color: T.border }}>|</span>
-          Open to connecting, sharing ideas, and exploring possibilities
-        </p>
+          <span>I&apos;m actively seeking new tech opportunities.</span>
+          <span>Open to connecting, sharing ideas, and exploring possibilities.</span>
+        </div>
       </FadeIn>
 
       {/* Stats row — full width */}
-      <FadeIn delay={100}>
+      <FadeIn immediate delay={100}>
         <div
           className="contact-stats"
           style={{
@@ -107,7 +109,7 @@ export default function ContactPage() {
       <div className="contact-layout" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 64, alignItems: "start" }}>
 
         {/* Left column: seeking roles + contact links */}
-        <FadeIn delay={160} direction="left">
+        <FadeIn immediate delay={160} direction="left">
           <div>
             {/* Seeking label */}
             <div
@@ -153,7 +155,7 @@ export default function ContactPage() {
         </FadeIn>
 
         {/* Right column: contact form */}
-        <FadeIn delay={200} direction="right">
+        <FadeIn immediate delay={200} direction="right">
           <ContactForm />
         </FadeIn>
 

@@ -48,16 +48,21 @@ export default function ContactForm() {
     e.preventDefault();
     setLoading(true);
     setError(null);
-    const formData = new FormData(e.currentTarget);
-    const res = await fetch("https://api.web3forms.com/submit", {
-      method: "POST",
-      body: formData,
-    });
-    const data = await res.json();
-    setLoading(false);
-    if (data.success) {
-      setSubmitted(true);
-    } else {
+    try {
+      const formData = new FormData(e.currentTarget);
+      const res = await fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        body: formData,
+      });
+      const data = await res.json();
+      setLoading(false);
+      if (data.success) {
+        setSubmitted(true);
+      } else {
+        setError("Something went wrong — please try again.");
+      }
+    } catch {
+      setLoading(false);
       setError("Something went wrong — please try again.");
     }
   };
