@@ -20,7 +20,7 @@ export default function ActivityChip({ name }: ActivityChipProps) {
         fontSize: 14,
         color: hovered ? T.heading : T.body,
         padding: "8px 16px",
-        background: hovered ? "var(--color-surface)" : T.surface,
+        background: hovered ? T.accentSubtle : T.surface,
         border: `1px solid ${hovered ? T.accent : T.border}`,
         borderRadius: 8,
         transform: hovered ? "translateY(-2px)" : "translateY(0)",

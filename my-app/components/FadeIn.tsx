@@ -7,6 +7,7 @@ interface FadeInProps {
   delay?: number; // ms before the animation starts (used for stagger)
   direction?: "up" | "left" | "right" | "none";
   style?: React.CSSProperties;
+  immediate?: boolean; // skip IntersectionObserver and animate on mount
 }
 
 // Reusable wrapper that fades + slides children in when they enter the viewport
@@ -15,15 +16,22 @@ export default function FadeIn({
   delay = 0,
   direction = "up",
   style = {},
+  immediate = false,
 }: FadeInProps) {
   const [visible, setVisible] = useState(false);
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    let timer: ReturnType<typeof setTimeout>;
+
+    if (immediate) {
+      // Fire after delay on mount, no viewport check needed
+      timer = setTimeout(() => setVisible(true), delay);
+      return () => clearTimeout(timer);
+    }
+
     const el = ref.current;
     if (!el) return;
-
-    let timer: ReturnType<typeof setTimeout>;
 
     const observer = new IntersectionObserver(
       ([entry]) => {
@@ -41,7 +49,7 @@ export default function FadeIn({
       observer.disconnect();
       clearTimeout(timer);
     };
-  }, [delay]);
+  }, [delay, immediate]);
 
   // Starting transform based on direction — element slides to its natural position
   const startTransforms: Record<string, string> = {

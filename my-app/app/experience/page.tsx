@@ -17,7 +17,7 @@ export default function ExperiencePage() {
       <Glow color={T.accent} size={280} top={-30} right={-60} opacity={0.03} />
 
       {/* Page heading */}
-      <FadeIn>
+      <FadeIn immediate>
         <h2
           className="page-heading"
           style={{
@@ -36,7 +36,7 @@ export default function ExperiencePage() {
       <div style={{ display: "flex", alignItems: "flex-start" }}>
 
         {/* Continuous timeline bar */}
-        <FadeIn direction="none" style={{ alignSelf: "stretch", flexShrink: 0 }}>
+        <FadeIn immediate direction="none" style={{ alignSelf: "stretch", flexShrink: 0 }}>
           <div
             className="exp-timeline"
             style={{ width: 36, position: "relative", height: "100%" }}
@@ -60,9 +60,9 @@ export default function ExperiencePage() {
         <div style={{ flex: 1 }}>
 
           {/* Internship */}
-          <FadeIn delay={80}>
+          <FadeIn immediate delay={80}>
             <div style={{ position: "relative" }}>
-              <div className="exp-timeline" style={{
+              <div style={{
                 position: "absolute",
                 left: -23,
                 top: 60,
@@ -72,7 +72,7 @@ export default function ExperiencePage() {
                 background: T.accent2,
                 zIndex: 2,
               }} />
-              <div className="exp-timeline" style={{
+              <div style={{
                 position: "absolute",
                 left: -18,
                 top: 64,
@@ -85,9 +85,9 @@ export default function ExperiencePage() {
           </FadeIn>
 
           {/* Freelance */}
-          <FadeIn delay={160}>
+          <FadeIn immediate delay={160}>
             <div style={{ marginTop: 40, paddingTop: 40, borderTop: `1px solid ${T.border}`, position: "relative" }}>
-              <div className="exp-timeline" style={{
+              <div style={{
                 position: "absolute",
                 left: -23,
                 top: 100,
@@ -97,7 +97,7 @@ export default function ExperiencePage() {
                 background: T.accent2,
                 zIndex: 2,
               }} />
-              <div className="exp-timeline" style={{
+              <div style={{
                 position: "absolute",
                 left: -18,
                 top: 104,
@@ -110,9 +110,9 @@ export default function ExperiencePage() {
           </FadeIn>
 
           {/* Robotics Research */}
-          <FadeIn delay={240}>
+          <FadeIn immediate delay={240}>
             <div style={{ marginTop: 40, paddingTop: 40, borderTop: `1px solid ${T.border}`, position: "relative" }}>
-              <div className="exp-timeline" style={{
+              <div style={{
                 position: "absolute",
                 left: -23,
                 top: 100,
@@ -122,7 +122,7 @@ export default function ExperiencePage() {
                 background: T.accent2,
                 zIndex: 2,
               }} />
-              <div className="exp-timeline" style={{
+              <div style={{
                 position: "absolute",
                 left: -18,
                 top: 104,
@@ -135,9 +135,9 @@ export default function ExperiencePage() {
           </FadeIn>
 
           {/* Neuroscience Research */}
-          <FadeIn delay={320}>
+          <FadeIn immediate delay={320}>
             <div style={{ marginTop: 40, paddingTop: 40, borderTop: `1px solid ${T.border}`, position: "relative" }}>
-              <div className="exp-timeline" style={{
+              <div style={{
                 position: "absolute",
                 left: -23,
                 top: 100,
@@ -147,7 +147,7 @@ export default function ExperiencePage() {
                 background: T.accent2,
                 zIndex: 2,
               }} />
-              <div className="exp-timeline" style={{
+              <div style={{
                 position: "absolute",
                 left: -18,
                 top: 104,

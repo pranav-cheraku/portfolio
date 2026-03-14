@@ -137,6 +137,15 @@ input, textarea {
   to   { opacity: 1; transform: translateY(0); }
 }
 
+.tech-chip {
+  transition: border-color 0.2s ease, color 0.2s ease;
+}
+
+.tech-chip:hover {
+  border-color: var(--color-accent) !important;
+  color: var(--color-heading) !important;
+}
+
 .project-card-desc {
   display: -webkit-box;
   -webkit-line-clamp: 3;

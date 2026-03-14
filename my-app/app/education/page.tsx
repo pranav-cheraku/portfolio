@@ -38,7 +38,7 @@ export default function EducationPage() {
       <Glow color={T.accent2} size={280} top={-30} right={-60} opacity={0.03} />
 
       {/* Page heading */}
-      <FadeIn>
+      <FadeIn immediate>
         <h2
           className="page-heading"
           style={{
@@ -54,12 +54,12 @@ export default function EducationPage() {
       </FadeIn>
 
       {/* University card */}
-      <FadeIn delay={80}>
+      <FadeIn immediate delay={80}>
         <UniversityCard />
       </FadeIn>
 
       {/* Relevant Coursework */}
-      <FadeIn delay={160}>
+      <FadeIn immediate delay={160}>
         <div style={{ marginTop: 40 }}>
           <div
             style={{
@@ -116,7 +116,7 @@ export default function EducationPage() {
         </div>
       </FadeIn>
       {/* Research */}
-      <FadeIn delay={240}>
+      <FadeIn immediate delay={240}>
         <div style={{ marginTop: 40, paddingTop: 28, borderTop: `1px solid ${T.border}` }}>
           <div
             style={{
@@ -132,7 +132,7 @@ export default function EducationPage() {
           </div>
 
           <div className="edu-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 32 }}>
-            <FadeIn delay={260} direction="left">
+            <FadeIn immediate delay={260} direction="left">
               <ResearchEntry
                 lab="Glomerulus Lab"
                 field="Computational Neuroscience Research Group"
@@ -140,7 +140,7 @@ export default function EducationPage() {
                 href="https://glomerul.us/"
               />
             </FadeIn>
-            <FadeIn delay={360} direction="right">
+            <FadeIn immediate delay={360} direction="right">
               <ResearchEntry
                 lab="MRRP Lab"
                 field="Minimalist Resilient Robotics for the Planet"
@@ -152,7 +152,7 @@ export default function EducationPage() {
         </div>
       </FadeIn>
       {/* ── Leadership ── */}
-      <FadeIn delay={320}>
+      <FadeIn immediate delay={320}>
         <div style={{ marginTop: 40, paddingTop: 28, borderTop: `1px solid ${T.border}` }}>
           <div
             style={{
@@ -168,14 +168,14 @@ export default function EducationPage() {
           </div>
 
           <div className="leadership-grid" style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 24 }}>
-            <FadeIn delay={360} direction="left">
+            <FadeIn immediate delay={360} direction="left">
               <LeadershipCard
                 role="Tutor"
                 program="Computer Science Tutoring Program"
                 detail="One-on-one teaching · WWU"
               />
             </FadeIn>
-            <FadeIn delay={460} direction="right">
+            <FadeIn immediate delay={460} direction="right">
               <LeadershipCard
                 role="Mentor"
                 program="Computer Science Mentoring Program"
@@ -187,7 +187,7 @@ export default function EducationPage() {
       </FadeIn>
 
       {/* Activities & Societies */}
-      <FadeIn delay={400}>
+      <FadeIn immediate delay={400}>
         <div style={{ marginTop: 40, paddingTop: 28, borderTop: `1px solid ${T.border}` }}>
           <div
             style={{
@@ -202,7 +202,7 @@ export default function EducationPage() {
             Activities &amp; Societies
           </div>
 
-          <FadeIn delay={440}>
+          <FadeIn immediate delay={440}>
             <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
               {[
                 "South Asian Student Association",
