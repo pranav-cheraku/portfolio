@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import Image from "next/image";
-import { ChevronDown, ChevronUp, Calendar, MapPin, Briefcase } from "lucide-react";
+import { ChevronDown, ChevronUp, Calendar, MapPin, Briefcase, ExternalLink } from "lucide-react";
 import { T } from "@/lib/theme";
 
 const SUMMARY =
@@ -22,6 +22,7 @@ export default function FreelanceEntry() {
   const [hovered, setHovered] = useState(false);
   const [labelVisible, setLabelVisible] = useState(true);
   const [animKey, setAnimKey] = useState(0);
+  const [linkHovered, setLinkHovered] = useState(false);
 
   const handleToggle = () => {
     setLabelVisible(false);
@@ -143,7 +144,8 @@ export default function FreelanceEntry() {
           {SUMMARY}
         </p>
 
-        {/* Toggle */}
+        {/* Toggle + Website link row */}
+        <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", flexWrap: "wrap", gap: 12 }}>
         <button
           onClick={handleToggle}
           style={{
@@ -168,6 +170,36 @@ export default function FreelanceEntry() {
             : <><span>Key Achievements &amp; Skills</span><ChevronDown size={15} /></>
           }
         </button>
+
+        <a
+          href="https://www.ohtccwa.org/"
+          target="_blank"
+          rel="noopener noreferrer"
+          onMouseEnter={() => setLinkHovered(true)}
+          onMouseLeave={() => setLinkHovered(false)}
+          onTouchStart={() => setLinkHovered(true)}
+          onTouchEnd={() => setLinkHovered(false)}
+          style={{
+            display: "inline-flex",
+            alignItems: "center",
+            gap: 6,
+            fontFamily: "var(--font-dm-sans), sans-serif",
+            fontSize: 13,
+            fontWeight: 500,
+            color: T.accent,
+            textDecoration: "none",
+            border: `1px solid ${linkHovered ? T.accent : T.border}`,
+            borderRadius: 8,
+            padding: "5px 12px",
+            background: linkHovered ? T.accentSubtle : "transparent",
+            cursor: "pointer",
+            transition: "border-color 0.2s ease, background 0.2s ease",
+          }}
+        >
+          <span>Visit Website</span>
+          <ExternalLink size={13} />
+        </a>
+        </div>
 
         {/* Expandable content */}
         <div

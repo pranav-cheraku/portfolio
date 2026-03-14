@@ -10,7 +10,7 @@ const SUMMARY =
 
 const BULLETS = [
   "Implemented production changes to a wide range of reports, letters, and jobs in GenTax by using VB.NET and SQL, delivering accurate and reliable system functionality that directly serves millions of taxpayers across Pennsylvania.",
-  "Queried and analyzed over 110+ jobs, reviewing underlying code and SQL logic to assess functionality and relevance, ultimately retiring those that were no longer needed to improve long-term system performance and maintainability.",
+  "Queried and analyzed 110+ jobs, reviewing underlying code and SQL logic to assess functionality and relevance, ultimately retiring those that were no longer needed to improve long-term system performance and maintainability.",
   "Consulted with Subject Matter Experts (SMEs) and project leads to validate requirements and ensure that configuration within GenTax accurately reflected the intended business rules and functionality.",
   "Gained exposure to the full software development lifecycle, including requirements gathering, coding, testing, deployment, and documentation.",
 ];
