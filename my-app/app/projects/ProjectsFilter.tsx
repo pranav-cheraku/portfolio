@@ -12,12 +12,11 @@ type FilterOption = "Featured" | "All" | ProjectCategory;
 
 const FILTERS: FilterOption[] = [
   "Featured",
-  "All",
-  "Hackathon",
   "Machine Learning",
-  "Algorithms",
   "Systems Programming",
+  "Algorithms",
   "Databases",
+  "Hackathon",
   "Mobile",
 ];
 
@@ -27,7 +26,8 @@ export default function ProjectsFilter() {
 
   const [active, setActive] = useState<FilterOption>(() => {
     const param = searchParams.get("filter");
-    return (FILTERS.includes(param as FilterOption) ? param : "Featured") as FilterOption;
+    const valid: FilterOption[] = [...FILTERS, "All"];
+    return (valid.includes(param as FilterOption) ? param : "Featured") as FilterOption;
   });
 
   const [frame, setFrame] = useState({ left: 0, width: 0, opacity: 0 });
@@ -60,15 +60,40 @@ export default function ProjectsFilter() {
     return () => clearTimeout(t);
   }, [active]);
 
+  const alphabetical = (arr: typeof PROJECTS) =>
+    [...arr].sort((a, b) => a.title.localeCompare(b.title));
+
   const filtered =
     displayedFilter === "Featured"
       ? PROJECTS.filter((p) => p.featured).sort((a, b) => (a.featuredOrder ?? 99) - (b.featuredOrder ?? 99))
       : displayedFilter === "All"
-      ? PROJECTS
-      : PROJECTS.filter((p) => p.category === displayedFilter);
+      ? alphabetical(PROJECTS)
+      : alphabetical(PROJECTS.filter((p) => p.category === displayedFilter));
 
   return (
     <div>
+      {/* All projects link */}
+      <div style={{ display: "flex", justifyContent: "flex-end", marginBottom: 8 }}>
+        <button
+          onClick={() => handleSetActive("All")}
+          style={{
+            fontFamily: "var(--font-dm-sans), sans-serif",
+            fontSize: 13,
+            fontWeight: 600,
+            letterSpacing: "0.05em",
+            color: active === "All" ? T.accent : T.muted,
+            background: active === "All" ? T.accentSubtle : "transparent",
+            border: `1px solid ${active === "All" ? T.accent : T.border}`,
+            borderRadius: 6,
+            cursor: "pointer",
+            padding: "7px 14px",
+            transition: "color 0.2s ease, border-color 0.2s ease, background 0.2s ease",
+          }}
+        >
+          All Projects ({PROJECTS.length})
+        </button>
+      </div>
+
       {/* Filter band */}
       <div
         ref={containerRef}
@@ -91,7 +116,7 @@ export default function ProjectsFilter() {
             left: frame.left,
             width: frame.width,
             border: `1px solid ${T.accent}`,
-            opacity: frame.opacity,
+            opacity: active === "All" ? 0 : frame.opacity,
             transition:
               "left 0.35s cubic-bezier(0.22,1,0.36,1), width 0.35s cubic-bezier(0.22,1,0.36,1), opacity 0.2s ease",
             pointerEvents: "none",
@@ -117,7 +142,7 @@ export default function ProjectsFilter() {
                 flexDirection: "column",
                 alignItems: "center",
                 gap: 5,
-                padding: "16px 8px",
+                padding: "16px 20px",
                 background: "none",
                 border: "none",
                 cursor: "pointer",
@@ -131,7 +156,7 @@ export default function ProjectsFilter() {
                   fontWeight: 600,
                   letterSpacing: "0.06em",
                   textTransform: "uppercase",
-                  color: isActive ? T.accent : T.muted,
+                  color: isActive && active !== "All" ? T.accent : T.muted,
                   transition: "color 0.25s ease",
                   whiteSpace: "nowrap",
                 }}
@@ -144,8 +169,8 @@ export default function ProjectsFilter() {
                   fontSize: 22,
                   fontWeight: 400,
                   lineHeight: 1,
-                  color: isActive ? T.accent : T.body,
-                  opacity: isActive ? 1 : 0.4,
+                  color: isActive && active !== "All" ? T.accent : T.body,
+                  opacity: isActive && active !== "All" ? 1 : 0.4,
                   transition: "color 0.25s ease, opacity 0.25s ease",
                 }}
               >

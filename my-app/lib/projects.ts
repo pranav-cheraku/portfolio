@@ -16,7 +16,6 @@ export type ProjectCategory =
 
 export interface Project {
   slug: string;
-  number: string;
   title: string;
   subtitle: string;     // shown on detail page header
   oneliner: string;     // shown on grid card
@@ -39,7 +38,6 @@ export interface Project {
 export const PROJECTS: Project[] = [
   {
     slug: "phylogenetic-tree-construction",
-    number: "02",
     title: "Phylogenetic Tree Construction",
     subtitle: "Bioinformatics · Evolutionary Relationship Mapping",
     oneliner:
@@ -81,7 +79,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "lattice-based-speech-recognition",
-    number: "03",
     title: "Lattice-Based Speech Recognition System",
     subtitle: "Speech Recognition · Lattice Graph Decoding",
     oneliner:
@@ -123,7 +120,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "calculator-app",
-    number: "12",
     title: "Calculator App",
     subtitle: "Mobile Development · iOS-Style React Native Calculator",
     oneliner:
@@ -151,7 +147,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "robotic-goalie",
-    number: "18",
     title: "Robotic Goalie",
     subtitle: "Robotics & Computer Vision · Autonomous Goal Defense",
     oneliner:
@@ -173,7 +168,7 @@ export const PROJECTS: Project[] = [
     youtube: "https://www.youtube.com/watch?v=eCNDledIDFw&list=PLh_sUoeDic-4XiX038rOFWnLxm4t1trq6&index=2",
     screenshots: [
       {
-        src: "/projects/RoboticGoalie/ObjectDeteciton.png",
+        src: "/projects/RoboticGoalie/ObjectDetection.png",
         caption: "YOLOv8 object detection in action — the model identifies and tracks the incoming ball in real time, drawing a bounding box around the target.",
       },
       {
@@ -184,7 +179,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "dictionary-app",
-    number: "17",
     title: "Dictionary App",
     subtitle: "Mobile Development · Customizable Word Search Experience",
     oneliner:
@@ -220,7 +214,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "single-user-relational-database",
-    number: "16",
     title: "Single User Relational Database",
     subtitle: "Database Systems · In-Memory RDBMS from Scratch",
     oneliner:
@@ -262,7 +255,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "jdbc-course-registration",
-    number: "15",
     title: "JDBC-Based Course Registration System",
     subtitle: "Database Systems · Java Student Registration CLI",
     oneliner:
@@ -302,7 +294,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "world-clock-app",
-    number: "14",
     title: "World Clock App",
     subtitle: "Mobile Development · Dynamic Time & Location Dashboard",
     oneliner:
@@ -322,26 +313,25 @@ export const PROJECTS: Project[] = [
     screenshotGridCount: 4,
     screenshots: [
       {
-        src: "/projects/worldClockApp/day-home.png",
+        src: "/projects/WorldClockApp/day-home.png",
         caption: "Day theme — collapsed view showing the afternoon greeting, current time, location in Bellingham WA, and a refreshable programming quote at the top.",
       },
       {
-        src: "/projects/worldClockApp/day-menu.png",
+        src: "/projects/WorldClockApp/day-menu.png",
         caption: "Day theme — expanded panel revealing in-depth temporal details including the current timezone, day of the year, day of the week, and week number.",
       },
       {
-        src: "/projects/worldClockApp/night-home.png",
+        src: "/projects/WorldClockApp/night-home.png",
         caption: "Night theme — collapsed view showing the evening greeting with a starry sky background, automatically applied based on the 12-hour day/night cycle.",
       },
       {
-        src: "/projects/worldClockApp/night-menu.png",
+        src: "/projects/WorldClockApp/night-menu.png",
         caption: "Night theme — expanded panel showing the same temporal details against the night background, demonstrating the theme transition across the full interface.",
       },
     ],
   },
   {
     slug: "interactive-comments-app",
-    number: "13",
     title: "Interactive Comments App",
     subtitle: "Mobile Development · Threaded Social Comments",
     oneliner:
@@ -372,7 +362,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "network-chat-application",
-    number: "11",
     title: "Network Chat Application",
     subtitle: "Systems Programming · TCP Client-Server Messaging",
     oneliner:
@@ -410,7 +399,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "tcp-word-game",
-    number: "10",
     title: "TCP-Based Two Player Word Game",
     subtitle: "Systems Programming · Networked Client-Server Architecture",
     oneliner:
@@ -442,7 +430,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "toyos",
-    number: "09",
     title: "ToyOS",
     subtitle: "Operating Systems · RISC-V Kernel Engineering",
     oneliner:
@@ -463,7 +450,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "fake-image-detection",
-    number: "08",
     title: "Fake Image Detection",
     subtitle: "Deep Learning · GAN Face Classification",
     oneliner:
@@ -486,7 +472,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "beer-style-prediction",
-    number: "07",
     title: "Beer Style Prediction",
     subtitle: "Machine Learning · Multiclass Classification",
     oneliner:
@@ -506,7 +491,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "numpy-deep-neural-network",
-    number: "06",
     title: "NumPy Deep Neural Network",
     subtitle: "Machine Learning · Neural Network from Scratch",
     oneliner:
@@ -525,7 +509,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "multithreaded-image-edge-detection",
-    number: "05",
     title: "Multithreaded Image Edge Detection",
     subtitle: "Systems Programming · Parallel Image Processing",
     oneliner:
@@ -560,7 +543,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "mini-unix-shell",
-    number: "04",
     title: "Mini Unix Shell",
     subtitle: "Systems Programming · Unix Process Management",
     oneliner:
@@ -599,7 +581,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "kelp",
-    number: "21",
     title: "KELP",
     subtitle: "Hackathon · AI Environmental Risk Visualization",
     oneliner:
@@ -628,7 +609,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "pathora",
-    number: "20",
     title: "Pathora",
     subtitle: "Hackathon · AI-Powered Learning Path Generator",
     oneliner:
@@ -659,7 +639,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "venture-map",
-    number: "19",
     title: "VentureMap",
     subtitle: "Hackathon · AI-Driven Travel Discovery",
     oneliner:
@@ -687,7 +666,6 @@ export const PROJECTS: Project[] = [
   },
   {
     slug: "ngram-language-model",
-    number: "01",
     title: "Probabilistic N-Gram Language Model",
     subtitle: "Natural Language Processing · Probability-Based Text Generation",
     oneliner:
