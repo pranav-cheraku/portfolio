@@ -21,6 +21,10 @@ export default function Navbar() {
     }, 250);
   };
 
+  const handleLinkClick = () => {
+    setTimeout(closeMenu, 300);
+  };
+
   return (
     <>
       <nav
@@ -174,7 +178,7 @@ export default function Navbar() {
                 <Link
                   key={link}
                   href={`/${link}`}
-                  onClick={closeMenu}
+                  onClick={handleLinkClick}
                   style={{
                     display: "block",
                     fontFamily: "var(--font-dm-sans), sans-serif",

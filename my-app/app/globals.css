@@ -127,8 +127,12 @@ textarea:-webkit-autofill:focus {
   caret-color: var(--color-heading);
 }
 
-input, textarea {
+:root {
   color-scheme: dark;
+}
+
+[data-theme="light"] {
+  color-scheme: light;
 }
 
 
@@ -151,12 +155,6 @@ input, textarea {
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
-}
-
-@media (max-width: 640px) {
-  .projects-grid {
-    grid-template-columns: 1fr !important;
-  }
 }
 
 @media (max-width: 640px) {

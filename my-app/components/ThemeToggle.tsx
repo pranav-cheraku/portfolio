@@ -24,7 +24,7 @@ export default function ThemeToggle() {
     // Start page color transitions + switch theme immediately
     document.documentElement.classList.add("theme-transitioning");
     document.documentElement.setAttribute("data-theme", next);
-    try { localStorage.setItem("theme", next); } catch (e) {}
+    try { localStorage.setItem("theme", next); } catch {}
 
     // Swap the icon at the midpoint of the spin (when it's smallest)
     setTimeout(() => setTheme(next), 150);
