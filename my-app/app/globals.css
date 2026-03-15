@@ -76,6 +76,7 @@ html.theme-transitioning *::placeholder {
               border-color 0.4s ease, box-shadow 0.4s ease !important;
 }
 
+
 input::placeholder,
 textarea::placeholder {
   color: var(--color-muted);
@@ -338,6 +339,12 @@ textarea:-webkit-autofill:focus {
     padding: 14px 18px !important;
   }
 
+
+  /* Skills section collapses to single column on mobile */
+  .skill-section {
+    grid-template-columns: 1fr !important;
+    gap: 16px !important;
+  }
 
   /* Screenshot grid stacks on mobile */
   .screenshot-grid {
