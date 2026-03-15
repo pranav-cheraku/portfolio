@@ -6,7 +6,7 @@ import { useState } from "react";
 import { T } from "@/lib/theme";
 import ThemeToggle from "./ThemeToggle";
 
-const LINKS = ["about", "education", "experience", "projects", "skills", "contact"];
+const LINKS = ["about", "projects", "experience", "skills", "education", "contact"];
 
 export default function Navbar() {
   const pathname = usePathname();
