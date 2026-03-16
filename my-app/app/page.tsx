@@ -6,6 +6,8 @@ import HeroResumeBtn from "@/app/HeroResumeBtn";
 
 export const metadata = {
   title: "Pranav Cheraku",
+  description:
+    "Pranav Cheraku — Computer Science student at Western Washington University graduating June 2026. Specializing in Software Engineering, AI/ML, and Data Science. Seeking new grad roles.",
 };
 
 export default function Home() {

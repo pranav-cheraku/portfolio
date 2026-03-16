@@ -32,8 +32,9 @@ const lora = Lora({
 
 // Metadata shows up in browser tab titles and Google search results
 export const metadata: Metadata = {
-  title: "Portfolio - Pranav Cheraku",
-  description: "Hello this is my personal website to showcase my work.",
+  title: "Pranav Cheraku",
+  description:
+    "Pranav Cheraku — Computer Science student at Western Washington University graduating June 2026. Specializing in Software Engineering, AI/ML, and Data Science. Seeking new grad roles.",
 };
 
 export default function RootLayout({
