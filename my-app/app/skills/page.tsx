@@ -25,7 +25,7 @@ const CATEGORIES = [
       {
         name: "TypeScript",
         context:
-          "Used in KELP, Pathora, and VentureMap.",
+          "Used in KELP, Pathora, VentureMap, and this portfolio.",
       },
       {
         name: "JavaScript",
@@ -113,7 +113,7 @@ const CATEGORIES = [
       },
       {
         name: "Tailwind CSS",
-        context: "Styling framework for the OHTCC nonprofit website.",
+        context: "Styling framework for the OHTCC nonprofit website and this portfolio.",
       },
     ],
   },
@@ -215,6 +215,10 @@ const CATEGORIES = [
       {
         name: "Netlify",
         context: "Deployment and CI/CD pipeline for the OHTCC website.",
+      },
+      {
+        name: "Vercel",
+        context: "Deployment and analytics platform for this portfolio.",
       },
       {
         name: "Jest",
