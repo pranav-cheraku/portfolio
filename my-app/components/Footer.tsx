@@ -28,7 +28,7 @@ export default function Footer() {
             color: T.muted,
           }}
         >
-          © 2026 Pranav Cheraku — All Rights Reserved
+          © 2026 Pranav Cheraku
         </span>
       </div>
     </footer>

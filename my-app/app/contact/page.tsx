@@ -4,11 +4,11 @@ import ContactForm from "./ContactForm";
 import ResumeDownload from "./ResumeDownload";
 import { T } from "@/lib/theme";
 
-const ROLES = ["Software Engineer", "AI/ML Engineer", "Data Scientist"];
-
 export const metadata = {
   title: "Contact - Pranav Cheraku",
 };
+
+const ROLES = ["Software Engineer", "AI/ML Engineer", "Data Scientist"];
 
 // Contact page — links and form
 export default function ContactPage() {

@@ -118,9 +118,9 @@ export default async function ProjectDetailPage({
             <div>
               <SectionLabel>Key Highlights</SectionLabel>
               <div style={{ display: "flex", flexDirection: "column", gap: 16 }}>
-                {bullets.map((bullet) => (
+                {bullets.map((bullet, i) => (
                   <div
-                    key={bullet.slice(0, 30)}
+                    key={i}
                     style={{
                       fontFamily: "var(--font-dm-sans), sans-serif",
                       fontSize: 15,

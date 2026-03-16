@@ -26,10 +26,6 @@ const MATH_COURSES = [
   "Numerical Computation",
 ];
 
-export const metadata = {
-  title: "Education - Pranav Cheraku",
-};
-
 export default function EducationPage() {
   return (
     <div style={{ position: "relative" }}>

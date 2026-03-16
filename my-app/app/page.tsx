@@ -167,7 +167,7 @@ export default function Home() {
               fontStyle: "italic",
             }}
           >
-            Checkout my portfolio
+            Check out my portfolio
           </span>
           <span
             className="hero-bridge-label"

@@ -5,15 +5,15 @@ import Link from "next/link";
 import { T } from "@/lib/theme";
 
 const SECTIONS = [
-  { href: "/about",      label: "About",      desc: "Who I am and what drives me",               accent: T.accent2, index: 1 },
-  { href: "/experience", label: "Experience",  desc: "FAST Enterprises · Research labs",           accent: T.accent3, index: 2 },
-  { href: "/projects",   label: "Projects",    desc: "15+ projects across ML and systems",         accent: T.accent2, index: 3 },
-  { href: "/skills",     label: "Skills",      desc: "Languages, frameworks, and tools",           accent: T.accent3, index: 4 },
-  { href: "/education",  label: "Education",   desc: "Western Washington University",              accent: T.accent2, index: 5 },
-  { href: "/contact",    label: "Contact",     desc: "Let's work together",                        accent: T.accent3, index: 6 },
+  { href: "/about",      label: "About",      accent: T.accent2, index: 1 },
+  { href: "/experience", label: "Experience", accent: T.accent3, index: 2 },
+  { href: "/projects",   label: "Projects",   accent: T.accent2, index: 3 },
+  { href: "/skills",     label: "Skills",     accent: T.accent3, index: 4 },
+  { href: "/education",  label: "Education",  accent: T.accent2, index: 5 },
+  { href: "/contact",    label: "Contact",    accent: T.accent3, index: 6 },
 ];
 
-function BentoCard({ href, label, desc, accent, index }: (typeof SECTIONS)[0]) {
+function BentoCard({ href, label, accent, index }: (typeof SECTIONS)[0]) {
   const [hovered, setHovered] = useState(false);
 
   return (
@@ -60,7 +60,7 @@ function BentoCard({ href, label, desc, accent, index }: (typeof SECTIONS)[0]) {
         </span>
       </div>
 
-      {/* Bottom: label + desc */}
+      {/* Bottom: label */}
       <div>
         <div
           className="bento-label"
