@@ -381,4 +381,49 @@ textarea:-webkit-autofill:focus {
     position: static !important;
     top: auto !important;
   }
+
+  /* Hero stacks on mobile */
+  .hero-grid {
+    grid-template-columns: 1fr !important;
+    min-height: unset !important;
+  }
+
+  .hero-name {
+    font-size: 46px !important;
+  }
 }
+
+/* ── Hero ── */
+.hero-name {
+  font-size: 86px;
+}
+
+.home-cta-primary {
+  font-family: var(--font-dm-sans), sans-serif;
+  font-size: 17px;
+  color: var(--color-accent);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.home-cta-primary:hover {
+  opacity: 0.72;
+  transform: translateY(-2px);
+}
+
+.home-cta-secondary {
+  font-family: var(--font-dm-sans), sans-serif;
+  font-size: 17px;
+  color: var(--color-muted);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.home-cta-secondary:hover {
+  color: var(--color-body);
+  transform: translateY(-2px);
+}
+
+

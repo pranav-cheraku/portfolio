@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { T } from "@/lib/theme";
 
-export default function MemojiDisplay() {
+export default function MemojiDisplay({ size = 265 }: { size?: number }) {
   const [hovered, setHovered] = useState(false);
 
   return (
@@ -16,7 +16,7 @@ export default function MemojiDisplay() {
         justifyContent: "center",
         alignItems: "center",
         position: "relative",
-        minHeight: 300,
+        minHeight: size + 40,
         cursor: "default",
       }}
     >
@@ -24,8 +24,8 @@ export default function MemojiDisplay() {
       <div
         style={{
           position: "absolute",
-          width: 265,
-          height: 265,
+          width: size,
+          height: size,
           borderRadius: "50%",
           background: `linear-gradient(135deg, ${T.accent2}, ${T.accent3})`,
           transform: hovered ? "scale(1.04)" : "scale(1)",
