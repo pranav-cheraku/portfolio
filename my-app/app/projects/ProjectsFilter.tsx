@@ -44,11 +44,8 @@ export default function ProjectsFilter() {
   useEffect(() => {
     const idx = FILTERS.indexOf(active);
     const btn = buttonRefs.current[idx];
-    const container = containerRef.current;
-    if (!btn || !container) return;
-    const bRect = btn.getBoundingClientRect();
-    const cRect = container.getBoundingClientRect();
-    setFrame({ left: bRect.left - cRect.left, width: bRect.width, opacity: 1 });
+    if (!btn) return;
+    setFrame({ left: btn.offsetLeft, width: btn.offsetWidth, opacity: 1 });
   }, [active]);
 
   useEffect(() => {
