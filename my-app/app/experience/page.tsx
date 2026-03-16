@@ -1,5 +1,4 @@
 import FadeIn from "@/components/FadeIn";
-import Glow from "@/components/Glow";
 import { T } from "@/lib/theme";
 import InternshipEntry from "./InternshipEntry";
 import FreelanceEntry from "./FreelanceEntry";
@@ -13,9 +12,7 @@ export const metadata = {
 export default function ExperiencePage() {
   return (
     <div style={{ position: "relative" }}>
-      {/* Accent glow orb */}
-      <Glow color={T.accent} size={280} top={-30} right={-60} opacity={0.03} />
-
+      
       {/* Page heading */}
       <FadeIn immediate>
         <h2

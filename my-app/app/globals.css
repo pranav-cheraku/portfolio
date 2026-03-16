@@ -28,6 +28,7 @@ html {
   --color-nav-bg-solid: rgba(20,25,32,0.97);
   --color-nav-border: rgba(255,255,255,0.05);
   --color-form-bg: #1c2028;
+  --color-error: #e07070;
 }
 
 [data-theme="light"] {
@@ -53,6 +54,7 @@ html {
   --color-nav-bg-solid: rgba(232,226,215,0.97);
   --color-nav-border: rgba(0,0,0,0.06);
   --color-form-bg: #dad3c9;
+  --color-error: #c0504a;
 }
 
 /* Theme toggle icon spin — shrinks at midpoint so icon can swap cleanly */
@@ -223,6 +225,17 @@ textarea:-webkit-autofill:focus {
 
   .leadership-card .detail-text {
     font-size: 12px !important;
+  }
+
+  /* Contact intro stacks vertically on mobile */
+  .contact-intro {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+    gap: 4px !important;
+  }
+
+  .contact-intro-divider {
+    display: none !important;
   }
 
   /* Contact stats wrap into 2 columns */

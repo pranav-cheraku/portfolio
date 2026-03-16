@@ -1,6 +1,5 @@
 import { Suspense } from "react";
 import FadeIn from "@/components/FadeIn";
-import Glow from "@/components/Glow";
 import { T } from "@/lib/theme";
 import ProjectsFilter from "./ProjectsFilter";
 
@@ -11,8 +10,7 @@ export const metadata = {
 export default function ProjectsPage() {
   return (
     <div style={{ position: "relative" }}>
-      <Glow color={T.accent3} size={280} top={-30} right={-60} opacity={0.03} />
-
+      
       <FadeIn immediate>
         <h2
           className="page-heading"

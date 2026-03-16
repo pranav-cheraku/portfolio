@@ -75,6 +75,7 @@ export default function AboutPage() {
                       fontWeight: 400,
                       color: accent ? T.accent : T.heading,
                       fontStyle: accent ? "italic" : "normal",
+                      textShadow: accent ? `0 0 32px ${T.accentGlow}` : "none",
                     }}
                   >
                     {value}

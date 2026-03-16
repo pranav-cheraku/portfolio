@@ -4,7 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { T } from "@/lib/theme";
 import { PROJECTS } from "@/lib/projects";
-import type { ProjectCategory } from "@/lib/projects";
+import type { Project, ProjectCategory } from "@/lib/projects";
 import ProjectCard from "./ProjectCard";
 
 type FilterOption = "Featured" | "All" | ProjectCategory;
@@ -60,7 +60,7 @@ export default function ProjectsFilter() {
     return () => clearTimeout(t);
   }, [active]);
 
-  const alphabetical = (arr: typeof PROJECTS) =>
+  const alphabetical = (arr: Project[]) =>
     [...arr].sort((a, b) => a.title.localeCompare(b.title));
 
   const filtered =

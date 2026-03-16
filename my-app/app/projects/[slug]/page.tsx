@@ -1,7 +1,6 @@
 import { Suspense } from "react";
 import { notFound } from "next/navigation";
 import FadeIn from "@/components/FadeIn";
-import Glow from "@/components/Glow";
 import { T } from "@/lib/theme";
 import { PROJECTS } from "@/lib/projects";
 import SkillTag from "./SkillTag";
@@ -52,8 +51,7 @@ export default async function ProjectDetailPage({
 
   return (
     <div style={{ position: "relative" }}>
-      <Glow color={accent} size={300} top={-60} right={-80} opacity={0.04} />
-
+      
       <FadeIn immediate>
       {/* Back link */}
         <Suspense fallback={<div style={{ height: 40 }} />}>

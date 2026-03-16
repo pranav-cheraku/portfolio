@@ -1,5 +1,4 @@
 import FadeIn from "@/components/FadeIn";
-import Glow from "@/components/Glow";
 import { T } from "@/lib/theme";
 import SkillSection from "./SkillSection";
 
@@ -233,8 +232,7 @@ const CATEGORIES = [
 export default function SkillsPage() {
   return (
     <div style={{ position: "relative" }}>
-      <Glow color={T.accent2} size={280} top={-30} right={-60} opacity={0.03} />
-
+      
       <FadeIn immediate>
         <h2
           className="page-heading"

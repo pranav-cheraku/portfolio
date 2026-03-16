@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { tintOf, tintHoverOf } from "@/lib/theme";
 
 interface SkillTagProps {
   tag: string;
@@ -18,8 +19,8 @@ export default function SkillTag({ tag, accent }: SkillTagProps) {
         fontFamily: "var(--font-dm-sans), sans-serif",
         fontSize: 13,
         color: accent,
-        background: accent.replace(")", "-tint)"),
-        border: `1px solid ${accent.replace(")", "-tint-hover)")}`,
+        background: tintOf[accent],
+        border: `1px solid ${tintHoverOf[accent]}`,
         borderRadius: 999,
         padding: "4px 12px",
         display: "inline-block",

@@ -1,5 +1,4 @@
 import FadeIn from "@/components/FadeIn";
-import Glow from "@/components/Glow";
 import CourseChip from "@/components/CourseChip";
 import UniversityCard from "./UniversityCard";
 import { T } from "@/lib/theme";
@@ -34,9 +33,6 @@ export const metadata = {
 export default function EducationPage() {
   return (
     <div style={{ position: "relative" }}>
-      {/* Lavender glow orb */}
-      <Glow color={T.accent2} size={280} top={-30} right={-60} opacity={0.03} />
-
       {/* Page heading */}
       <FadeIn immediate>
         <h2

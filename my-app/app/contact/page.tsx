@@ -1,5 +1,4 @@
 import FadeIn from "@/components/FadeIn";
-import Glow from "@/components/Glow";
 import ContactLinks from "./ContactLinks";
 import ContactForm from "./ContactForm";
 import ResumeDownload from "./ResumeDownload";
@@ -15,9 +14,6 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <div style={{ position: "relative" }}>
-      {/* Gold glow orb top right */}
-      <Glow color={T.accent} size={280} top={-30} right={-60} opacity={0.03} />
-
       {/* Page heading */}
       <FadeIn immediate>
         <h2
@@ -37,6 +33,7 @@ export default function ContactPage() {
       {/* Italic intro line */}
       <FadeIn immediate delay={60}>
         <div
+          className="contact-intro"
           style={{
             fontFamily: "var(--font-lora), serif",
             fontSize: 16,
@@ -45,11 +42,13 @@ export default function ContactPage() {
             marginBottom: 36,
             marginTop: 0,
             display: "flex",
-            flexDirection: "column",
-            gap: 4,
+            flexDirection: "row",
+            alignItems: "center",
+            gap: 12,
           }}
         >
           <span>I&apos;m actively seeking new tech opportunities.</span>
+          <span className="contact-intro-divider" style={{ color: T.border, fontStyle: "normal" }}>|</span>
           <span>Open to connecting, sharing ideas, and exploring possibilities.</span>
         </div>
       </FadeIn>

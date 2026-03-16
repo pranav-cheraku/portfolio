@@ -157,7 +157,7 @@ export default function ContactForm() {
           fontFamily: "var(--font-dm-sans), sans-serif",
           fontSize: 15,
           fontWeight: 500,
-          color: "#0f1a1a",
+          color: T.bg,
           background: `linear-gradient(135deg, ${T.accent2}, ${T.accent3})`,
           border: "none",
           borderRadius: 50,
@@ -173,7 +173,7 @@ export default function ContactForm() {
 
       {/* Inline error message */}
       {error && (
-        <p style={{ marginTop: 12, fontSize: 13, color: "#e07070", fontFamily: "var(--font-dm-sans), sans-serif" }}>
+        <p style={{ marginTop: 12, fontSize: 13, color: T.error, fontFamily: "var(--font-dm-sans), sans-serif" }}>
           {error}
         </p>
       )}

@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { T } from "@/lib/theme";
+import { T, tintOf, tintHoverOf } from "@/lib/theme";
 
 interface Skill {
   name: string;
@@ -78,10 +78,8 @@ export default function SkillSection({ number, label, accent, skills }: SkillSec
                   fontSize: 14,
                   fontWeight: 500,
                   color: isActive ? accent : T.body,
-                  background: isActive
-                    ? accent.replace(")", "-tint-hover)")
-                    : accent.replace(")", "-tint)"),
-                  border: `1px solid ${isActive ? accent : accent.replace(")", "-tint-hover)")}`,
+                  background: isActive ? tintHoverOf[accent] : tintOf[accent],
+                  border: `1px solid ${isActive ? accent : tintHoverOf[accent]}`,
                   borderRadius: 999,
                   padding: "7px 18px",
                   cursor: "default",

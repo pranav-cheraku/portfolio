@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
-import { T } from "@/lib/theme";
+import { T, tintOf, tintHoverOf } from "@/lib/theme";
 import type { Project } from "@/lib/projects";
 
 export default function ProjectCard({ slug, title, oneliner, tags, accent, fromFilter }: Project & { fromFilter?: string }) {
@@ -84,8 +84,8 @@ export default function ProjectCard({ slug, title, oneliner, tags, accent, fromF
               fontFamily: "var(--font-dm-sans), sans-serif",
               fontSize: 12,
               color: accent,
-              background: accent.replace(")", "-tint)"),
-              border: `1px solid ${accent.replace(")", "-tint-hover)")}`,
+              background: tintOf[accent],
+              border: `1px solid ${tintHoverOf[accent]}`,
               borderRadius: 999,
               padding: "3px 12px",
             }}
