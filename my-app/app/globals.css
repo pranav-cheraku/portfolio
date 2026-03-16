@@ -29,6 +29,7 @@ html {
   --color-nav-border: rgba(255,255,255,0.05);
   --color-form-bg: #1c2028;
   --color-error: #e07070;
+  --color-dot: rgba(255,255,255,0.07);
 }
 
 [data-theme="light"] {
@@ -55,6 +56,7 @@ html {
   --color-nav-border: rgba(0,0,0,0.06);
   --color-form-bg: #dad3c9;
   --color-error: #c0504a;
+  --color-dot: rgba(0,0,0,0.07);
 }
 
 /* Theme toggle icon spin — shrinks at midpoint so icon can swap cleanly */
@@ -298,6 +300,7 @@ textarea:-webkit-autofill:focus {
   .about-memoji-wrap {
     max-width: 300px !important;
     margin: 0 auto !important;
+    min-height: 300px !important;
   }
 
   /* Space above bio section when stacked */
@@ -382,20 +385,59 @@ textarea:-webkit-autofill:focus {
     top: auto !important;
   }
 
-  /* Hero stacks on mobile */
+  /* Hero stacks on mobile — memoji moves to top */
   .hero-grid {
     grid-template-columns: 1fr !important;
     min-height: unset !important;
+    margin-top: -24px !important;
+    align-items: start !important;
+    padding-top: 0 !important;
   }
 
+  /* Hero name scales down */
   .hero-name {
-    font-size: 46px !important;
+    font-size: 44px !important;
+    white-space: normal !important;
   }
+
+  /* Memoji moves to top on mobile */
+  .hero-memoji {
+    order: -1 !important;
+    max-width: 320px !important;
+    margin: 0 auto !important;
+    width: 100% !important;
+  }
+
+  /* Bento section labels shrink on mobile */
+  .bento-label {
+    font-size: 16px !important;
+  }
+
+  /* Specialties wrap and shrink */
+  .hero-specialties {
+    font-size: 15px !important;
+  }
+
+  /* Bridge heading shrinks */
+  .hero-bridge-heading {
+    font-size: 22px !important;
+  }
+
+  /* Hide "6 sections" label on mobile */
+  .hero-bridge-label {
+    display: none !important;
+  }
+
+  /* Bento grid goes 2-col on mobile */
+  .home-bento-grid {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
 }
 
 /* ── Hero ── */
 .hero-name {
-  font-size: 86px;
+  font-size: 76px;
 }
 
 .home-cta-primary {

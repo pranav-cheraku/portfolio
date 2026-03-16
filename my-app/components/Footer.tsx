@@ -7,6 +7,9 @@ export default function Footer() {
       style={{
         borderTop: `1px solid ${T.border}`,
         padding: "24px 48px",
+        background: T.bg,
+        position: "relative",
+        zIndex: 1,
       }}
     >
       {/* Inner wrapper — centered */}

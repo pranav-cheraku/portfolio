@@ -1,6 +1,8 @@
 import FadeIn from "@/components/FadeIn";
 import { T } from "@/lib/theme";
 import MemojiDisplay from "@/app/about/MemojiDisplay";
+import HomeNavBento from "@/app/HomeNavBento";
+import HeroResumeBtn from "@/app/HeroResumeBtn";
 
 export const metadata = {
   title: "Pranav Cheraku",
@@ -8,6 +10,20 @@ export const metadata = {
 
 export default function Home() {
   return (
+    <>
+
+      {/* Full-page dot grid background */}
+      <div
+        style={{
+          position: "fixed",
+          inset: 0,
+          backgroundImage: "radial-gradient(circle, var(--color-dot) 1px, transparent 1px)",
+          backgroundSize: "28px 28px",
+          pointerEvents: "none",
+          zIndex: -1,
+        }}
+      />
+
     <div
       className="hero-grid"
       style={{
@@ -15,10 +31,10 @@ export default function Home() {
         gridTemplateColumns: "1fr 370px",
         gap: 64,
         alignItems: "center",
-        minHeight: "80vh",
+        minHeight: "60vh",
         paddingTop: 0,
-        marginTop: -24,
-        paddingBottom: 80,
+        marginTop: -8,
+        paddingBottom: 0,
       }}
     >
 
@@ -33,6 +49,7 @@ export default function Home() {
               fontFamily: "var(--font-playfair), serif",
               fontWeight: 400,
               lineHeight: 1.05,
+              whiteSpace: "nowrap",
               marginBottom: 20,
             }}
           >
@@ -65,6 +82,7 @@ export default function Home() {
         {/* Specialties */}
         <FadeIn immediate delay={100}>
           <div
+            className="hero-specialties"
             style={{
               fontFamily: "var(--font-dm-sans), sans-serif",
               fontSize: 19,
@@ -91,7 +109,7 @@ export default function Home() {
                 fontStyle: "italic",
               }}
             >
-              Computer Science Major, Graduating June 2026
+              Computer Science Major — Graduating June 2026
             </div>
             <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
               <span className="status-dot" />
@@ -107,18 +125,69 @@ export default function Home() {
                 Seeking New Grad Roles
               </span>
             </div>
+            <HeroResumeBtn />
           </div>
         </FadeIn>
 
       </div>
 
       {/* Right: memoji */}
-      <FadeIn immediate delay={100} direction="right">
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <MemojiDisplay size={310} />
-        </div>
-      </FadeIn>
+      <div className="hero-memoji">
+        <FadeIn immediate delay={100} direction="right">
+          <div style={{ display: "flex", justifyContent: "center" }}>
+            <MemojiDisplay size={310} />
+          </div>
+        </FadeIn>
+      </div>
 
     </div>
+
+    {/* Bridge + Bento */}
+    <FadeIn>
+      <div>
+
+        {/* Bridge heading */}
+        <div
+          style={{
+            borderTop: `1px solid ${T.border}`,
+            paddingTop: 14,
+            paddingBottom: 10,
+            display: "flex",
+            justifyContent: "space-between",
+            alignItems: "baseline",
+          }}
+        >
+          <span
+            className="hero-bridge-heading"
+            style={{
+              fontFamily: "var(--font-playfair), serif",
+              fontSize: 30,
+              fontWeight: 400,
+              color: T.heading,
+              fontStyle: "italic",
+            }}
+          >
+            Checkout my portfolio
+          </span>
+          <span
+            className="hero-bridge-label"
+            style={{
+              fontFamily: "var(--font-dm-sans), sans-serif",
+              fontSize: 12,
+              color: T.muted,
+              letterSpacing: 2,
+              textTransform: "uppercase",
+            }}
+          >
+            6 sections
+          </span>
+        </div>
+
+        <HomeNavBento />
+
+      </div>
+    </FadeIn>
+
+    </>
   );
 }
