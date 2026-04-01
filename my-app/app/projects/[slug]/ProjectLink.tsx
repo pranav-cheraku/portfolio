@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Github, ExternalLink, Youtube } from "lucide-react";
+import { Github, ExternalLink, Youtube, Linkedin } from "lucide-react";
 import { T } from "@/lib/theme";
 
 function LinkButton({
@@ -12,13 +12,13 @@ function LinkButton({
 }: {
   href: string;
   accent: string;
-  icon: "github" | "external" | "youtube";
+  icon: "github" | "external" | "youtube" | "linkedin";
   label: string;
 }) {
   const [hovered, setHovered] = useState(false);
 
   const Icon =
-    icon === "github" ? Github : icon === "youtube" ? Youtube : ExternalLink;
+    icon === "github" ? Github : icon === "youtube" ? Youtube : icon === "linkedin" ? Linkedin : ExternalLink;
 
   return (
     <a
@@ -59,12 +59,14 @@ export default function ProjectLinks({
   live,
   youtube,
   devpost,
+  linkedin,
   accent,
 }: {
   github: string | null;
   live: string | null;
   youtube?: string | null;
   devpost?: string | null;
+  linkedin?: string | null;
   accent: string;
 }) {
   return (
@@ -77,6 +79,9 @@ export default function ProjectLinks({
       )}
       {youtube && (
         <LinkButton href={youtube} accent={accent} icon="youtube" label="Demo" />
+      )}
+      {linkedin && (
+        <LinkButton href={linkedin} accent={accent} icon="linkedin" label="LinkedIn Post" />
       )}
       {live && (
         <LinkButton href={live} accent={accent} icon="external" label="Live Demo" />

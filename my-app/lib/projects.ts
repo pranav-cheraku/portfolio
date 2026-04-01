@@ -30,6 +30,7 @@ export interface Project {
   live: string | null;
   youtube?: string | null;
   devpost?: string | null;
+  linkedin?: string | null;
   screenshots?: Screenshot[];
   screenshotGridCount?: number; // how many screenshots go in the grid (rest render full-width below)
   screenshotColumns?: number;  // number of columns in the screenshot grid (default: 2)
@@ -600,6 +601,7 @@ export const PROJECTS: Project[] = [
     live: null,
     devpost: "https://devpost.com/software/kelp",
     youtube: "https://www.youtube.com/watch?v=O5l-Clx8iIc",
+    linkedin: "https://www.linkedin.com/posts/pranav-cheraku_over-the-weekend-my-team-pranav-cheraku-activity-7386190783332212736-ovrX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2i5OwB6faIaKHb34O59Bfx-SggeJBFERA",
     screenshots: [
       {
         src: "/projects/KELP/Image.png",
@@ -657,6 +659,7 @@ export const PROJECTS: Project[] = [
     github: "https://github.com/Jeffrey-F-Guo/VentureMap",
     live: null,
     youtube: "https://www.youtube.com/watch?v=ww4J3DjF8Eo",
+    linkedin: "https://www.linkedin.com/posts/pranav-cheraku_yesterday-i-had-an-amazing-time-at-the-open-activity-7319966378696892416-w7CS?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2i5OwB6faIaKHb34O59Bfx-SggeJBFERA",
     screenshots: [
       {
         src: "/projects/VentureMap/HomePage.png",
@@ -728,6 +731,7 @@ export const PROJECTS: Project[] = [
     github: "https://github.com/pranav-cheraku/InsforgeQoder_Hackathon",
     live: null,
     youtube: "https://www.youtube.com/watch?v=2SYxl5m_frE&t=2s",
+    linkedin: "https://www.linkedin.com/posts/pranav-cheraku_i-am-excited-to-share-that-our-team-took-activity-7445192099400159232-L4HT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAE2i5OwB6faIaKHb34O59Bfx-SggeJBFERA",
     screenshotColumns: 3,
     screenshots: [
       {
