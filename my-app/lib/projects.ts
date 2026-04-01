@@ -700,4 +700,37 @@ export const PROJECTS: Project[] = [
       },
     ],
   },
+  {
+    slug: "snag",
+    title: "Snag",
+    subtitle: "Hackathon · Autonomous AI Shopping Agent",
+    oneliner:
+      "An autonomous AI shopping agent built in 6 hours that monitors prices across retailers using quantitative trading signals and sends real-time buy recommendations via WebSocket.",
+    description:
+      "Built at the Insforge x Qoder AI Agent Hackathon (Seattle, March 2026), Snag is an autonomous shopping agent designed as 'Robinhood for your Amazon cart.' Users track desired products using natural language or URLs, and a background AI agent continuously monitors prices across major retailers using quantitative trading signals adapted from finance, including moving averages and volatility analysis. When a product's composite score crosses a configured threshold, the agent sends a real-time buy recommendation, allowing users to review the AI's reasoning and confirm the purchase directly from the mobile app.",
+    bullets: [
+      "Architected a tri-layer system integrating a React Native mobile app, a Python/FastAPI scraping backend, and Deno edge functions for the autonomous trading pipeline.",
+      "Leveraged Claude Haiku 4.5 and crawl4ai to autonomously extract price data and generate human-readable reasoning for deal recommendations.",
+      "Implemented a real-time notification engine using WebSocket pub/sub channels to push instant price updates and buy-ready events to users.",
+    ],
+    tags: [
+      "TypeScript",
+      "Python",
+      "React Native",
+      "Expo",
+      "FastAPI",
+      "Claude Haiku 4.5",
+      "crawl4ai",
+      "PostgreSQL",
+      "Deno",
+      "WebSockets",
+      "SQLAlchemy",
+    ],
+    accent: T.accent2,
+    category: "Hackathon",
+    featured: false,
+    github: null,
+    live: null,
+    screenshots: [],
+  },
 ];
