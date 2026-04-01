@@ -15,7 +15,7 @@ const CATEGORIES = [
       {
         name: "Python",
         context:
-          "Core language for 8+ projects — Robotic Goalie, Fake Image Detection, Beer Style Prediction, KELP, Pathora, VentureMap, and both research labs.",
+          "Core language for 9+ projects — Robotic Goalie, Fake Image Detection, Beer Style Prediction, KELP, Pathora, VentureMap, Snag, and both research labs.",
       },
       {
         name: "Java",
@@ -25,7 +25,7 @@ const CATEGORIES = [
       {
         name: "TypeScript",
         context:
-          "Used in KELP, Pathora, VentureMap, and this portfolio.",
+          "Used in KELP, Pathora, VentureMap, Snag, and this portfolio.",
       },
       {
         name: "JavaScript",
@@ -77,7 +77,7 @@ const CATEGORIES = [
       {
         name: "React Native",
         context:
-          "Built 4 cross-platform mobile apps — Calculator App, Dictionary App, World Clock App, and Interactive Comments App.",
+          "Built 5 cross-platform mobile apps — Calculator App, Dictionary App, World Clock App, Interactive Comments App, and Snag.",
       },
       {
         name: "Next.js",
@@ -89,7 +89,7 @@ const CATEGORIES = [
       },
       {
         name: "FastAPI",
-        context: "Backend API powering KELP's two-stage AI pipeline.",
+        context: "Backend API powering KELP's two-stage AI pipeline and Snag's price scraping backend.",
       },
       {
         name: "NumPy",
@@ -109,7 +109,7 @@ const CATEGORIES = [
       {
         name: "Expo",
         context:
-          "Mobile build and development platform for Calculator App and Dictionary App.",
+          "Mobile build and development platform for Calculator App, Dictionary App, and Snag.",
       },
       {
         name: "Tailwind CSS",
@@ -165,6 +165,11 @@ const CATEGORIES = [
         name: "Gemini API",
         context:
           "LLM backbone across three projects — KELP (2.5), Pathora (1.5 Pro), and VentureMap (1.5 Pro).",
+      },
+      {
+        name: "Claude API",
+        context:
+          "Used Claude Haiku 4.5 in Snag to autonomously extract price data and generate human-readable deal reasoning via the Anthropic API.",
       },
     ],
   },
@@ -224,6 +229,10 @@ const CATEGORIES = [
         name: "Jest",
         context:
           "Unit testing framework used across all 4 React Native mobile app projects.",
+      },
+      {
+        name: "PostgreSQL",
+        context: "Relational database backing Snag's product tracking and user data via InsForge's BaaS platform.",
       },
       {
         name: "Vite",
