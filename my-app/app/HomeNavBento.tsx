@@ -6,8 +6,8 @@ import { T } from "@/lib/theme";
 
 const SECTIONS = [
   { href: "/about",      label: "About",      accent: T.accent2, index: 1 },
-  { href: "/experience", label: "Experience", accent: T.accent3, index: 2 },
-  { href: "/projects",   label: "Projects",   accent: T.accent2, index: 3 },
+  { href: "/projects",   label: "Projects",   accent: T.accent3, index: 2 },
+  { href: "/experience", label: "Experience", accent: T.accent2, index: 3 },
   { href: "/skills",     label: "Skills",     accent: T.accent3, index: 4 },
   { href: "/education",  label: "Education",  accent: T.accent2, index: 5 },
   { href: "/contact",    label: "Contact",    accent: T.accent3, index: 6 },
