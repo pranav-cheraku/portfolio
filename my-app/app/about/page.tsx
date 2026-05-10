@@ -1,6 +1,6 @@
 import FadeIn from "@/components/FadeIn";
 import { T } from "@/lib/theme";
-import MemojiDisplay from "./MemojiDisplay";
+import ProfilePhoto from "./ProfilePhoto";
 
 export const metadata = {
   title: "About - Pranav Cheraku",
@@ -38,11 +38,11 @@ export default function AboutPage() {
         }}
       >
 
-        {/* ── Left column: memoji top, stats bottom ── */}
+        {/* Left column: photo top, stats bottom */}
         <div style={{ display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
 
-          <FadeIn immediate delay={80} direction="left">
-            <MemojiDisplay />
+          <FadeIn immediate delay={80} direction="left" style={{ marginBottom: 28 }}>
+            <ProfilePhoto glow="subtle" />
           </FadeIn>
 
           <FadeIn immediate delay={160} direction="left">

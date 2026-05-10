@@ -1,6 +1,6 @@
 import FadeIn from "@/components/FadeIn";
 import { T } from "@/lib/theme";
-import MemojiDisplay from "@/app/about/MemojiDisplay";
+import ProfilePhoto from "@/app/about/ProfilePhoto";
 import HomeNavBento from "@/app/HomeNavBento";
 import HeroResumeBtn from "@/app/HeroResumeBtn";
 
@@ -133,11 +133,11 @@ export default function Home() {
 
       </div>
 
-      {/* Right: memoji */}
-      <div className="hero-memoji">
+      {/* Right: photo */}
+      <div className="hero-photo">
         <FadeIn immediate delay={100} direction="right">
           <div style={{ display: "flex", justifyContent: "center" }}>
-            <MemojiDisplay size={310} />
+            <ProfilePhoto size={310} />
           </div>
         </FadeIn>
       </div>
