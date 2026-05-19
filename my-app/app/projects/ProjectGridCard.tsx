@@ -4,24 +4,45 @@ import { useState } from "react";
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { T, tintOf, tintHoverOf } from "@/lib/theme";
-import type { Project } from "@/lib/projects";
 
-export default function ProjectCard({ slug, title, oneliner, tags, accent, fromFilter }: Project & { fromFilter?: string }) {
+interface ProjectGridCardProps {
+  slug: string;
+  number: string;
+  title: string;
+  subtitle: string;
+  oneliner: string;
+  tags: string[];
+  accent: string;
+}
+
+export default function ProjectGridCard({
+  slug,
+  number,
+  title,
+  subtitle,
+  oneliner,
+  tags,
+  accent,
+}: ProjectGridCardProps) {
   const [hovered, setHovered] = useState(false);
 
   return (
     <Link
-      href={`/projects/${slug}${fromFilter ? `?from=${encodeURIComponent(fromFilter)}` : ""}`}
+      href={`/projects/${slug}`}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
-        display: "block",
+        display: "flex",
+        flexDirection: "column",
+        gap: 8,
+        height: "100%",
+        boxSizing: "border-box",
         textDecoration: "none",
         background: T.surface,
         border: `1px solid ${T.border}`,
         borderTop: `2px solid ${accent}`,
         borderRadius: 16,
-        padding: "28px",
+        padding: 28,
         boxShadow: hovered
           ? "0 16px 40px rgba(0,0,0,0.35)"
           : "0 4px 20px rgba(0,0,0,0.18)",
@@ -29,54 +50,59 @@ export default function ProjectCard({ slug, title, oneliner, tags, accent, fromF
         transition: "transform 0.25s ease, box-shadow 0.25s ease",
       }}
     >
-      {/* Title + arrow */}
-      <div
-        style={{
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "flex-start",
-          gap: 12,
-          marginBottom: 12,
-        }}
-      >
-        <div
+      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+        <span
           style={{
-            fontFamily: "var(--font-playfair), serif",
-            fontSize: 22,
-            fontWeight: 400,
-            color: T.heading,
-            lineHeight: 1.3,
+            fontFamily: "var(--font-dm-sans), sans-serif",
+            fontSize: 13,
+            color: accent,
+            letterSpacing: 1,
           }}
         >
-          {title}
-        </div>
+          {number}
+        </span>
         <ArrowUpRight
           size={18}
-          style={{
-            flexShrink: 0,
-            marginTop: 3,
-            color: hovered ? accent : T.muted,
-            transition: "color 0.25s ease",
-          }}
+          style={{ color: hovered ? accent : T.muted, transition: "color 0.25s ease" }}
         />
       </div>
 
-      {/* One-liner */}
       <div
-        className="project-card-desc"
+        style={{
+          fontFamily: "var(--font-playfair), serif",
+          fontSize: 20,
+          fontWeight: 400,
+          color: T.heading,
+          lineHeight: 1.3,
+        }}
+      >
+        {title}
+      </div>
+
+      <div
+        style={{
+          fontFamily: "var(--font-lora), serif",
+          fontSize: 13,
+          fontStyle: "italic",
+          color: accent,
+        }}
+      >
+        {subtitle}
+      </div>
+
+      <div
         style={{
           fontFamily: "var(--font-lora), serif",
           fontSize: 14,
           color: T.body,
-          lineHeight: 1.75,
-          marginBottom: 22,
+          lineHeight: 1.7,
+          marginTop: 2,
         }}
       >
         {oneliner}
       </div>
 
-      {/* Tags */}
-      <div style={{ display: "flex", flexWrap: "wrap", gap: 6 }}>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: 6, marginTop: "auto", paddingTop: 10 }}>
         {tags.map((tag) => (
           <span
             key={tag}

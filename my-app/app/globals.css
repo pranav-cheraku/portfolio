@@ -346,15 +346,6 @@ textarea:-webkit-autofill:focus {
     grid-template-columns: 1fr !important;
   }
 
-  /* Filter bar scrolls horizontally on mobile */
-  .projects-filter-bar {
-    overflow-x: auto !important;
-  }
-
-  .projects-filter-bar button {
-    padding: 14px 18px !important;
-  }
-
 
   /* Skills section collapses to single column on mobile */
   .skill-section {
