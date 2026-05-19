@@ -29,6 +29,7 @@ export interface Project {
   award?: string;        // hero award badge text
   github: string | null;
   live: string | null;
+  demo?: string | null;
   youtube?: string | null;
   devpost?: string | null;
   linkedin?: string | null;
@@ -38,8 +39,29 @@ export interface Project {
 }
 
 // Curated projects shown on the /projects page, in display order:
-// [0] hero, [1..4] grid, [5] wide card.
+// [0] hero, [1..6] are the 2x3 grid.
 export const PROJECTS: Project[] = [
+  {
+    slug: "trawl",
+    title: "Trawl",
+    subtitle: "Full-Stack AI · RAG Product Spec Generator",
+    oneliner:
+      "A full-stack platform that turns hundreds of messy customer reviews into a prioritized product roadmap. It connects live feedback sources and runs a Retrieval-Augmented Generation pipeline to synthesize feature specs, user stories, and an editable Kanban board.",
+    description:
+      "Trawl is a web platform that turns scattered, unstructured customer feedback into a structured and prioritized product roadmap. Users connect feedback sources such as App Store and Google Play reviews, Reddit threads, CSV exports, or pasted text, and Trawl ingests, chunks, and embeds that feedback into a pgvector database. A Retrieval-Augmented Generation pipeline then lets users query their feedback in natural language, auto-generates structured feature specs and user stories grounded in real customer evidence, and runs a flagship 'What Should We Build Next?' analysis that clusters feedback into themes and ranks them into a prioritized roadmap. Every generated spec stays fully traceable: a RAG transparency panel shows the exact feedback chunks retrieved, their cosine-similarity scores, and how each one informed the output. Results land on an interactive, drag-and-drop Kanban board.",
+    bullets: [
+      "Built an end-to-end RAG pipeline spanning feedback-aware chunking, asymmetric Voyage AI embeddings, pgvector cosine retrieval, and Claude generation with forced tool calling for guaranteed structured JSON output.",
+      "Designed a 'What Should We Build Next?' engine that orchestrates a multi-stage Claude analysis, retrieving feedback across themes, clustering by topic, and ranking opportunities by frequency and severity into a prioritized roadmap.",
+      "Engineered a RAG transparency panel that surfaces every retrieved chunk with its similarity score and citation mapping, making AI-generated specs fully auditable.",
+      "Architected a cross-language full-stack system: a Next.js and TypeScript frontend, a Python and FastAPI backend, PostgreSQL with pgvector, and Celery background workers, deployed across Vercel, Railway, and Supabase with live Stripe billing.",
+    ],
+    tags: ["TypeScript", "Python", "Next.js", "FastAPI", "PostgreSQL / pgvector", "Redis", "Celery", "RAG", "Claude API", "Voyage AI", "Stripe", "Docker"],
+    accent: T.accent,
+    category: "Machine Learning",
+    github: "https://github.com/pranav-cheraku/trawl",
+    live: "https://trawl-nu.vercel.app/",
+    demo: "https://trawl-nu.vercel.app/demo/",
+  },
   {
     slug: "snag",
     title: "Snag",
@@ -62,7 +84,7 @@ export const PROJECTS: Project[] = [
       "Claude Haiku 4.5",
       "PostgreSQL",
     ],
-    accent: T.accent,
+    accent: T.accent2,
     category: "Hackathon",
     award: "★ 2nd Place · Insforge × Qoder Hackathon",
     github: "https://github.com/pranav-cheraku/InsforgeQoder_Hackathon",

@@ -3,7 +3,6 @@ import { T } from "@/lib/theme";
 import { PROJECTS } from "@/lib/projects";
 import ProjectHero from "./ProjectHero";
 import ProjectGridCard from "./ProjectGridCard";
-import ProjectWideCard from "./ProjectWideCard";
 
 export const metadata = {
   title: "Projects - Pranav Cheraku",
@@ -16,10 +15,9 @@ function num(i: number): string {
 
 export default function ProjectsPage() {
   // Array order in lib/projects.ts is the display order:
-  // [0] hero, [1..4] grid, [5] wide card.
+  // [0] hero, [1..6] are the 2x3 grid.
   const hero = PROJECTS[0];
-  const gridProjects = PROJECTS.slice(1, 5);
-  const wide = PROJECTS[5];
+  const gridProjects = PROJECTS.slice(1);
 
   return (
     <div style={{ position: "relative" }}>
@@ -53,7 +51,7 @@ export default function ProjectsPage() {
         />
       </FadeIn>
 
-      {/* Grid — projects 02–05 */}
+      {/* Grid — projects 02–07 */}
       <FadeIn immediate delay={160}>
         <div
           className="projects-grid"
@@ -76,21 +74,6 @@ export default function ProjectsPage() {
               accent={p.accent}
             />
           ))}
-        </div>
-      </FadeIn>
-
-      {/* Wide card — project 06 */}
-      <FadeIn immediate delay={220}>
-        <div style={{ marginTop: 16 }}>
-          <ProjectWideCard
-            slug={wide.slug}
-            number={num(5)}
-            title={wide.title}
-            subtitle={wide.subtitle}
-            oneliner={wide.oneliner}
-            tags={wide.tags}
-            accent={wide.accent}
-          />
         </div>
       </FadeIn>
     </div>

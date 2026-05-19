@@ -57,6 +57,7 @@ function LinkButton({
 export default function ProjectLinks({
   github,
   live,
+  demo,
   youtube,
   devpost,
   linkedin,
@@ -64,6 +65,7 @@ export default function ProjectLinks({
 }: {
   github: string | null;
   live: string | null;
+  demo?: string | null;
   youtube?: string | null;
   devpost?: string | null;
   linkedin?: string | null;
@@ -84,7 +86,10 @@ export default function ProjectLinks({
         <LinkButton href={linkedin} accent={accent} icon="linkedin" label="LinkedIn Post" />
       )}
       {live && (
-        <LinkButton href={live} accent={accent} icon="external" label="Live Demo" />
+        <LinkButton href={live} accent={accent} icon="external" label="Live Site" />
+      )}
+      {demo && (
+        <LinkButton href={demo} accent={accent} icon="external" label="Demo" />
       )}
     </div>
   );
