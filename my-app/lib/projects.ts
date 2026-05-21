@@ -55,7 +55,7 @@ export const PROJECTS: Project[] = [
       "Engineered a RAG transparency panel that surfaces every retrieved chunk with its similarity score and citation mapping, making AI-generated specs fully auditable.",
       "Architected a cross-language full-stack system: a Next.js and TypeScript frontend, a Python and FastAPI backend, PostgreSQL with pgvector, and Celery background workers, deployed across Vercel, Railway, and Supabase with live Stripe billing.",
     ],
-    tags: ["TypeScript", "Python", "Next.js", "FastAPI", "PostgreSQL / pgvector", "Redis", "Celery", "RAG", "Claude API", "Voyage AI", "Stripe", "Docker"],
+    tags: ["TypeScript", "Python", "Next.js", "FastAPI", "PostgreSQL", "pgvector", "Redis", "Celery", "RAG", "Claude API", "Voyage AI", "Stripe", "Docker"],
     accent: T.accent,
     category: "Machine Learning",
     github: "https://github.com/pranav-cheraku/trawl",
