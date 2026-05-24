@@ -61,6 +61,44 @@ export const PROJECTS: Project[] = [
     github: "https://github.com/pranav-cheraku/trawl",
     live: "https://trawl-nu.vercel.app/",
     demo: "https://trawl-nu.vercel.app/demo/",
+    screenshotGridCount: 0,
+    screenshots: [
+      {
+        src: "/projects/Trawl/LandingPage.png",
+        caption:
+          "Trawl's landing page — type an app name to get a roadmap. The platform pulls live reviews from the App Store, Google Play, and Reddit, and turns them into a prioritized product spec list.",
+      },
+      {
+        src: "/projects/Trawl/XRayPanel.png",
+        caption:
+          "The RAG X-Ray panel — every answer is grounded in real reviews. Inline citation badges point to the exact feedback chunks the retrieval surfaced, and the side rail shows each chunk with its cosine similarity score, so users can audit how the answer was built.",
+      },
+      {
+        src: "/projects/Trawl/Connectors.png",
+        caption:
+          "Five live connectors plus CSV and manual paste. Adding a source kicks off a four-stage Celery pipeline that scrapes, chunks, embeds, and indexes the feedback automatically.",
+      },
+      {
+        src: "/projects/Trawl/BuildNext.png",
+        caption:
+          "The 'What Should We Build Next?' engine — runs five exploratory queries over the full corpus, clusters the results into themes scored by frequency and severity, and outputs a prioritized list of spec drafts alongside an executive summary. Per-query attribution badges in the X-Ray rail trace each chunk back to the query that surfaced it.",
+      },
+      {
+        src: "/projects/Trawl/Kanban.png",
+        caption:
+          "Generated specs land on a drag-and-drop board with four status columns and color-coded priority. Every card carries a citation count back to the source feedback that produced it.",
+      },
+      {
+        src: "/projects/Trawl/SpecDetail.png",
+        caption:
+          "Spec detail view — open any card to inspect the full spec: problem, proposed solution, user stories, and acceptance criteria. Citation chips sit on every claim, the retrieved feedback shows in a side rail, and every field is editable inline.",
+      },
+      {
+        src: "/projects/Trawl/SchemaVisualizer.png",
+        caption:
+          "The Postgres schema across 14 tables, with pgvector embeddings as a first-class column on feedback chunks. Build Next runs persist as a four-table family so users can time-travel between past analyses.",
+      },
+    ],
   },
   {
     slug: "snag",
